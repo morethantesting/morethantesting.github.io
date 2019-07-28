@@ -1,0 +1,512 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font: $smaller $helveticaNeue;
+  letter-spacing: -.1px;
+  line-height: 1.4;
+  color: $darkGray;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.preload * {
+  transition: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $rubik;
+  color: $darkerGray;
+  font-weight: 700;
+  letter-spacing: -.3px;
+  line-height: 1.2;
+  margin: 1em 0 15px;
+  padding: 0;
+}
+
+h1 {
+  font-size: $bigger;
+  a {
+    color: inherit;
+  }
+
+  @include mobile {
+    font-size: $big;
+  }
+}
+
+h2 {
+  font-size: $big;
+
+  @include mobile {
+    font-size: $medium;
+  }
+}
+
+h3 {
+  font-size: $medium;
+
+  @include mobile {
+    font-size: $small;
+  }
+}
+
+h4 {
+  font-size: $small;
+  color: $lightGray;
+
+  @include mobile {
+    font-size: $smaller;
+  }
+}
+
+p {
+  margin: 15px 0;
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+	cursor: pointer;
+  transition: background-color .15s ease-in-out, border-color .15s ease-in-out, color .15s ease-in-out, opacity .15s ease-in-out;
+  &:hover, &:active {
+    color: $lightGreen;
+  }
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+  margin: 0;
+}
+
+ul ul, ol ul {
+  list-style-type: circle;
+}
+
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+.date {
+  font-size: $smallest;
+  color: $lightGray;
+}
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+.wrapper-header {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: $lightestGray;
+  background: $darkBlue;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2368758d' fill-opacity='0.38' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E"), linear-gradient($blue, $darkerBlue);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+  @include mobile {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+//
+// .navigation
+//
+
+.wrapper-navigation {
+  margin-bottom: 30px;
+}
+
+.navigation {
+  padding: 20px 0;
+  border-bottom: 0.5px solid $lightestGray;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.nav-link {
+  &.home {
+    visibility: hidden;
+
+    @include mobile {
+      visibility: visible;
+    }
+  }
+}
+
+.wrapper-about {
+  margin-bottom: 50px;
+  padding: 3%;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+
+  @include mobile {
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+.about-avatar {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+.about-contact {
+  padding-top: 15px;
+
+  h2 {
+    margin: 0 auto;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  @include mobile {
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+.about-copy {
+  margin-top: 40px;
+
+  @include mobile {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+  transition: transform .2s;
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 3px;
+  }
+}
+
+.site-info {
+  float: left;
+  padding-top: 10px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: $lighterGray;
+  cursor: pointer;
+  font-family: $rubik;
+  font-weight: 500;
+  font-size: $small;
+}
+
+.wrapper-page-header {
+  margin-bottom: 30px;
+}
+
+.page-name {
+  color: $lightestGray;
+  font-weight: 500;
+  font-size: $biggest;
+  letter-spacing: -.1px;
+
+  @include mobile {
+    font-size: $medium;
+    text-align: center;
+  }
+}
+
+.page-description {
+  color: $lightestGray;
+  font-size: $medium;
+  font-family: $rubik;
+
+  @include mobile {
+    margin: 3px 0;
+    font-size: $small;
+    text-align: center;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 12px;
+  font-family: $rubik;
+  font-size: $smaller;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: $smallest;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $green;
+    text-align: right;
+    font-weight: 300;
+
+    @include mobile {
+      margin: 0 10px;
+    }
+  }
+}
+
+//
+// .main
+//
+
+.posts > .post {
+  padding: 3%;
+  margin-bottom: 1.8em;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  transition: 0.2s;
+  &:hover, &:active {
+    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $lighterGray;
+    padding: 0.1em 1em;
+    color: $lightGray;
+    font-style: italic;
+  }
+
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  figure {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  img {
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+    border: solid 1px $lighterGray;
+  }
+
+  figcaption {
+    font-size: $smallest;
+    color: $lightGray;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+
+  .small-link.more {
+    font-size: $smallest;
+  }
+}
+
+.post-page {
+  hr {
+    border-top: 4px dotted #c6d6d6;
+    background-color: $white;
+    width: 20px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+}
+
+.wrapper-footer {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 0.5px solid $lighterGray;
+  text-align: center;
+}
+
+.site-credit {
+  font-size: $smallest;
+  margin-top: 30px;
+  color: $lightGray;
+}
+
+
+// Newsletter
+
+.wrapper-post-newsletter {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.newsletter-subscribe {
+  margin-top: 20px;
+  font-size: $smaller;
+
+  @include mobile {
+    font-size: $smallest;
+    text-align: center;
+  }
+}
+
+.newsletter-subscribe-email-label {
+  padding-left: 1px;
+
+  @include mobile {
+    padding-left: 5px;
+  }
+}
+
+.newsletter-subscribe-email {
+  margin-top: 10px;
+  display: inline-block;
+  height: 30px;
+  width: 237px;
+  border-radius: 8px;
+  font-size: $smallest;
+  border: solid 1px $lightGray;
+  padding: .6em;
+
+  @include mobile {
+    font-size: 15px;
+    width: 203px;
+  }
+}
+
+.newsletter-subscribe-button {
+  display: inline-block;
+  height: 30px;
+  cursor: pointer;
+  letter-spacing: .03em;
+  color: $lightestGray;
+  font-size: $smallest;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  background-color: $green;
+  transition: all .2s ease-in-out;
+  -webkit-appearance: none;
+  &:hover, &:active {
+    background-color: $lightGreen;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, $green);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    transition: all .2s ease-in-out;
+  }
+
+  @include mobile {
+    font-size: 15px;
+  }
+}
+
+
+
+// Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+@import "highlights";
+@import "svg-icons";

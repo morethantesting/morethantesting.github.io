@@ -1,0 +1,21 @@
+---
+layout: default
+header: Blog about software testing
+redirect_from: /
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post" onclick="location.href='{{ site.baseurl }}{{ post.url }}';">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="date">{{ post.date | date: "%b %e" }} · {{ post.read_time }} min read</div>
+
+      <div class="excerpt">
+        <p>{{ post.excerpt }}</p>
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link more">Read more →</a>
+    </article>
+  {% endfor %}
+</div>

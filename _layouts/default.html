@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} | {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Open+Sans:400,700" rel="stylesheet">
+
+    {% seo %}
+  </head>
+
+  <body class="preload">
+    <div class="wrapper-header">
+      <div class="wrapper-navigation">
+        <div class="container">
+          {% include navigation.html %}
+        </div>
+      </div>
+
+      <div class="wrapper-page-header">
+        <div class="container">
+          {% include header.html %}
+          {% unless page.disable_newsletter %}
+            {% include newsletter.html %}
+          {% endunless %}
+        </div>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        {% include footer.html %}
+      </div>
+    </div>
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+
+    {% include scripts.html %}
+  </body>
+</html>

@@ -1,0 +1,41 @@
+// sizes
+$biggest: 3rem;
+$bigger: 2.25rem;
+$big: 1.75rem;
+$medium: 1.5rem;
+$small: 1.25rem;
+$smaller: 1.125rem;
+$smallest: 1rem;
+
+// blues
+$blue: #1e3766;
+$darkBlue: #1a315b;
+$darkerBlue: #16294d;
+
+// greens
+$green: #02b875;
+$lightGreen: #44e59f;
+
+// grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #999;
+$lighterGray: #eee;
+$lightestGray: #f8f8f8;
+$white: #fff;
+
+// fonts
+$rubik: Rubik, sans-serif;
+$openSans: "Open Sans", sans-serif;
+$helvetica: Helvetica, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, sans-serif;
+$sourceSansPro: "Source Sans Pro", sans-serif;
+
+// mobile
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
