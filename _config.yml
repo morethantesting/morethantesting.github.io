@@ -69,7 +69,7 @@ sass:
 # Use the following plug-ins
 plugins:
   - jekyll-seo-tag
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
 
