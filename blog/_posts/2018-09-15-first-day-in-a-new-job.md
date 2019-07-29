@@ -10,6 +10,7 @@ read_time: 3
 redirect_from:
   - "/first-day-in-a-new-job"
   - "/first-day-in-a-new-job/"
+  - "/first-day-in-a-new-job/amp/"
 ---
 
 _This article is the second part of a series of 5 articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [how to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/)._

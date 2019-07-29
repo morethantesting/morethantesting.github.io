@@ -10,6 +10,7 @@ read_time: 8
 redirect_from:
   - "/first-week-as-qa-lead-in-a-startup"
   - "/first-week-as-qa-lead-in-a-startup/"
+  - "/first-week-as-qa-lead-in-a-startup/amp/"
 ---
 
 _This article is the third part out of five articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [3 things I wish I knew on the first day in a new job]({{ site.baseurl }}/blog/first-day-in-a-new-job/)._
