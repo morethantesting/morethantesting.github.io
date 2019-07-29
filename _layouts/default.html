@@ -14,9 +14,17 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Open+Sans:400,700" rel="stylesheet">
 
     {% seo %}
+    
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body class="preload">
+    {% if jekyll.environment == 'production' %}
+      {% include google_tag_manager.html %}
+    {% endif %}
+
     <div class="wrapper-header">
       <div class="wrapper-navigation">
         <div class="container">
@@ -43,10 +51,6 @@
         {% include footer.html %}
       </div>
     </div>
-
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
 
     {% include scripts.html %}
   </body>
