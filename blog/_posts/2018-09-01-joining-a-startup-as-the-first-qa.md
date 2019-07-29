@@ -10,6 +10,7 @@ read_time: 5
 redirect_from:
   - "/joining-a-startup-as-the-first-qa"
   - "/joining-a-startup-as-the-first-qa/"
+  - "/joining-a-startup-as-the-first-qa/amp/"
 ---
 
 I want to tell you a story of **joining a startup as the first QA**.

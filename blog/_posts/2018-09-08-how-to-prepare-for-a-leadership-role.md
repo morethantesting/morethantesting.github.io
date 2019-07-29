@@ -10,6 +10,7 @@ read_time: 6
 redirect_from:
   - "/how-to-prepare-for-a-leadership-role"
   - "/how-to-prepare-for-a-leadership-role/"
+  - "/how-to-prepare-for-a-leadership-role/amp/"
 ---
 
 _This article is the first part out of five of a [story of joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/)._
