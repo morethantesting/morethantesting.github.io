@@ -7,7 +7,9 @@ excerpt: "In this article, you'll learn why it is important to prepare for a lea
 image: /blog/assets/how-to-prepare-for-a-leadership-role.jpg
 author: MoreThanTesting
 read_time: 6
-redirect_from: "/how-to-prepare-for-a-leadership-role"
+redirect_from:
+  - "/how-to-prepare-for-a-leadership-role"
+  - "/how-to-prepare-for-a-leadership-role/"
 ---
 
 _This article is the first part out of five of a [story of joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/)._

@@ -7,7 +7,9 @@ excerpt: ' Here I provide you with 3 takeaways from the first day in a new job t
 image: /blog/assets/first-day-in-a-new-job.jpeg
 author: MoreThanTesting
 read_time: 3
-redirect_from: "/first-day-in-a-new-job"
+redirect_from:
+  - "/first-day-in-a-new-job"
+  - "/first-day-in-a-new-job/"
 ---
 
 _This article is the second part of a series of 5 articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [how to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/)._

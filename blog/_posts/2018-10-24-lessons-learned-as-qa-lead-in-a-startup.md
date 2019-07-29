@@ -7,7 +7,9 @@ excerpt: "In the final part of the series, I reflect on the first 30 days as QA 
 image: /blog/assets/lessons-learned-as-qa-lead-in-a-startup.jpg
 author: MoreThanTesting
 read_time: 8
-redirect_from: "/lessons-learned-as-qa-lead-in-a-startup"
+redirect_from:
+  - "/lessons-learned-as-qa-lead-in-a-startup"
+  - "/lessons-learned-as-qa-lead-in-a-startup/"
 ---
 
 _This article is the final part of a series about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/), You can also read the previous part about [the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)._
