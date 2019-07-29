@@ -7,7 +7,9 @@ excerpt: This time I zoom out and give you 6 pieces of advice on what to do in t
 image: /blog/assets/first-month-as-qa-lead-in-a-startup.jpg
 author: MoreThanTesting
 read_time: 9
-redirect_from: "/first-month-as-qa-lead-in-a-startup"
+redirect_from:
+  - "/first-month-as-qa-lead-in-a-startup"
+  - "/first-month-as-qa-lead-in-a-startup/"
 ---
 
 _This article is the 4th part of a 5-article series about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/)._
