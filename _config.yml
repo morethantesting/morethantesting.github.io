@@ -70,7 +70,7 @@ sass:
 plugins:
   - jekyll-seo-tag
   # - jekyll-feed
-  # - jekyll-sitemap
+  - jekyll-sitemap
   - jekyll-redirect-from
 
 # Exclude these files from your production _site
