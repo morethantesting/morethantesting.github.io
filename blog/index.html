@@ -1,23 +1,40 @@
 ---
 layout: default
-header: Blog about software testing
-redirect_from:
-  - ""
-  - "/"
+
+title: Blog
+
+header: Blog
+subtitle: Learn more about software testing.
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post" onclick="location.href='{{ site.baseurl }}{{ post.url }}';">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="date">{{ post.date | date: "%b %e" }} · {{ post.read_time }} min read</div>
+<div class="wrapper-header blog">
+  <div class="container">
+    {% include navigation.html class="blog" %}
+    {% include header.html class="blog" %}
+  </div>
+</div>
 
-      <div class="excerpt">
-        <p>{{ post.excerpt }}</p>
-      </div>
+<div id="main" role="main" class="container">
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post-preview" onclick="location.href='{{ site.baseurl }}{{ post.url }}';">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link more">Read more →</a>
-    </article>
-  {% endfor %}
+        <div class="date">{{ post.date | date: "%b %e" }} · {{ post.read_time }} min read</div>
+
+        <div class="excerpt">
+          <p>{{ post.excerpt }}</p>
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read more →</a>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    {% include footer.html %}
+  </div>
 </div>

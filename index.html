@@ -1,17 +1,24 @@
 ---
 layout: default
-disable_newsletter: true
-header: Hi, I'm Dawid. I help startups assure quality.
-description: 6+ years of working experience in software testing. Specialised in setting up automated QA process in startups and small engineering teams.
+class: home
+
+title: More Than Testing
+description: Software Testing Consulting & Freelancing.
+
+header: Hi, I'm Dawid.<br/>I help startups assure quality.
+subtitle: "6+ years of working experience in software testing. Specialised in setting up automated QA process in startups and small engineering teams."
 ---
 
-<h2>Services</h2>
-<ul>
-  <li>testing software</li>
-  <li>setting up QA process</li>
-  <li>advising on tech stack</li>
-  <li>hands-on testing</li>
-</ul>
+<div class="wrapper-header home">
+  <div class="container">
+    {% include navigation.html class="home" %}
+    <div class="main home" role="main" class="container">
+      {% include header.html class="home" %}
 
-<h2>About<h2>
-<p>I help startups assure quality.</p>
+      <div class="cta-buttons">
+        <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" class="cta-button contact">Get in touch &rarr;</a>
+        <a href="/blog" class="cta-button blog">Read my blog<a/>
+      </div>
+    </div>
+  </div>
+</div>

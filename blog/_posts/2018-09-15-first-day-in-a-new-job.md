@@ -1,9 +1,8 @@
 ---
-header: Blog about software testing
 layout: post
-title: 'First day in a new job - 3 things I learned the hard way'
+title: "First day in a new job - 3 things I learned the hard way"
 date: 2018-09-15T10:11:43+00:00
-excerpt: ' Here I provide you with 3 takeaways from the first day in a new job that I wish I knew before. And you, probably, too.'
+excerpt: "Here I provide you with 3 takeaways from the first day in a new job that I wish I knew before. And you, probably, too."
 image: /blog/assets/first-day-in-a-new-job.jpeg
 author: MoreThanTesting
 read_time: 3

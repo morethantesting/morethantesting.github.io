@@ -1,4 +1,5 @@
 // sizes
+$massive: 4rem;
 $biggest: 3rem;
 $bigger: 2.25rem;
 $big: 1.75rem;
@@ -8,9 +9,18 @@ $smaller: 1.125rem;
 $smallest: 1rem;
 
 // blues
+// $lightBlue: #68758c;
+// $lightBlue: #4D7C8A;
+$lightBlue: #81cee6;
+$lighterBlue: #72b7cc;
+$lightestBlue: #81cee6;
+$pink: #bfacb5;
+$darkPink: #7F7B82;
+$darkerPink: #9197AE;
+
 $blue: #1e3766;
 $darkBlue: #1a315b;
-$darkerBlue: #16294d;
+$darkerBlue: #16294b;
 
 // greens
 $green: #02b875;
@@ -20,11 +30,13 @@ $lightGreen: #44e59f;
 $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
-$gray: #666;
-$lightGray: #999;
+$gray: #777;
+$lightGray: #a6a6a6;
 $lighterGray: #eee;
-$lightestGray: #f8f8f8;
+$lightestGray: #f2f2f2;
 $white: #fff;
+// $white: #fafaff;
+// $white: #EDF2F4;
 
 // fonts
 $rubik: Rubik, sans-serif;

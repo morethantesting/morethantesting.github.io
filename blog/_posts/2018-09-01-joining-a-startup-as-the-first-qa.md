@@ -1,9 +1,8 @@
 ---
-header: Blog about software testing
 layout: post
 title: Joining a startup as the first QA
 date: 2018-09-01T14:15:46+00:00
-excerpt: "In a series of 5 articles I'll guide you through a story of joining a startup as the first QA, providing practical advice based on my experience and lessons that I've learned so far <b>from day one to first month</b>."
+excerpt: "In a series of 5 articles I'll guide you through a story of joining a startup as the first QA, providing practical advice based on my experience and lessons that I've learned so far from day one to first month."
 image: /blog/assets/joining-a-startup-as-the-first-qa.jpg
 author: MoreThanTesting
 read_time: 5

@@ -1,5 +1,4 @@
 ---
-header: Blog about software testing
 layout: post
 title: "What I've learned after 30 days as QA Lead in a startup"
 date: 2018-10-24T12:40:28+00:00

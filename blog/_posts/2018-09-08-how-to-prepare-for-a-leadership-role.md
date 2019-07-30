@@ -1,5 +1,4 @@
 ---
-header: Blog about software testing
 layout: post
 title: How to prepare for a leadership role
 date: 2018-09-08T17:17:22+00:00

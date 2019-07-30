@@ -1,11 +1,13 @@
 <header class="navigation clearfix">
-  <a href="{{ site.baseurl }}/blog" class="site-avatar"><img src="{{ site.avatar }}" alt="More Than Testing avatar" /></a>
-  <div class="site-info">
-    <h1 class="site-name"><a href="{{ site.baseurl }}/blog">{{ site.name }}</a></h1>
+  <a href="/" class="site-avatar">
+    <img src="{{ site.avatar }}" alt="More Than Testing avatar" />
+  </a>
+
+  <div class="site-info {{ include.class }}">
+    <h1 class="site-name {{ include.class }}"><a href="/">{{ site.name }}</a></h1>
   </div>
 
-  <nav>
-    <a href="{{ site.baseurl }}/blog" class="nav-link home">Home</a>
-    <a href="{{ site.baseurl }}/about" class="nav-link about">About</a>
+  <nav class="{{ include.class }}">
+    <a href="{{ site.baseurl }}/blog" class="nav-link">Blog</a>
   </nav>
 </header>
