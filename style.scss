@@ -29,6 +29,8 @@ body {
   &.home {
     background: $blue;
     background: linear-gradient($blue, $darkerBlue);
+    height: 100vh;
+    position: fixed;
   }
 }
 
@@ -229,13 +231,13 @@ img {
 
 .site-info {
   float: left;
-  padding-top: 13px;
+  padding-top: 14px;
 
   @include mobile {
     float: left;
     display: block;
     margin: 0 auto;
-    padding-top: 12px;
+    padding-top: 13px;
   }
 }
 
