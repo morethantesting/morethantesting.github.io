@@ -1,6 +1,11 @@
-<div class="page-info">
-  <h1 class="page-name">{{ page.header }}</h1>
-  {% if page.description %}
-  <p class="page-description">{{ page.description }}</p>
+{% if page.title || page.header || page.subtitle %}
+<div class="page-info {{ include.class }}">
+  {% if page.header || page.title %}
+    <h1 class="page-name {{ include.class }}">{{ page.header | default: page.title }}</h1>
+  {% endif %}
+
+  {% if page.subtitle %}
+    <p class="page-subtitle {{ include.class }}">{{ page.subtitle }}</p>
   {% endif %}
 </div>
+{% endif %}

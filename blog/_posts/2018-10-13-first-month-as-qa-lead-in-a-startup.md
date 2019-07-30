@@ -1,9 +1,8 @@
 ---
-header: Blog about software testing
 layout: post
-title: 'First month as QA Lead in a startup - 6 pieces of advice'
+title: "First month as QA Lead in a startup - 6 pieces of advice"
 date: 2018-10-13T17:18:23+00:00
-excerpt: This time I zoom out and give you 6 pieces of advice on what to do in the first month as QA Lead in a startup, providing examples from my experience.
+excerpt: "This time I zoom out and give you 6 pieces of advice on what to do in the first month as QA Lead in a startup, providing examples from my experience."
 image: /blog/assets/first-month-as-qa-lead-in-a-startup.jpg
 author: MoreThanTesting
 read_time: 9

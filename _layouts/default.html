@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} | {{ site.description }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} | {{ page.description | default: site.description }}</title>
 
     {% include meta.html %}
 
@@ -9,48 +9,21 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Open+Sans:400,700" rel="stylesheet">
+    {% include links.html %}
 
     {% seo %}
-    
+
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
   </head>
 
-  <body class="preload">
+  <body class="preload {{ page.class }}">
     {% if jekyll.environment == 'production' %}
       {% include google_tag_manager.html %}
     {% endif %}
 
-    <div class="wrapper-header">
-      <div class="wrapper-navigation">
-        <div class="container">
-          {% include navigation.html %}
-        </div>
-      </div>
-
-      <div class="wrapper-page-header">
-        <div class="container">
-          {% include header.html %}
-          {% unless page.disable_newsletter %}
-            {% include newsletter.html %}
-          {% endunless %}
-        </div>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        {% include footer.html %}
-      </div>
-    </div>
+    {{ content }}
 
     {% include scripts.html %}
   </body>

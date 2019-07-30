@@ -2,19 +2,34 @@
 layout: default
 ---
 
-<article class="post post-page">
-  <a href="/blog/" class="small-link back">&larr; Back</a>
+<div class="wrapper-header blog post">
+  <div class="container">
+    {% include navigation.html class="blog post" %}
+    {% include header.html class="blog post" %}
+  </div>
+</div>
 
-  <h1>{{ page.title }}</h1>
+<div id="main" role="main" class="container">
+  <article class="post-content">
+    <a href="/blog" class="small-link">&larr; Back</a>
 
-  <div class="date">{{ page.date | date: "%b %e" }} · {{ page.read_time }} min read</div>
+    <h1>{{ page.title }}</h1>
 
-  <div class="entry">{{ content }}</div>
+    <div class="date">{{ page.date | date: "%b %e" }} · {{ page.read_time }} min read</div>
 
-  {% include disqus.html %}
-  <hr>
-</article>
+    <div class="entry">{{ content }}</div>
 
-<div class="wrapper-post-newsletter">
-  {% include newsletter.html %}
+    {% include disqus.html %}
+    <hr>
+  </article>
+
+  <div class="wrapper-post-newsletter">
+    {% include newsletter.html %}
+  </div>
+</div>
+
+<div class="wrapper-footer">
+  <div class="container">
+    {% include footer.html %}
+  </div>
 </div>
