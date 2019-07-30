@@ -1,12 +1,24 @@
 ---
-layout: page
+layout: default
+class: home
 
 title: Page not found
 
-header: Page not found
+header: "Page not found :("
+subtitle: "Sorry, we can't find that page you're looking for."
 permalink: /404.html
 ---
 
+<div class="wrapper-header home">
+  <div class="container">
+    {% include navigation.html class="home" %}
+    <div class="main home" role="main" class="container">
+      {% include header.html class="home" %}
+      <a href="/">Go back to the homepage.</a>
+    </div>
+  </div>
+</div>
+
 <div id="main" role="main" class="container">
-  <p>Sorry, we can't find that page that you're looking for. You can try again by going <a href="/">back to the homepage</a>.</p>
+
 </div>

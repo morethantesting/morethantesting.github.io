@@ -175,9 +175,6 @@ img {
   color: $lightestGray;
   background-color: $darkBlue;
   background-image: linear-gradient($blue, $darkerBlue);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
 
   &.home {
     height: 100%;
@@ -311,7 +308,7 @@ nav {
   color: $darkBlue;
   border: 2px solid $lighterBlue;
   border-radius: 3px;
-  padding: 15px 10px;
+  padding: 15px 11px;
   display: inline-block;
   font-family: $rubik;
   font-size: $smaller;
@@ -381,12 +378,13 @@ nav {
   color: $lightestGray;
   font-size: $small;
   font-family: $rubik;
-  max-width: 70%;
+  width: 70%;
 
   &.blog {
     color: $darkerBlue;
     font-family: $rubik;
     font-size: $medium;
+    padding-left: 3px;
 
     @include mobile {
       font-size: $small;
