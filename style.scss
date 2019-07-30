@@ -378,7 +378,14 @@ nav {
   color: $lightestGray;
   font-size: $small;
   font-family: $rubik;
-  width: 70%;
+
+  &.home {
+    max-width: 70%;
+
+    @include mobile {
+      max-width: 100%;
+    }
+  }
 
   &.blog {
     color: $darkerBlue;
@@ -394,7 +401,6 @@ nav {
   @include mobile {
     font-size: $smaller;
     text-align: left;
-    max-width: 100%;
     padding-right: 20px;
   }
 }
