@@ -2,6 +2,7 @@
 layout: post
 
 title: Joining a startup as the first QA
+description: "Read a story of joining a startup as the first QA. Learn practical advice based on experience and lessons learned after becoming a QA Lead in a startup."
 excerpt: "In a series of 5 articles I'll guide you through a story of joining a startup as the first QA, providing practical advice based on my experience and lessons that I've learned so far from day one to first month."
 date: 2018-09-01T14:15:46+00:00
 author: MoreThanTesting

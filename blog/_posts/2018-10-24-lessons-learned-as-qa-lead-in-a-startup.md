@@ -2,6 +2,7 @@
 layout: post
 
 title: "What I've learned after 30 days as QA Lead in a startup"
+description: "Read more to get to know lessons learned from becoming a QA Lead in a startup, provided with examples and stories from my experience."
 excerpt: "In the final part of the series, I reflect on the first 30 days as QA Lead in a startup and talk about lessons that I've learned during that time. For each lesson I tell my own story, including the conclusions and the 'dos and don'ts'."
 date: 2018-10-24T12:40:28+00:00
 author: MoreThanTesting

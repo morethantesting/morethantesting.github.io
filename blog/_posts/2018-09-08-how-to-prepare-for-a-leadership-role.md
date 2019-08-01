@@ -2,6 +2,7 @@
 layout: post
 
 title: How to prepare for a leadership role
+description: "Read more to learn 6 practical tips about how to get prepared for a leadership role based on an example of becoming a QA Lead in a startup."
 excerpt: "In this article, you'll learn why it is important to prepare for a leadership role followed by 6 practical tips on how to do it right."
 date: 2018-09-08T17:17:22+00:00
 author: MoreThanTesting

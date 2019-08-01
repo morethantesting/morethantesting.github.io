@@ -2,6 +2,7 @@
 layout: post
 
 title: "First week as QA Lead in a startup - 5 steps for 5 working days"
+description: "Read more to learn 5 steps that you should do in the first week as QA Lead in a startup, including real examples and practical advice."
 excerpt: "In this article I talk about 5 steps that you should do in the first week as QA Lead in a startup, including real examples showing how I have actually done it."
 date: 2018-10-01T13:34:57+00:00
 author: MoreThanTesting

@@ -2,6 +2,7 @@
 layout: post
 
 title: "First month as QA Lead in a startup - 6 pieces of advice"
+description: "Read more to learn 6 pieces of advice on how you can have great impact in the first month as QA Lead in a startup. Real examples of QA practices included."
 excerpt: "This time I zoom out and give you 6 pieces of advice on what to do in the first month as QA Lead in a startup, providing examples from my experience."
 date: 2018-10-13T17:18:23+00:00
 author: MoreThanTesting

@@ -2,6 +2,7 @@
 layout: post
 
 title: "First day in a new job - 3 things I learned the hard way"
+description: "Read more to learn 3 lessons learned from the first day in a new job and how you can go through this day with less stress."
 excerpt: "Here I provide you with 3 takeaways from the first day in a new job that I wish I knew before. And you, probably, too."
 date: 2018-09-15T10:11:43+00:00
 author: MoreThanTesting
