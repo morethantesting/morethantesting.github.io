@@ -1,10 +1,14 @@
 ---
 layout: post
+
 title: Joining a startup as the first QA
-date: 2018-09-01T14:15:46+00:00
 excerpt: "In a series of 5 articles I'll guide you through a story of joining a startup as the first QA, providing practical advice based on my experience and lessons that I've learned so far from day one to first month."
-image: /blog/assets/joining-a-startup-as-the-first-qa.jpg
+date: 2018-09-01T14:15:46+00:00
 author: MoreThanTesting
+
+image: /blog/assets/joining-a-startup-as-the-first-qa.jpg
+alt: "A Lego trooper with a Lego C-3PO standing behind"
+
 read_time: 5
 redirect_from:
   - "/joining-a-startup-as-the-first-qa"

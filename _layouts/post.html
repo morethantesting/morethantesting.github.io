@@ -17,6 +17,12 @@ layout: default
 
     <div class="date">{{ page.date | date: "%b %e" }} · {{ page.read_time }} min read</div>
 
+    {% if page.image %}
+      <div class="image">
+        <img src="{{ page.image }}" alt="{{ page.alt | default: 'image' }}" />
+      </div>
+    {% endif %}
+
     <div class="entry">{{ content }}</div>
 
     {% include disqus.html %}
