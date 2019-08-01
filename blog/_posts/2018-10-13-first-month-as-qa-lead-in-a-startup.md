@@ -1,10 +1,14 @@
 ---
 layout: post
+
 title: "First month as QA Lead in a startup - 6 pieces of advice"
-date: 2018-10-13T17:18:23+00:00
 excerpt: "This time I zoom out and give you 6 pieces of advice on what to do in the first month as QA Lead in a startup, providing examples from my experience."
-image: /blog/assets/first-month-as-qa-lead-in-a-startup.jpg
+date: 2018-10-13T17:18:23+00:00
 author: MoreThanTesting
+
+image: /blog/assets/first-month-as-qa-lead-in-a-startup.jpg
+alt: "A Lego trooper cleaning the lens of a DSLR camera"
+
 read_time: 9
 redirect_from:
   - "/first-month-as-qa-lead-in-a-startup"

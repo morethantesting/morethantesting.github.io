@@ -1,10 +1,14 @@
 ---
 layout: post
+
 title: How to prepare for a leadership role
-date: 2018-09-08T17:17:22+00:00
 excerpt: "In this article, you'll learn why it is important to prepare for a leadership role followed by 6 practical tips on how to do it right."
-image: /blog/assets/how-to-prepare-for-a-leadership-role.jpg
+date: 2018-09-08T17:17:22+00:00
 author: MoreThanTesting
+
+image: /blog/assets/how-to-prepare-for-a-leadership-role.jpg
+alt: "A Lego knight standing against a massive shoe"
+
 read_time: 6
 redirect_from:
   - "/how-to-prepare-for-a-leadership-role"
