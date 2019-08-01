@@ -183,6 +183,10 @@ img {
     width: 100vw;
     margin: 0;
     box-shadow: none;
+
+    a:hover {
+      color: $lightBlue;
+    }
   }
 
   &.blog {
