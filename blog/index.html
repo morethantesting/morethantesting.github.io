@@ -1,41 +1,26 @@
 ---
-layout: default
+layout: page
 
 title: Blog
-description: Read and learn about Software Testing.
+description: "Blog about software testing. Learn more about test automation and general software testing and QA practices."
 
 header: Blog
 subtitle: Learn more about software testing.
 ---
 
-<div class="wrapper-header blog">
-  <div class="container">
-    {% include navigation.html class="blog" %}
-    {% include header.html class="blog" %}
-  </div>
-</div>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post-preview" onclick="location.href='{{ site.baseurl }}{{ post.url }}';">
 
-<div id="main" role="main" class="container">
-  <div class="posts">
-    {% for post in site.posts %}
-      <article class="post-preview" onclick="location.href='{{ site.baseurl }}{{ post.url }}';">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="date">{{ post.date | date: "%b %e" }} · {{ post.read_time }} min read</div>
 
-        <div class="date">{{ post.date | date: "%b %e" }} · {{ post.read_time }} min read</div>
+      <div class="excerpt">
+        <p>{{ post.excerpt }}</p>
+      </div>
 
-        <div class="excerpt">
-          <p>{{ post.excerpt }}</p>
-        </div>
-
-        <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read more →</a>
-      </article>
-    {% endfor %}
-  </div>
-</div>
-
-<div class="wrapper-footer">
-  <div class="container">
-    {% include footer.html %}
-  </div>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read more →</a>
+    </article>
+  {% endfor %}
 </div>

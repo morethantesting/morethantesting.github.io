@@ -2,19 +2,21 @@
 layout: default
 class: home
 
-header: "Hi, I'm Dawid.<br/>I help startups assure quality."
-subtitle: "6+ years of working experience in software testing. Specialised in setting up automated QA process in startups and small engineering teams."
+description: "Software testing is an essential part of software development. We make it easy to understand for everyone. Visit the site to learn more."
+
+header: "Software testing.<br/>For everyone."
+subtitle: "Software testing is an essential part of software development.<br/>We make it easy to understand for everyone.<br/>Read the blog and subscribe to the newsletter to start learning."
 ---
 
 <div class="wrapper-header home">
   <div class="container">
     {% include navigation.html class="home" %}
-    <div class="main home" role="main" class="container">
+    <div id="main" role="main" class="home">
       {% include header.html class="home" %}
 
       <div class="cta-buttons">
-        <a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/" class="cta-button contact">Get in touch &rarr;</a>
-        <a href="/blog" class="cta-button blog">Read my blog<a/>
+        <a href="/blog" class="button primary">Read blog &raquo;</a>
+        <a href="https://morethantesting.us19.list-manage.com/subscribe/post?u=76c276bd694b978be3819ea64&amp;id=78c99fc634" class="button secondary">Subscribe &raquo;<a/>
       </div>
     </div>
   </div>
