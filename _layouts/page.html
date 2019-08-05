@@ -4,14 +4,18 @@ layout: default
 
 <div class="wrapper-header page">
   <div class="container">
-    {% include navigation.html %}
-    {% include header.html %}
+    {% include navigation.html class="page" %}
+    {% include header.html class="page" %}
   </div>
 </div>
 
-{{ content }}
+<div id="main" role="main" class="page">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
 
-<div class="wrapper-footer">
+<div class="wrapper-footer page">
   <div class="container">
     {% include footer.html %}
   </div>

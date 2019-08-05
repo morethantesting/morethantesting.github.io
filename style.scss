@@ -31,6 +31,7 @@ body {
     background: linear-gradient($blue, $darkerBlue);
     height: 100vh;
     position: fixed;
+    color: $lighterGray;
   }
 }
 
@@ -44,10 +45,6 @@ body {
   max-width: 960px;
   padding: 0 10px;
   width: 100%;
-
-  @include mobile {
-    padding: 0 20px;
-  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -189,7 +186,7 @@ img {
     }
   }
 
-  &.blog {
+  &.page {
     color: $darkBlue;
     background-color: $white;
     background-image: none;
@@ -253,7 +250,7 @@ img {
   word-spacing: 2px;
   text-transform: uppercase;
 
-  &.blog {
+  &.page {
     color: $darkBlue;
     font-weight: 400;
   }
@@ -292,7 +289,7 @@ nav {
     text-transform: uppercase;
   }
 
-  &.blog {
+  &.page {
     a {
       color: $darkBlue;
 
@@ -305,23 +302,26 @@ nav {
 
 // Home Buttons
 
-.cta-button {
+.button {
   margin-top: 15px;
   margin-right: 10px;
-  background-color: $lighterBlue;
-  color: $darkBlue;
-  border: 2px solid $lighterBlue;
-  border-radius: 3px;
   padding: 15px 11px;
   display: inline-block;
+  border-radius: 3px;
   font-family: $rubik;
   font-size: $smaller;
-  font-weight: 700;
-  &:hover, &:active {
-    color: $lighterGray;
+
+  &.primary {
+    background-color: $lighterBlue;
+    color: $darkBlue;
+    border: 2px solid $lighterBlue;
+    font-weight: 700;
+    &:hover, &:active {
+      color: $lighterGray;
+    }
   }
 
-  &.blog {
+  &.secondary {
     background-color: inherit;
     color: $lighterGray;
     border: 2px solid $lighterGray;
@@ -354,7 +354,7 @@ nav {
   letter-spacing: 1px;
   margin-bottom: 20px;
 
-  &.blog {
+  &.page {
     color: $darkBlue;
     font-weight: 700;
     font-size: $massive;
@@ -368,7 +368,7 @@ nav {
 
   &.home {
     @include mobile {
-      font-size: $big;
+      font-size: $bigger;
     }
   }
 
@@ -383,15 +383,7 @@ nav {
   font-size: $small;
   font-family: $rubik;
 
-  &.home {
-    max-width: 70%;
-
-    @include mobile {
-      max-width: 100%;
-    }
-  }
-
-  &.blog {
+  &.page {
     color: $darkerBlue;
     font-family: $rubik;
     font-size: $medium;
@@ -413,7 +405,7 @@ nav {
 // .main
 //
 
-.main {
+#main {
   &.home {
     position: fixed;
     top: 45%;
