@@ -212,7 +212,7 @@ img {
   margin-right: 15px;
   transition: transform .2s;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   @include mobile {
@@ -310,6 +310,10 @@ nav {
   border-radius: 3px;
   font-family: $rubik;
   font-size: $smaller;
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.02);
+  }
 
   &.primary {
     background-color: $lighterBlue;
@@ -317,7 +321,7 @@ nav {
     border: 2px solid $lighterBlue;
     font-weight: 700;
     &:hover, &:active {
-      color: $lighterGray;
+      color: $lighterGray !important;
     }
   }
 
