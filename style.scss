@@ -1,10 +1,6 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -267,50 +263,6 @@ img {
   @include mobile {
     text-align: left;
   }
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltip-text {
-  visibility: hidden;
-  width: 110px;
-  background-color: $lightBlue;
-  color: $blue;
-  font-weight: 400;
-  text-align: center;
-  text-transform: none;
-  padding: 5px 0;
-  border-radius: 3px;
-  letter-spacing: -.1px;
-
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-top: 5px;
-  margin-left: -60px;
-
-  &.page {
-    color: $white;
-  }
-}
-
-.tooltip:hover .tooltip-text {
-  visibility: visible;
-}
-
-// arrow
-.tooltip .tooltip-text::after {
-  content: " ";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent $lightBlue transparent;
 }
 
 nav {
@@ -639,6 +591,51 @@ footer {
   @include mobile {
     font-size: 15px;
   }
+}
+
+// tooltip
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 110px;
+  background-color: $lightBlue;
+  color: $blue;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  padding: 5px 0;
+  border-radius: 3px;
+  letter-spacing: -.1px;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 5px;
+  margin-left: -60px;
+
+  &.page {
+    color: $white;
+  }
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.tooltip .tooltip-text::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent $lightBlue transparent;
 }
 
 
