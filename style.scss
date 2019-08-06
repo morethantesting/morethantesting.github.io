@@ -43,7 +43,7 @@ body {
   margin: 0 auto;
   min-width: 320px;
   max-width: 960px;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 100%;
 }
 
@@ -232,6 +232,7 @@ img {
   padding-top: 14px;
 
   @include mobile {
+    position: absolute;
     float: left;
     display: block;
     margin: 0 auto;
@@ -268,13 +269,58 @@ img {
   }
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 110px;
+  background-color: $lightBlue;
+  color: $blue;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none;
+  padding: 5px 0;
+  border-radius: 3px;
+  letter-spacing: -.1px;
+
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 5px;
+  margin-left: -60px;
+
+  &.page {
+    color: $white;
+  }
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+// arrow
+.tooltip .tooltip-text::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent $lightBlue transparent;
+}
+
 nav {
   float: right;
   margin-top: 11px;
 
   @include mobile {
-    float: right;
-    margin-right: 5px;
+    float: left;
+    position: relative;
+    top: 30px;
     font-size: $smallest;
   }
 
@@ -287,6 +333,12 @@ nav {
     font-weight: 300;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+
+    @include mobile {
+      margin-left: 0px;
+      margin-right: 20px;
+      color: $lightGray;
+    }
   }
 
   &.page {
@@ -524,9 +576,11 @@ footer {
 
 // Newsletter
 
-.wrapper-post-newsletter {
-  text-align: center;
-  margin-top: 30px;
+.wrapper-newsletter {
+  &.post {
+    margin-top: 30px;
+    text-align: center;
+  }
 }
 
 .newsletter-subscribe {
@@ -535,7 +589,6 @@ footer {
 
   @include mobile {
     font-size: $smallest;
-    text-align: center;
   }
 }
 
@@ -543,44 +596,44 @@ footer {
   padding-left: 1px;
 
   @include mobile {
-    padding-left: 5px;
+    padding-left: 0px;
   }
 }
 
 .newsletter-subscribe-email {
   margin-top: 10px;
   display: inline-block;
-  height: 30px;
-  width: 237px;
-  border-radius: 8px;
+  height: 40px;
+  width: 307px;
+  border-radius: 4px;
   font-size: $smallest;
-  border: solid 1px $blue;
+  border: solid 1px $lightGray;
   padding: .6em;
 
   @include mobile {
     font-size: 15px;
-    width: 203px;
+    width: 180px;
   }
 }
 
 .newsletter-subscribe-button {
   display: inline-block;
-  height: 30px;
+  height: 40px;
   cursor: pointer;
   letter-spacing: .03em;
-  color: $lightestGray;
+  color: $white;
   font-size: $smallest;
-  font-weight: 500;
-  border-radius: 8px;
+  font-weight: 700;
+  padding: 0 15px;
+  border-radius: 4px;
   border: none;
-  background-color: $lighterBlue;
+  background-color: $blue;
   transition: all .2s ease-in-out;
   -webkit-appearance: none;
   &:hover, &:active {
-    background-color: $lightestBlue;
-    background-image: linear-gradient(to right, $lightBlue, $lighterBlue, $lightestBlue);
+    background-color: $darkBlue;
+    background-image: linear-gradient(to right, $blue, $darkBlue, $darkerBlue);
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-    transition: all .2s ease-in-out;
   }
 
   @include mobile {
