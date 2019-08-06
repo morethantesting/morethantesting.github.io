@@ -132,4 +132,4 @@ To sum up, here are all 5 articles from the series of **joining a startup as the
   4. [First month as QA Lead in a startup – 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
   5. [What I’ve learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
 
-If you liked the content and would like to read more, **subscribe to the newsletter below** and follow me on [Twitter](https://twitter.com/MoreThanTesting) and you'll be notified as soon as the next article appears.
+If you liked the content and would like to read more, **subscribe to the newsletter below** and follow blog on [Twitter](https://twitter.com/MoreThanTesting) and you'll be notified as soon as the next article appears.

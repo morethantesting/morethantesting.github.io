@@ -142,4 +142,4 @@ With this article, the series of joining a startup as the first QA comes to an e
 
 If you enjoyed reading it so far, please spread the word and share it with your friends or on social media. I appreciate every share.
 
-Additionally, if you want to be notified when a new article comes out, **subscribe below** and follow me on [Twitter](https://twitter.com/MoreThanTesting).
+Additionally, if you want to be notified when a new article comes out, **subscribe below** and follow blog on [Twitter](https://twitter.com/MoreThanTesting).
