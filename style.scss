@@ -207,8 +207,17 @@ img {
   height: 48px;
   margin-right: 15px;
   transition: transform .2s;
+  border-radius: 3px;
   &:hover {
     transform: scale(1.05);
+  }
+
+  &.page {
+    border: 2px solid $darkBlue;
+  }
+
+  &.home {
+    border: 2px solid $lighterGray;
   }
 
   @include mobile {
@@ -216,10 +225,6 @@ img {
     float: left;
     margin: 0 auto;
     margin-right: 10px;
-  }
-
-  img {
-    border-radius: 3px;
   }
 }
 
@@ -280,7 +285,7 @@ nav {
     margin-left: 20px;
     text-align: right;
     font-family: $rubik;
-    font-size: $smallest;
+    font-size: $tiny;
     color: $lighterGray;
     font-weight: 300;
     letter-spacing: 1.2px;
