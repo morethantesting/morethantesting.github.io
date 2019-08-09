@@ -1,13 +1,15 @@
-<form action="https://morethantesting.us19.list-manage.com/subscribe/post?u=76c276bd694b978be3819ea64&amp;id=78c99fc634" method="post" class="newsletter-subscribe-form" name="newsletter-subscribe-form" class="validate" target="_blank" validate="">
+<form action="https://morethantesting.us19.list-manage.com/subscribe/post" method="POST" class="newsletter-form" target="_blank" validate="">
+  <input type="hidden" name="u" value="76c276bd694b978be3819ea64">
+  <input type="hidden" name="id" value="78c99fc634">
   <div class="newsletter-subscribe">
-    <label class="newsletter-subscribe-email-label" for="newsletter-subscribe-email">
+    <label class="newsletter-subscribe-email-label" for="MERGE0">
       {{ include.label | default: "Subscribe to get latest news about software testing by email" }}
     </label>
     <br/>
-    <input type="email" value="" name="EMAIL" class="newsletter-subscribe-email" class="newsletter-subscribe-email" placeholder="Your email address" required="">
+    <input type="email" name="MERGE0" id="MERGE0" class="newsletter-subscribe-email" value="" placeholder="Your email address" required="" autocapitalize="off" autocorrect="off">
     <div style="position: absolute; left: -5000px;" aria-hidden="true">
       <input type="text" name="b_76c276bd694b978be3819ea64_78c99fc634" tabindex="-1" value="">
     </div>
-    <input type="submit" value="Subscribe" name="subscribe" class="newsletter-subscribe-button">
+    <input type="submit" value="Subscribe" name="submit" class="newsletter-subscribe-button">
   </div>
 </form>
