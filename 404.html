@@ -3,15 +3,18 @@ layout: default
 class: home
 
 title: Page not found
+image: /assets/more-than-testing.png
 
 header: "Page not found :("
 subtitle: "Sorry, we can't find that page you're looking for."
 permalink: /404.html
+
+sitemap: false
 ---
 
 <div class="wrapper-header home">
   <div class="container">
-    {% include navigation.html class="home" %}
+    {% include navigation.html class="home" logo="/assets/m-blue.png" %}
     <div id="main" role="main" class="home">
       {% include header.html class="home" %}
       <a href="/">Go to homepage.</a>
