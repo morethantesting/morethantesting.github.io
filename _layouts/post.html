@@ -9,32 +9,34 @@ layout: default
   </div>
 </div>
 
-<div id="main" role="main" class="container">
-  <article class="post-content">
-    <a href="/blog" class="small-link">&larr; Back</a>
+<div id="main" role="main" class="post">
+  <div class="container">
+    <article class="post-content">
+      <a href="/blog" class="small-link">&larr; Back</a>
 
-    <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
 
-    <div class="date">{{ page.date | date: "%b %e" }} · {{ page.read_time }} min read</div>
+      <div class="date">{{ page.date | date: "%b %e" }} · {{ page.read_time }} min read</div>
 
-    {% if page.image %}
-      <div class="image">
-        <img src="{{ page.image }}" alt="{{ page.alt | default: 'image' }}" />
-      </div>
-    {% endif %}
+      {% if page.image %}
+        <div class="image">
+          <img src="{{ page.image }}" alt="{{ page.alt | default: 'image' }}" />
+        </div>
+      {% endif %}
 
-    <div class="entry">{{ content }}</div>
+      <div class="entry">{{ content }}</div>
 
-    {% include disqus.html %}
-    <hr>
-  </article>
+      {% include disqus.html %}
+      <hr>
+    </article>
 
-  <div class="wrapper-newsletter post">
-    {% include newsletter.html label="Subscribe to get latest articles by email" %}
+    <div class="wrapper-newsletter post">
+      {% include newsletter.html label="Subscribe to get latest articles by email" %}
+    </div>
   </div>
 </div>
 
-<div class="wrapper-footer">
+<div class="wrapper-footer blog">
   <div class="container">
     {% include footer.html %}
   </div>
