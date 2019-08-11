@@ -13,6 +13,7 @@ html {
   font-size: 100%;
   height: 100%;
   box-sizing: border-box;
+  min-width: 320px;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   background-color: $white;
   position: relative;
   min-height: 100%;
+  min-width: 320px;
   margin: 0;
 
   &.home {
@@ -106,6 +108,10 @@ a {
   &:hover, &:active {
     color: $lightGray;
   }
+
+  &.button {
+    line-height: 45px;
+  }
 }
 
 ul, ol {
@@ -183,7 +189,7 @@ img {
     box-shadow: none;
 
     a:hover {
-      color: $lightBlue;
+      color: $lightestBlue;
     }
   }
 
@@ -286,6 +292,10 @@ nav {
     font-size: $smallest;
   }
 
+  @include mobileSmall {
+    font-size: $tiny;
+  }
+
   a {
     margin-left: 20px;
     text-align: right;
@@ -316,42 +326,76 @@ nav {
 
 // Home Buttons
 
+.cta-buttons {
+  margin-top: 20px;
+}
+
 .button {
-  margin-top: 15px;
-  margin-right: 10px;
-  padding: 15px 20px;
   display: inline-block;
-  border-radius: 3px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 0 25px;
+  border: 2px solid;
+  border-radius: 25px;
   font-family: $rubik;
   font-size: $smaller;
-  transition: 0.2s;
-  &:hover {
+  transition: all .2s ease-in-out;
+  -webkit-appearance: none;
+  cursor: pointer;
+
+  &:hover, &:active {
     transform: scale(1.02);
   }
 
-  &.primary {
-    background-color: $lighterBlue;
+  &.primary-button {
     color: $darkBlue;
+    background-color: $lighterBlue;
     border: 2px solid $lighterBlue;
     font-weight: 700;
+
     &:hover, &:active {
       color: $lighterGray !important;
     }
   }
 
-  &.secondary {
-    background-color: inherit;
+  &.secondary-button {
     color: $lighterGray;
+    background-color: inherit;
     border: 2px solid $lighterGray;
     font-weight: 400;
+
     &:hover, &:active {
-      color: $lightBlue;
-      border: 2px solid $lightBlue;
+      color: $lightestBlue;
+      border: 2px solid $lightestBlue;
+    }
+  }
+
+  &.newsletter-button {
+    color: $white;
+    background-color: $lighterBlue;
+    border: none;
+    font-weight: 500;
+
+    &:hover, &:active {
+      background-color: $lightestBlue;
+      background-image: linear-gradient(to right, $lightBlue, $lighterBlue, $lightestBlue);
+    }
+
+    @include mobile {
+      padding: 0 20px;
+    }
+
+    @include mobileSmall {
+      padding: 0 15px;
     }
   }
 
   @include mobile {
     font-size: $smallest;
+  }
+
+  @include mobileSmall {
+    font-size: $tiny;
   }
 }
 
@@ -362,6 +406,12 @@ nav {
 
   @include mobile {
     margin-top: 70px;
+  }
+
+  &.home {
+    @include mobileSmall {
+      font-size: $bigger;
+    }
   }
 }
 
@@ -382,11 +432,19 @@ nav {
     @include mobile {
       font-size: $biggest;
     }
+
+    @include mobileSmall {
+      font-size: $bigger;
+    }
   }
 
   &.home {
     @include mobile {
       font-size: $bigger;
+    }
+
+    @include mobileSmall {
+      font-size: $big;
     }
   }
 
@@ -410,6 +468,10 @@ nav {
     @include mobile {
       font-size: $small;
     }
+
+    @include mobileSmall {
+      font-size: $smaller;
+    }
   }
 
   @include mobile {
@@ -430,6 +492,10 @@ nav {
     position: fixed;
     top: 45%;
     transform: translateY(-50%);
+
+    @include mobileSmall {
+      top: 50%;
+    }
   }
 
   &.post {
@@ -455,6 +521,10 @@ nav {
     font-size: $big;
     margin-top: 0px;
     margin-bottom: 10px;
+
+    @include mobileSmall {
+      font-size: $medium;
+    }
   }
 }
 
@@ -469,6 +539,10 @@ nav {
 
     @include mobile {
       font-size: $bigger;
+    }
+
+    @include mobileSmall {
+      font-size: $big;
     }
   }
 }
@@ -504,6 +578,7 @@ nav {
   }
 
   hr {
+    border:none;
     border-top: 4px dotted #c6d6d6;
     background-color: $white;
     width: 20px;
@@ -572,6 +647,7 @@ footer {
 
 .newsletter-subscribe-email-label {
   padding-left: 1px;
+  margin-bottom: 10px;
 
   @include mobile {
     padding-left: 0px;
@@ -579,43 +655,23 @@ footer {
 }
 
 .newsletter-subscribe-email {
-  margin-top: 10px;
   display: inline-block;
-  height: 40px;
-  width: 307px;
-  border-radius: 4px;
-  font-size: $smallest;
-  border: solid 1px $lightGray;
+  height: 50px;
+  width: 320px;
   padding: .6em;
+  font-size: $smallest;
+  border: solid 2px $lighterBlue;
+  color: $blue;
+  border-radius: 25px;
 
   @include mobile {
     font-size: 15px;
     width: 180px;
   }
-}
 
-.newsletter-subscribe-button {
-  display: inline-block;
-  height: 40px;
-  cursor: pointer;
-  letter-spacing: .03em;
-  color: $white;
-  font-size: $smallest;
-  font-weight: 700;
-  padding: 0 15px;
-  border-radius: 4px;
-  border: none;
-  background-color: $blue;
-  transition: all .2s ease-in-out;
-  -webkit-appearance: none;
-  &:hover, &:active {
-    background-color: $darkBlue;
-    background-image: linear-gradient(to right, $blue, $darkBlue, $darkerBlue);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-  }
-
-  @include mobile {
-    font-size: 15px;
+  @include mobileSmall {
+    font-size: $tiny;
+    width: 160px;
   }
 }
 
@@ -629,20 +685,20 @@ footer {
 .tooltip .tooltip-text {
   visibility: hidden;
   width: 110px;
-  background-color: $lightBlue;
   color: $blue;
-  font-weight: 400;
+  background-color: $lighterBlue;
+  font-weight: 500;
   text-align: center;
   text-transform: none;
-  padding: 5px 0;
-  border-radius: 3px;
-  letter-spacing: -.1px;
+  border-radius: 20px;
 
   position: absolute;
   top: 100%;
   left: 50%;
   margin-top: 5px;
   margin-left: -60px;
+  padding: 5px 0;
+  letter-spacing: -.1px;
 
   &.page {
     color: $white;
@@ -661,7 +717,7 @@ footer {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent $lightBlue transparent;
+  border-color: transparent transparent $lighterBlue transparent;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

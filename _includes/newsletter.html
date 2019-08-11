@@ -2,14 +2,14 @@
   <input type="hidden" name="u" value="76c276bd694b978be3819ea64">
   <input type="hidden" name="id" value="78c99fc634">
   <div class="newsletter-subscribe">
-    <label class="newsletter-subscribe-email-label" for="MERGE0">
-      {{ include.label | default: "Subscribe to get latest news about software testing by email" }}
-    </label>
+    {% if include.label %}
+      <label class="newsletter-subscribe-email-label" for="MERGE0">{{ include.label }}</label>
+    {% endif %}
     <br/>
-    <input type="email" name="MERGE0" id="MERGE0" class="newsletter-subscribe-email" value="" placeholder="Your email address" required="" autocapitalize="off" autocorrect="off">
+    <input type="email" name="MERGE0" id="MERGE0" class="newsletter-subscribe-email" value="" placeholder="&rarr; Your email address" required="" autocapitalize="off" autocorrect="off">
     <div style="position: absolute; left: -5000px;" aria-hidden="true">
       <input type="text" name="b_76c276bd694b978be3819ea64_78c99fc634" tabindex="-1" value="">
     </div>
-    <input type="submit" value="Subscribe" name="submit" class="newsletter-subscribe-button">
+    <input type="submit" value="Subscribe" name="submit" class="button newsletter-button">
   </div>
 </form>
