@@ -30,8 +30,6 @@ body {
   margin: 0;
 
   &.home {
-    background: $blue;
-    background: linear-gradient($blue, $darkerBlue);
     height: 100vh;
     position: fixed;
     color: $lighterGray;
@@ -52,7 +50,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $rubik;
-  color: $darkBlue;
+  color: $blue;
   font-weight: 700;
   letter-spacing: -.3px;
   line-height: 1.2;
@@ -178,7 +176,7 @@ img {
   margin-bottom: 50px;
   color: $lightestGray;
   background-color: $darkBlue;
-  background-image: linear-gradient($blue, $darkerBlue);
+  background-image: linear-gradient($blue, $darkestBlue);
 
   &.home {
     height: 100%;
@@ -460,7 +458,7 @@ nav {
   font-family: $rubik;
 
   &.page {
-    color: $darkerBlue;
+    color: $blue;
     font-family: $rubik;
     font-size: $medium;
     padding-left: 3px;
