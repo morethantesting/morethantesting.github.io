@@ -720,6 +720,30 @@ footer {
   border-color: transparent transparent $lighterBlue transparent;
 }
 
+// misc
+
+.dot {
+  height: 9px;
+  width: 9px;
+  background-color: $lighterGray;
+  border-radius: 50%;
+  display: inline-block;
+
+  &.space {
+    margin-left: 1px;
+  }
+
+  @include mobile {
+    height: 7px;
+    width: 7px;
+  }
+
+  @include mobileSmall {
+    height: 5px;
+    width: 5px;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
