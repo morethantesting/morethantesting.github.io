@@ -33,6 +33,16 @@ body {
     height: 100vh;
     position: fixed;
     color: $lighterGray;
+    background: $darkerBlue;
+    background-image: linear-gradient(to bottom right, $darkestBlue, $darkerBlue, $blue);
+  }
+
+  &.page {
+    background-image: linear-gradient(to top, $metallicWhite 0%, white 100%);
+  }
+
+  &.blog {
+    background-image: none;
   }
 }
 
@@ -175,8 +185,7 @@ img {
   padding-bottom: 30px;
   margin-bottom: 50px;
   color: $lightestGray;
-  background-color: $darkBlue;
-  background-image: linear-gradient($blue, $darkestBlue);
+  background: transparent;
 
   &.home {
     height: 100%;
@@ -193,8 +202,6 @@ img {
 
   &.page {
     color: $darkBlue;
-    background-color: $white;
-    background-image: none;
     box-shadow: none;
   }
 
@@ -657,10 +664,11 @@ footer {
   height: 50px;
   width: 320px;
   padding: .6em;
+  color: $blue;
   font-size: $smallest;
   border: solid 2px $lighterBlue;
-  color: $blue;
   border-radius: 25px;
+  background: transparent;
 
   @include mobile {
     font-size: 15px;
