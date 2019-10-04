@@ -293,12 +293,12 @@ nav {
   @include mobile {
     float: left;
     position: relative;
-    top: 30px;
+    top: 35px;
     font-size: $smallest;
   }
 
   @include mobileSmall {
-    font-size: $tiny;
+    top: 35px;
   }
 
   a {
