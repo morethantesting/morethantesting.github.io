@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: "First week as QA Lead in a startup - 5 steps for 5 working days"
 description: "Read more to learn 5 steps that you should do in the first week as QA Lead in a startup, including real examples and practical advice."

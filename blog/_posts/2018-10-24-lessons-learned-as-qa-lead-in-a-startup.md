@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: "What I've learned after 30 days as QA Lead in a startup"
 description: "Read more to get to know lessons learned from becoming a QA Lead in a startup, provided with examples and stories from my experience."

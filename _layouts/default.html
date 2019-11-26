@@ -21,7 +21,9 @@
       {% include google_tag_manager.html %}
     {% endif %}
 
-    {{ content }}
+    <div id="wrapper-page" class="{{ page.class }}">
+      {{ content }}
+    </div>
 
     {% include scripts.html %}
   </body>

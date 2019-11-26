@@ -2,20 +2,20 @@
 layout: default
 ---
 
-<div class="wrapper-header page">
+<div id="wrapper-header" class="page">
   <div class="container">
     {% include navigation.html class="page" logo="/assets/m-white.png" %}
-    {% include header.html class="page" %}
   </div>
 </div>
 
-<div id="main" role="main" class="page">
+<div id="wrapper-content" role="main" class="page">
   <div class="container">
+    {% include header.html class="page" %}
     {{ content }}
   </div>
 </div>
 
-<div class="wrapper-footer page {{ page.class }}">
+<div id="wrapper-footer" class="page">
   <div class="container">
     {% include footer.html %}
   </div>

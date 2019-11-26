@@ -2,23 +2,25 @@
 layout: default
 class: home
 
-description: "Software testing is a complex part of software development. We make it simple to understand for everyone. Read the blog, take a course and subscribe to start learning."
+description: "Ready to start a career in tech? We're helping you become a Software Tester and get a job in tech. Join other people like you and start learning now."
 image: /assets/more-than-testing.png
 
-header: "Software testing<span class='dot'></span><br/>For everyone<span class='dot space'></span>"
-subtitle: "Software testing is a complex part of software development.<br/>We make it simple to understand for everyone.<br/>Read the blog, take a course and subscribe to start learning."
+header: "Ready to start a <span style='color: #72b7cc;'>career in tech</span>?<span class='blinking-cursor'>_</span>"
+subtitle: "We're helping people become Software Testers and get a job in tech.<br/>Join other students like you and start learning."
 ---
 
-<div class="wrapper-header home">
+<div id="wrapper-header" class="home">
   <div class="container">
     {% include navigation.html class="home" logo="/assets/m-blue.png" %}
-    <div id="main" role="main" class="home">
-      {% include header.html class="home" %}
+  </div>
+</div>
 
-      <div class="cta-buttons">
-        <a href="/blog/" class="button primary-button">Read blog &rarr;</a>
-        <a href="/newsletter/" class="button secondary-button">Subscribe<a/>
-      </div>
+<div id="wrapper-content" role="main" class="home">
+  <div class="container">
+    {% include header.html class="home" %}
+    <div class="cta-buttons">
+      <a href="/courses/" class="button primary-button">Start learning &rarr;</a>
+      <!-- <span class="button-note">*No coding skills required.</span> -->
     </div>
   </div>
 </div>

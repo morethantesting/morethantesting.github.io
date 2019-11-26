@@ -1,3 +1,8 @@
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+{% if page.custom_css %}
+  {% for custom_css in page.custom_css %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/{{ custom_css }}">
+  {% endfor %}
+{% endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Open+Sans:400,700" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Roboto:300,400,500,700" rel="stylesheet" />
