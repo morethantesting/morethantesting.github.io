@@ -12,12 +12,13 @@ permalink: /404.html
 sitemap: false
 ---
 
-<div class="wrapper-header home">
+<div id="wrapper-header" class="home">
   <div class="container">
     {% include navigation.html class="home" logo="/assets/m-blue.png" %}
-    <div id="main" role="main" class="home">
-      {% include header.html class="home" %}
-      <a href="/">Go to homepage.</a>
-    </div>
   </div>
+</div>
+
+<div id="wrapper-content" role="main" class="home">
+  {% include header.html class="home" %}
+  <a href="/">Go to homepage.</a>
 </div>

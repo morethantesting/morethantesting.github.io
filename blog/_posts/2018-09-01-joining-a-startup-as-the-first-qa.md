@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: Joining a startup as the first QA
 description: "Read a story of joining a startup as the first QA. Learn practical advice based on experience and lessons learned after becoming a QA Lead in a startup."

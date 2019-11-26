@@ -5,44 +5,67 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-/**************/
-/* BASE RULES */
-/**************/
-
 html {
   font-size: 100%;
-  height: 100%;
   box-sizing: border-box;
-  min-width: 320px;
 }
 
 body {
-  font: $smaller $helveticaNeue;
-  letter-spacing: -.1px;
+  font: $smaller $roboto;
   line-height: 1.4;
+  letter-spacing: -0.01rem;
+  background: $white;
   color: $darkGray;
+
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
   text-rendering: optimizeLegibility;
-  background-color: $white;
+
+  &.home {
+    background: $darkestBlue;
+    color: $lighterGray;
+  }
+
+  &.course {
+    font-family: $rubik;
+    text-align: center;
+  }
+}
+
+#wrapper-page {
   position: relative;
   min-height: 100%;
   min-width: 320px;
-  margin: 0;
 
   &.home {
-    height: 100vh;
+    background: $darkestBlue;
+  }
+
+  &.home, &.newsletter {
     position: fixed;
-    color: $lighterGray;
-    background: $darkerBlue;
-    background-image: linear-gradient(to bottom right, $darkestBlue, $darkerBlue, $blue);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+#wrapper-content {
+  padding-bottom: 100px;
+
+  &.home {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+
+    @include mobile {
+      top: 55%;
+    }
   }
 
-  &.page {
-    // background-image: linear-gradient(to top, $metallicWhite 0%, white 100%);
-  }
-
-  &.blog {
-    background-image: none;
+  &.post {
+    margin-top: 20px;
   }
 }
 
@@ -59,10 +82,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $rubik;
   color: $blue;
   font-weight: 500;
-  letter-spacing: -.3px;
+  letter-spacing: 0.02rem;
   line-height: 1.2;
   margin: 1em 0 15px;
   padding: 0;
@@ -105,7 +127,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 16px 0;
 }
 
 a {
@@ -181,20 +203,13 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-.wrapper-header {
-  padding-bottom: 30px;
-  margin-bottom: 50px;
+#wrapper-header {
+  // padding-bottom: 30px;
+  // margin-bottom: 50px;
   color: $lightestGray;
   background: transparent;
 
   &.home {
-    height: 100%;
-    height: 100vh;
-    width: 100%;
-    width: 100vw;
-    margin: 0;
-    box-shadow: none;
-
     a:hover {
       color: $lightestBlue;
     }
@@ -211,21 +226,72 @@ img {
 
   @include mobile {
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+
+    &.page, &.post {
+      padding-top: 40px;
+    }
   }
 }
 
-// header
+// Header
 
-.site-avatar {
-  float: left;
+#site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  @include mobile {
+    &.page, &.post {
+      position: fixed;
+      background-color: $white;
+      top: 0;
+      left: 0;
+      right: 0;
+      border-bottom: 1px solid $lighterGray;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  &.home {
+    background-color: inherit;
+  }
+}
+
+#site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include mobile {
+    float: left;
+  }
+
+  &.course {
+    @include mobile {
+      padding: 0;
+      float: none;
+      justify-content: center;
+    }
+  }
+}
+
+#site-avatar {
+  margin-right: 10px;
   width: 48px;
   height: 48px;
-  margin-right: 15px;
   transition: transform .15s;
   border-radius: 3px;
+
   &:hover {
     transform: scale(1.05);
+  }
+
+  @include mobile {
+    display: none;
   }
 
   &.page {
@@ -236,28 +302,14 @@ img {
     border: 2px solid $lighterGray;
   }
 
-  @include mobile {
-    display: none;
-    float: left;
-    margin: 0 auto;
-    margin-right: 10px;
+  &.course {
+    @include mobile {
+      display: block;
+    }
   }
 }
 
-.site-info {
-  float: left;
-  padding-top: 14px;
-
-  @include mobile {
-    position: absolute;
-    float: left;
-    display: block;
-    margin: 0 auto;
-    padding-top: 13px;
-  }
-}
-
-.site-name {
+#site-name {
   margin: 0;
   color: $lighterGray;
   cursor: pointer;
@@ -274,33 +326,23 @@ img {
   }
 }
 
-//
 // Navigation
-//
 
-.navigation {
-  padding: 20px 0;
-
-  @include mobile {
-    text-align: left;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 11px;
+#site-navigation {
+  margin: auto;
+  margin-right: 0;
 
   @include mobile {
-    float: left;
-    position: relative;
-    top: 35px;
+    float: right;
     font-size: $smallest;
   }
 
   @include mobileSmall {
     top: 35px;
   }
+}
 
+nav {
   a {
     margin-left: 20px;
     text-align: right;
@@ -312,9 +354,9 @@ nav {
     text-transform: uppercase;
 
     @include mobile {
-      margin-left: 0px;
-      margin-right: 20px;
-      color: $lightGray;
+      margin: 0 auto;
+      color: $darkBlue;
+      font-weight: 400;
     }
   }
 
@@ -325,15 +367,86 @@ nav {
       &:hover, &:active {
         color: $lightGray;
       }
+
+      @include mobile {
+        color: $lighterGray;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &.course {
+    display: none;
+  }
+}
+
+#menu-toggle {
+  @include mobile {
+    display: block;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
+
+#menu {
+  display: flex;
+  list-style-type: none;
+
+  @include mobile {
+    background: $darkerBlue;
+    background-image: linear-gradient(to top, $darkerBlue 0%, $darkestBlue 100%);
+    box-shadow: -1px 0px 8px 10px rgba(0, 0, 0, 0.1);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    margin: auto;
+
+    z-index: 1;
+
+    border-radius: 10px;
+
+    transform-origin: 0% 0%;
+    transform: translate(35%, 0%);
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+    &.home {
+      background: $metallicWhite;
+      background-image: linear-gradient(to top, $metallicWhite 0%, $lightestGray 100%);
+      box-shadow: -5px 0px 8px 10px rgba(0, 0, 0, 0.12);
     }
   }
 }
 
-// Home Buttons
-
-.cta-buttons {
-  margin-top: 20px;
+#menu-toggle input:checked ~ ul
+{
+  @include mobile {
+    transform: translate(-65%, 0%);
+  }
 }
+
+#menu li {
+  display: flex;
+
+  @include mobile {
+    margin-top: 30px;
+    margin-right: 45px;
+  }
+}
+
+#menu li:first-child {
+  @include mobile {
+    margin-top: 100px;
+  }
+}
+
+// Home Buttons
 
 .button {
   display: inline-block;
@@ -348,10 +461,6 @@ nav {
   -webkit-appearance: none;
   cursor: pointer;
 
-  &:hover, &:active {
-    transform: scale(1.02);
-  }
-
   &.primary-button {
     color: $darkBlue;
     background-color: $lighterBlue;
@@ -360,6 +469,10 @@ nav {
 
     &:hover, &:active {
       color: $lighterGray !important;
+    }
+
+    @include mobile {
+      font-size: $smallest;
     }
   }
 
@@ -372,6 +485,10 @@ nav {
     &:hover, &:active {
       color: $lightestBlue;
       border: 2px solid $lightestBlue;
+    }
+
+    @include mobile {
+      font-size: $smallest;
     }
   }
 
@@ -406,26 +523,27 @@ nav {
 
 // Page
 
-.page-info {
-  margin-top: 50px;
+#page-info {
+  padding-top: 50px;
 
   @include mobile {
-    margin-top: 70px;
-  }
-
-  &.home {
-    @include mobileSmall {
-      font-size: $bigger;
-    }
+    padding-top: 35px;
   }
 }
 
-.page-name {
+#page-title {
   color: $lightestGray;
+  font-family: $rubik;
   font-weight: 700;
   font-size: $biggest;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  word-spacing: 2px;
+  margin: auto;
+
+  @include mobile {
+    font-size: $medium;
+    text-align: left;
+  }
 
   &.page {
     color: $darkBlue;
@@ -444,6 +562,8 @@ nav {
   }
 
   &.home {
+    letter-spacing: -0.4px;
+
     @include mobile {
       font-size: $bigger;
     }
@@ -453,20 +573,48 @@ nav {
     }
   }
 
-  @include mobile {
-    font-size: $medium;
-    text-align: left;
+  &.course {
+    font-size: $biggest;
+    letter-spacing: -3px;
+    word-spacing: 4px;
+
+    @include mobile {
+      font-size: $bigger;
+      text-align: center;
+    }
+
+    @include mobileSmall {
+      font-size: $big;
+    }
   }
 }
 
-.page-subtitle {
+#page-subtitle {
   color: $lightestGray;
   font-size: $small;
   font-family: $rubik;
+  letter-spacing: -0.3px;
+
+  @include mobile {
+    font-size: $smaller;
+    text-align: left;
+    padding-right: 20px;
+  }
+
+  &.home {
+    word-spacing: 1px;
+
+    @include mobile {
+      font-weight: 300;
+    }
+
+    @include mobileSmall {
+      font-size: $smallest;
+    }
+  }
 
   &.page {
     color: $blue;
-    font-family: $rubik;
     font-size: $medium;
     padding-left: 3px;
 
@@ -479,34 +627,20 @@ nav {
     }
   }
 
-  @include mobile {
-    font-size: $smaller;
-    text-align: left;
-    padding-right: 20px;
+  &.course {
+    @include mobile {
+      text-align: center;
+    }
   }
 }
 
-//
-// #main
-//
+// posts
 
-#main {
-  margin: 0 auto;
+.posts {
+  padding-top: 30px;
 
-  &.home {
-    position: fixed;
-    top: 45%;
-    transform: translateY(-50%);
-
-    @include mobileSmall {
-      top: 50%;
-    }
-  }
-
-  &.post {
-    @include mobile {
-      margin-top: 20px;
-    }
+  @include mobile {
+    padding-top: 20px;
   }
 }
 
@@ -523,7 +657,8 @@ nav {
   }
 
   h1 {
-    font-size: $big;
+    font-size: $medium;
+    font-weight: 500;
     margin-top: 0px;
     margin-bottom: 10px;
 
@@ -539,15 +674,17 @@ nav {
 
 .post-content {
   h1 {
-    font-size: $biggest;
+    // font-family: $rubik;
+    font-weight: 500;
+    font-size: $bigger;
     margin-top: 20px;
 
     @include mobile {
-      font-size: $bigger;
+      font-size: $big;
     }
 
     @include mobileSmall {
-      font-size: $big;
+      font-size: $medium;
     }
   }
 }
@@ -606,35 +743,31 @@ nav {
 
  // Footer
 
-.wrapper-footer {
+#wrapper-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  right: 0;
   bottom: 0;
-  left: 0;
-  margin-top: 50px;
-  margin-bottom: 40px;
-
-  &.blog {
-    bottom: auto;
-  }
+  width: 100%;
+  height: 100px;
 }
 
-.site-credit {
-  font-size: $smallest;
-  margin-top: 30px;
-  color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
+#site-footer {
+  padding-top: 20px;
   border-top: 1px solid $lighterGray;
   text-align: center;
+}
+
+#site-credit {
+  font: $smallest $rubik;
+  color: $lightGray;
 }
 
 
 // Newsletter
 
-.wrapper-newsletter {
+#wrapper-newsletter {
   &.post {
     margin-top: 30px;
     text-align: center;
@@ -728,6 +861,15 @@ footer {
 
 // misc
 
+.button-note {
+  display: block;
+  padding-top: 8px;
+  padding-left: 2px;
+  font-size: $tiny;
+  font-family: $rubik;
+  color: $lightGray;
+}
+
 .dot {
   height: 9px;
   width: 9px;
@@ -750,7 +892,171 @@ footer {
   }
 }
 
+.blinking-cursor {
+  color: $lighterGray;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $lighterGray;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $lighterGray;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $lighterGray;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $lighterGray;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: $lighterGray;
+  }
+}
+
+// hamburger menu details
+
+#menu-toggle input
+{
+  display: none;
+
+  @include mobile {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 12px;
+    right: 13px;
+
+    cursor: pointer;
+
+    opacity: 0; /* hide this */
+    z-index: 3; /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+  }
+}
+
+#menu-toggle span
+{
+  display: none;
+  background: $darkBlue;
+
+  &.home {
+    background: $lighterGray;
+  }
+
+  @include mobile {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: $darkBlue;
+    border-radius: 3px;
+
+    z-index: 2;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+}
+
+#menu-toggle span:first-child
+{
+  @include mobile {
+    transform-origin: 0% 0%;
+  }
+}
+
+#menu-toggle span:nth-last-child(2)
+{
+  @include mobile {
+    transform-origin: 0% 100%;
+  }
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menu-toggle input:checked ~ span
+{
+  background: $lighterGray;
+
+  &.home {
+    background: $darkBlue;
+  }
+
+  @include mobile {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+  }
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menu-toggle input:checked ~ span:nth-last-child(3)
+{
+  @include mobile {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+}
+
+/*
+ * Oh yeah and the last one should go the other direction
+ */
+#menu-toggle input:checked ~ span:nth-last-child(2)
+{
+  background: $lighterGray;
+
+  &.home {
+    background: $darkBlue;
+  }
+
+  @include mobile {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
 @import "svg-icons";

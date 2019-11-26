@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: "First day in a new job - 3 things I learned the hard way"
 description: "Read more to learn 3 lessons learned from the first day in a new job and how you can go through this day with less stress."

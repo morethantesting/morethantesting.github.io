@@ -1,16 +1,17 @@
 ---
 layout: default
+custom_css: blog/style_post.css
 ---
 
-<div class="wrapper-header page post">
+<div id="wrapper-header" class="page post">
   <div class="container">
     {% include navigation.html class="page post" logo="/assets/m-white.png" %}
-    {% include header.html class="page post" %}
   </div>
 </div>
 
-<div id="main" role="main" class="post">
+<div id="wrapper-content" role="main" class="post">
   <div class="container">
+    {% include header.html class="page post" %}
     <article class="post-content">
       <a href="/blog/" class="small-link">&larr; Back</a>
 
@@ -29,13 +30,13 @@ layout: default
       {% include disqus.html %}
     </article>
 
-    <div class="wrapper-newsletter post">
+    <div id="wrapper-newsletter" class="post">
       {% include newsletter.html %}
     </div>
   </div>
 </div>
 
-<div class="wrapper-footer blog">
+<div id="wrapper-footer" class="blog">
   <div class="container">
     {% include footer.html %}
   </div>

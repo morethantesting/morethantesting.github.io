@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: How to prepare for a leadership role
 description: "Read more to learn 6 practical tips about how to get prepared for a leadership role based on an example of becoming a QA Lead in a startup."

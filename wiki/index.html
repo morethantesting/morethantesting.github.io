@@ -1,6 +1,7 @@
 ---
 layout: page
 class: page
+custom_css: wiki/style.css
 
 title: Wiki
 
@@ -8,6 +9,18 @@ header: "Wiki"
 subtitle: "Coming soon."
 
 sitemap: false
+
+fonts:
+ - 'Helvetica Neue'
+ - 'Source Sans Pro'
+ - 'Roboto'
 ---
 
 <a href="/">Go to homepage.</a>
+
+<!-- {% for font in page.fonts %}
+<div style="font-family: {{ font }}, sans-serif; letter-spacing: -.01em;">
+  <h2 style="font-family: {{ font }}, sans-serif; font-weight: 400;">An angry bird was flying above a crispy cloud ({{ font }})</h2>
+  <p style="font-family: {{ font }}, sans-serif;">I understood there’s no point to stubbornly convince myself and others that we should do things the same way as it has been done in the previous companies I worked for. Simply because it didn't apply there.</p>
+</div>
+{% endfor %} -->

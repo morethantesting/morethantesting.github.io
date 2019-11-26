@@ -1,5 +1,6 @@
 ---
 layout: post
+custom_css: blog/style.css
 
 title: "First month as QA Lead in a startup - 6 pieces of advice"
 description: "Read more to learn 6 pieces of advice on how you can have great impact in the first month as QA Lead in a startup. Real examples of QA practices included."

@@ -1,15 +1,27 @@
-<header class="navigation clearfix">
-  <a href="/" class="site-avatar {{ include.class }}">
-    <img src="{{ include.logo }}" alt="More Than Testing logo" />
-  </a>
+<header id="site-header" class="clearfix {{ include.class }}">
+  <div id="site-logo">
+    <a href="/" id="site-avatar" class="{{ include.class }}">
+      <img src="{{ include.logo }}" alt="More Than Testing logo" />
+    </a>
 
-  <div class="site-info {{ include.class }}">
-    <h1 class="site-name {{ include.class }}"><a href="/">{{ site.name }}</a></h1>
+    <h1 id="site-name" class="{{ include.class }}"><a href="/">{{ site.name }}</a></h1>
   </div>
 
-  <nav class="{{ include.class }}">
-    <a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a>
-    <a href="{{ site.baseurl }}/newsletter/" class="nav-link">Newsletter</a>
-    <a href="{{ site.baseurl }}/courses/" class="nav-link tooltip">Courses<span class="tooltip-text {{ include.class }}">Coming soon!</span></a>
-  </nav>
+  <div id="site-navigation">
+    <nav role="navigation" class="{{ include.class }}">
+      <div id="menu-toggle">
+        <input type="checkbox" />
+
+        <span class="{{ include.class }}"></span>
+        <span class="{{ include.class }}"></span>
+        <span class="{{ include.class }}"></span>
+
+        <ul id="menu" class="{{ include.class }}">
+          <li><a href="{{ site.baseurl }}/courses/" class="nav-link">Courses</a></li>
+          <li><a href="{{ site.baseurl }}/newsletter/" class="nav-link">Newsletter</a></li>
+          <li><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </header>
