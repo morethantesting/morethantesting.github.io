@@ -1,5 +1,5 @@
 {% if page.header or page.subtitle %}
-<div id="page-info" class="{{ include.class }}">
+<section id="page-info" class="{{ include.class }}">
   {% if page.header %}
     <h1 id="page-title" class="{{ include.class }}">{{ page.header }}</h1>
   {% endif %}
@@ -7,5 +7,5 @@
   {% if page.subtitle %}
     <p id="page-subtitle" class="{{ include.class }}">{{ page.subtitle }}</p>
   {% endif %}
-</div>
+</section>
 {% endif %}
