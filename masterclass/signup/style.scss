@@ -1,0 +1,23 @@
+---
+---
+
+@import "variables";
+
+#course-signup > .container {
+  border-top: none;
+  // padding-top: 30px;
+
+  @include mobile {
+    // padding-top: 20px;
+  }
+}
+
+#icon-announcement {
+  width: 128px;
+  height: 128px;
+
+  @include mobile {
+    width: 96px;
+    height: 96px;
+  }
+}

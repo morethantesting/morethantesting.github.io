@@ -23,7 +23,7 @@ body {
   text-rendering: optimizeLegibility;
 
   &.home {
-    background: $darkestBlue;
+    background: $darkerBlue;
     color: $lighterGray;
   }
 
@@ -79,6 +79,7 @@ body {
   max-width: 840px;
   padding: 0 20px;
   width: 100%;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -204,8 +205,6 @@ img {
 /*********************/
 
 #wrapper-header {
-  // padding-bottom: 30px;
-  // margin-bottom: 50px;
   color: $lightestGray;
   background: transparent;
 
@@ -230,6 +229,10 @@ img {
 
     &.page, &.post {
       padding-top: 40px;
+    }
+
+    &.course {
+      padding-bottom: 0;
     }
   }
 }
@@ -450,7 +453,7 @@ nav {
 
 .button {
   display: inline-block;
-  height: 50px;
+  min-height: 50px;
   margin-right: 10px;
   padding: 0 25px;
   border: 2px solid;
@@ -461,18 +464,18 @@ nav {
   -webkit-appearance: none;
   cursor: pointer;
 
+  @include mobile {
+    font-size: $smallest;
+  }
+
   &.primary-button {
-    color: $darkBlue;
-    background-color: $lighterBlue;
-    border: 2px solid $lighterBlue;
+    color: $darkestBlue;
+    background-color: $lightestBlue;
+    border: 2px solid $lightestBlue;
     font-weight: 500;
 
     &:hover, &:active {
       color: $lighterGray !important;
-    }
-
-    @include mobile {
-      font-size: $smallest;
     }
   }
 
@@ -486,10 +489,10 @@ nav {
       color: $lightestBlue;
       border: 2px solid $lightestBlue;
     }
+  }
 
-    @include mobile {
-      font-size: $smallest;
-    }
+  &.ternary-button {
+    border: none;
   }
 
   &.newsletter-button {
@@ -500,7 +503,6 @@ nav {
 
     &:hover, &:active {
       background-color: $lightestBlue;
-      background-image: linear-gradient(to right, $lightBlue, $lighterBlue, $lightestBlue);
     }
 
     @include mobile {
@@ -575,8 +577,6 @@ nav {
 
   &.course {
     font-size: $biggest;
-    letter-spacing: -3px;
-    word-spacing: 4px;
 
     @include mobile {
       font-size: $bigger;
@@ -592,7 +592,7 @@ nav {
 #page-subtitle {
   color: $lightestGray;
   font-size: $small;
-  font-family: $rubik;
+  font-family: $roboto;
   letter-spacing: -0.3px;
 
   @include mobile {
@@ -603,10 +603,6 @@ nav {
 
   &.home {
     word-spacing: 1px;
-
-    @include mobile {
-      font-weight: 300;
-    }
 
     @include mobileSmall {
       font-size: $smallest;
@@ -774,7 +770,7 @@ nav {
   }
 }
 
-.newsletter-subscribe {
+.newsletter-container {
   margin-top: 20px;
   font-size: $smaller;
 
@@ -1057,6 +1053,235 @@ nav {
   }
 }
 
+// FAQ
+
+/* Accordion */
+.tabs {
+  overflow: hidden;
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+  color: $darkBlue;
+  border-bottom: 1px solid $lighterGray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: 500;
+    font-size: $small;
+    cursor: pointer;
+    // Icon
+    &:hover {
+      color: $lightBlue;
+    }
+    // for flex
+    &::before {
+      content: "";
+      padding-left: 15px;
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      transition: all .3s ease-in-out;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $gray;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+
+    p:first-child {
+      margin-top: 0;
+    }
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    cursor: pointer;
+    &:hover {
+      color: $lightBlue;
+    }
+  }
+}
+
+.tab > input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+
+  // :checked
+  &:checked {
+    + .tab-label {
+      color: $lightBlue;
+      &::after {
+        color: $lightBlue;
+        transform: rotate(90deg) translate(4px, -2px);
+      }
+    }
+    ~ .tab-content {
+      max-height: 100vh;
+      padding: 1em;
+    }
+  }
+}
+
+// Boxes
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box {
+  flex: 1 1 auto;
+  margin: 10px;
+  width: 280px;
+
+  border-radius: 3px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  &:hover, &:active {
+    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  @include mobile {
+    min-width: 200px;
+  }
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px 10px;
+}
+
+// Steps
+
+.steps {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.step {
+  flex: 1 1 auto;
+  margin: 10px;
+  min-height: 200px;
+  width: 150px;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 15px 10px;
+}
+
+// Card
+
+.card {
+  max-width: 480px;
+  margin: 20px;
+
+  border-radius: 3px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  &:hover, &:active {
+    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  @include mobile {
+    margin: 0 auto;
+  }
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 25px;
+
+  @include mobile {
+    padding: 15px;
+  }
+}
+
+// Points
+
+.points {
+  display: flex;
+  flex-direction: column;
+}
+
+.point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+
+  color: $gray;
+
+  img {
+    margin-right: 15px;
+  }
+}
+
+// Icons
+
+.icon {
+  &-tiny {
+    width: 26px;
+    height: 26px;
+  }
+
+  &-small {
+    width: 64px;
+    height: 64px;
+  }
+
+  &-medium {
+    width: 96px;
+    height: 96px;
+  }
+
+  &-big {
+    height: 128px;
+    width: 128px;
+  }
+}
+
+.medium-weight {
+  font-weight: 500;
+}
+
+// Misc
+
+.lightest-blue {
+  color: $lightestBlue;
+}
+
+.lighter-blue {
+  color: $lighterBlue;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "svg-icons";
+// @import "svg-icons";

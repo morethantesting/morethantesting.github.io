@@ -1,0 +1,113 @@
+---
+---
+
+@import "variables";
+
+body {
+  color: $darkBlue;
+}
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 960px;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  margin-top: 6px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+section > .container {
+  border-top: 1px solid $lighterGray;
+}
+
+#page-subtitle {
+  margin-bottom: 0;
+}
+
+#site-name-masterclass {
+  font-size: $small;
+  font-weight: 700;
+  letter-spacing: 5.3px;
+  padding-left: 4px;
+
+  @include mobile {
+    letter-spacing: 5.4px;
+    padding-left: 4px;
+  }
+}
+
+#course-intro {
+  .container {
+    border-top: none;
+  }
+
+  .course-cta {
+    margin-top: 0px;
+  }
+}
+
+#course-transformation {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+#course-transformation-cta {
+  @include mobile {
+    span {
+      display: none;
+    }
+
+    &:after {
+      content: 'I want to become the future me!';
+    }
+  }
+
+  @include mobileSmall {
+    span {
+      display: none;
+    }
+
+    &:after {
+      content: 'I want to be the future me!';
+    }
+  }
+}
+
+#course-explaination {
+  color: $gray;
+}
+
+#course-wrapup {
+  h1 {
+    font-weight: 700;
+  }
+}
+
+.course-cta {
+  margin-right: 0;
+  margin-top: 20px;
+  font-weight: 500;
+}

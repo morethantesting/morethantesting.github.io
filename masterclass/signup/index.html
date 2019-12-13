@@ -1,0 +1,57 @@
+---
+layout: default
+class: course
+custom_css:
+  - masterclass/style.css
+  - masterclass/signup/style.css
+
+title: Software Testing Masterclass Signup
+description: "Sign up to the software testing course for beginners. Start career in tech by becoming a Software Tester."
+image: /assets/more-than-testing.png
+
+header: "Sign up for the <span style='color: #72b7cc;'>Masterclass</span>!"
+
+sitemap: false
+---
+
+<div id="wrapper-header" class="course">
+  <div class="container">
+    <header id="site-header" class="clearfix">
+      <div id="site-logo" class="page course">
+        <a href="/" id="site-avatar" class="page course">
+          <img src="/assets/m-white.png" alt="More Than Testing logo" />
+        </a>
+
+        <h1 id="site-name" class="page course">
+          <a href="/masterclass/">More Than Testing<br /><span id="site-name-masterclass">Masterclass</span></a>
+        </h1>
+      </div>
+    </header>
+  </div>
+</div>
+
+<div id="wrapper-content" role="main" class="page">
+  <div class="container">
+    {% include header.html class="page course" %}
+  </div>
+
+  <section id="course-signup">
+    <div class="container">
+      <img id="icon-announcement" src="../assets/icons/career/announcement.svg" alt="An announcement" />
+      <br/><br/>
+      <h2>We'll let you know!</h2>
+      <p>Leave your email below and we'll let you know as soon as the course registration is open.</p>
+      <p>You'll also get <span class="medium-weight">an extra discount</span>!</p>
+      <br/><br/>
+      <div id="wrapper-newsletter" class="page">
+        {% include newsletter.html %}
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="wrapper-footer">
+  <div class="container">
+    {% include footer.html %}
+  </div>
+</div>
