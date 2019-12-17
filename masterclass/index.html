@@ -28,9 +28,7 @@ subtitle: "A 20h+ online course designed to convert total beginners into softwar
 </div>
 
 <div id="wrapper-content" role="main" class="page">
-  <div class="container">
-    {% include header.html class="page course" %}
-  </div>
+  {% include header.html class="page course" %}
 
   <section id="course-intro">
     <div class="container">
@@ -80,7 +78,7 @@ subtitle: "A 20h+ online course designed to convert total beginners into softwar
     </div>
   </section>
 
-  <section id="course-explaination">
+  <section id="course-explanation">
     <div class="container">
       <h2>How it works</h2>
       <div class="steps">
@@ -194,6 +192,25 @@ subtitle: "A 20h+ online course designed to convert total beginners into softwar
     </div>
   </section>
 
+  <section id="course-about-us">
+    <div class="container">
+      <h2>Who we are</h2>
+      <div class="card">
+        <div class="card-container">
+          <div class="avatar">
+            <img class="icon-big" src="{{ site.author.avatar }}" alt="Dawid's face" />
+          </div>
+          <h3>Hi, I'm <span class="lighter-blue">Dawid</span></h3>
+          <p class="dark-blue">I'm the founder of More Than Testing and the tutor of the Masterclass.</p>
+          <p>Thanks to my 6+ years of experience in software testing I know exactly what you need to get started successfully.</p>
+          <p>Are you ready to start your career in tech?</p>
+          <a href="/masterclass/signup/" class="button course-cta">Hi there, let's start!</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
   <section id="course-faq">
     <div class="container">
       <h2>FAQ</h2>
@@ -265,7 +282,5 @@ subtitle: "A 20h+ online course designed to convert total beginners into softwar
 </div>
 
 <div id="wrapper-footer" class="page {{ page.class }}">
-  <div class="container">
-    {% include footer.html %}
-  </div>
+  {% include footer.html %}
 </div>

@@ -9,14 +9,14 @@ layout: default
 </div>
 
 <div id="wrapper-content" role="main" class="page">
-  <div class="container">
-    {% include header.html class="page" %}
-    {{ content }}
-  </div>
+  {% include header.html class="page" %}
+  <section id="page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </section>
 </div>
 
 <div id="wrapper-footer" class="page">
-  <div class="container">
-    {% include footer.html %}
-  </div>
+  {% include footer.html %}
 </div>

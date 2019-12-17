@@ -12,10 +12,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-.container {
-  max-width: 960px;
-}
-
 ul {
   text-align: left;
 }
@@ -26,10 +22,26 @@ li {
 
 section {
   padding-bottom: 30px;
+
+  .container {
+    border-top: 1px solid $lighterGray;
+  }
 }
 
-section > .container {
-  border-top: 1px solid $lighterGray;
+.container {
+  max-width: 960px;
+}
+
+.course-cta {
+  margin-right: 0;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+#page-info {
+  .container {
+    border-top: none;
+  }
 }
 
 #page-subtitle {
@@ -96,8 +108,12 @@ section > .container {
   }
 }
 
-#course-explaination {
+#course-explanation {
   color: $gray;
+
+  h3 {
+    font-weight: 500;
+  }
 }
 
 #course-about-us {
@@ -107,17 +123,15 @@ section > .container {
     align-items: center;
   }
 
-  color: $gray;
+  .avatar > img {
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.2);
+  }
 }
 
 #course-wrapup {
   h1 {
     font-weight: 700;
   }
-}
-
-.course-cta {
-  margin-right: 0;
-  margin-top: 20px;
-  font-weight: 500;
 }

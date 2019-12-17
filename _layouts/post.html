@@ -9,8 +9,8 @@ layout: default
 </div>
 
 <div id="wrapper-content" role="main" class="post">
+  {% include header.html class="page post" %}
   <div class="container">
-    {% include header.html class="page post" %}
     <article class="post-content">
       <a href="/blog/" class="small-link">&larr; Back</a>
 
@@ -36,7 +36,5 @@ layout: default
 </div>
 
 <div id="wrapper-footer" class="blog">
-  <div class="container">
-    {% include footer.html %}
-  </div>
+  {% include footer.html %}
 </div>
