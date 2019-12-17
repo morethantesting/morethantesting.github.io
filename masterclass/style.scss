@@ -32,10 +32,9 @@ section {
   max-width: 960px;
 }
 
-.course-cta {
+.button-course {
   margin-right: 0;
   margin-top: 20px;
-  font-weight: 500;
 }
 
 #page-info {
@@ -65,7 +64,7 @@ section {
     border-top: none;
   }
 
-  .course-cta {
+  .button-course {
     margin-top: 0px;
   }
 }
@@ -126,7 +125,7 @@ section {
   .avatar > img {
     background-size: cover;
     background-position: center;
-    transform: scale(1.2);
+    transform: scale(1.25);
   }
 }
 
@@ -134,4 +133,23 @@ section {
   h1 {
     font-weight: 700;
   }
+
+  .button-course {
+    color: $white;
+    background-color: $lighterBlue;
+    border: 1px solid $lighterBlue;
+
+    &:hover {
+      background-color: $lightestBlue;
+      border: 1px solid $lightestBlue;
+    }
+  }
 }
+
+// Blinking cursor color
+
+.blinking-cursor {
+  @include blinkingCursorAnimation($darkBlue);
+}
+
+@include blinkingCursorKeyframes($darkBlue);

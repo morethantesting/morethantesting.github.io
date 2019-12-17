@@ -24,6 +24,7 @@ body {
 
   &.home {
     background: $darkerBlue;
+    background-image: linear-gradient(to top, $darkerBlue 0%, $darkestBlue 100%);
     color: $lighterGray;
   }
 
@@ -39,7 +40,8 @@ body {
   min-width: 320px;
 
   &.home {
-    background: $darkestBlue;
+    background: $darkerBlue;
+    background-image: linear-gradient(to top, $darkerBlue 0%, $darkestBlue 100%);
   }
 
   &.home, &.newsletter {
@@ -413,7 +415,7 @@ nav {
 
     z-index: 1;
 
-    border-radius: 10px;
+    border-radius: 8px;
 
     transform-origin: 0% 0%;
     transform: translate(35%, 0%);
@@ -455,12 +457,12 @@ nav {
 .button {
   display: inline-block;
   min-height: 50px;
-  margin-right: 10px;
   padding: 0 25px;
   border: 2px solid;
   border-radius: 25px;
   font-family: $rubik;
   font-size: $smaller;
+  font-weight: 500;
   transition: all .15s ease-in-out;
   -webkit-appearance: none;
   cursor: pointer;
@@ -473,7 +475,6 @@ nav {
     color: $darkestBlue;
     background-color: $lightestBlue;
     border: 2px solid $lightestBlue;
-    font-weight: 500;
 
     &:hover, &:active {
       color: $lighterGray !important;
@@ -494,6 +495,7 @@ nav {
 
   &.ternary-button {
     border: none;
+    font-weight: 400;
   }
 
   @include mobile {
@@ -873,7 +875,7 @@ nav {
 
 // misc
 
-.button-note {
+.note {
   display: block;
   padding-top: 8px;
   padding-left: 2px;
@@ -905,58 +907,10 @@ nav {
 }
 
 .blinking-cursor {
-  color: $lighterGray;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
+  @include blinkingCursorAnimation($lighterGray);
 }
 
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: $lighterGray;
-  }
-}
-
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: $lighterGray;
-  }
-}
-
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: $lighterGray;
-  }
-}
-
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: $lighterGray;
-  }
-}
-
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: $lighterGray;
-  }
-}
+@include blinkingCursorKeyframes($lighterGray);
 
 // hamburger menu details
 
@@ -1157,7 +1111,6 @@ nav {
 
 .boxes {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -1190,7 +1143,6 @@ nav {
 
 .steps {
   display: flex;
-  justify-content: flex-end;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -1198,14 +1150,14 @@ nav {
 .step {
   flex: 1 1 auto;
   margin: 10px;
-  min-height: 200px;
-  width: 150px;
+  width: 200px;
 }
 
 .step-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
 
   padding: 15px 10px;
 }
