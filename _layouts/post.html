@@ -29,6 +29,18 @@ layout: default
       {% include disqus.html %}
     </article>
 
+    <section class="author-profile">
+      <img class="icon icon-medium avatar" src="{{ site.author.avatar }}" alt="Author's profile picture" />
+      <section class="author-profile-content">
+        <h4 class="author-name">{{ site.author.name }}</h4>
+        <p class="author-description">{{ site.author.description }}</p>
+        <section class="author-profile-social">
+          <a href="https://www.twitter.com/{{ site.author.social.twitter }}"><img class="icon icon-tiny" src="/assets/icons/social/twitter.svg" /></a>
+          <a href="https://www.linkedin.com/in/{{ site.author.social.linkedin }}"><img class="icon icon-tiny" src="/assets/icons/social/linkedin.svg" /></a>
+        </section>
+      </section>
+    </section>
+
     <div id="wrapper-newsletter" class="post">
       {% include newsletter.html %}
     </div>

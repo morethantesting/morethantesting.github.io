@@ -3,6 +3,133 @@
 
 @import "variables";
 
+// posts
+
+.posts {
+  padding-top: 30px;
+
+  @include mobile {
+    padding-top: 20px;
+  }
+}
+
+.posts > .post-preview {
+  padding: 3%;
+  margin-bottom: 1.8em;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  transition: 0.2s;
+  &:hover, &:active {
+    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+
+  h1 {
+    font-size: $medium;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+    @include mobileSmall {
+      font-size: $medium;
+    }
+  }
+}
+
+.posts > .post-preview:last-child {
+  margin-bottom: 0;
+}
+
+.post-content {
+  h1 {
+    // font-family: $rubik;
+    font-weight: 500;
+    font-size: $bigger;
+    margin-top: 20px;
+
+    @include mobile {
+      font-size: $big;
+    }
+
+    @include mobileSmall {
+      font-size: $medium;
+    }
+  }
+}
+
+.post-content > .entry {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $lighterGray;
+    padding: 0.1em 1em;
+    color: $lightGray;
+    font-style: italic;
+  }
+
+  h1 {
+    font-size: $big;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  figure {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  img {
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+    border: solid 1px $lighterGray;
+  }
+
+  figcaption {
+    font-size: $smallest;
+    color: $lightGray;
+  }
+
+  hr {
+    border:none;
+    border-top: 4px dotted #c6d6d6;
+    background-color: $white;
+    width: 20px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .comments {
+    margin-top: 10px;
+  }
+}
+
+// Author
+
+.author-profile {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+
+  .avatar {
+    margin-right: 20px;
+  }
+
+  .author-profile-content {
+    .author-name {
+      margin: 5px 0;
+    }
+
+    .author-description {
+      margin: 5px 0;
+      color: $gray;
+      font-size: $smallest;
+    }
+
+    .author-profile-social a {
+      margin-right: 10px;
+    }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
