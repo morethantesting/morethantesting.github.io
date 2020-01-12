@@ -1,0 +1,79 @@
+// Newsletter
+
+#wrapper-newsletter {
+  margin-top: 20px;
+
+  &.post {
+    margin-top: 30px;
+  }
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  max-width: 600px;
+  font-size: $smaller;
+
+  @include mobile {
+    font-size: $smallest;
+  }
+}
+
+.newsletter-email-label {
+  padding-left: 1px;
+  margin-bottom: 10px;
+
+  @include mobile {
+    padding-left: 0px;
+  }
+}
+
+.newsletter-email-input {
+  flex-grow: 6;
+  height: 50px;
+  min-width: 240px;
+  padding: .6em;
+  margin: 3px;
+  color: $blue;
+  font-size: $smallest;
+  border: solid 2px $lighterBlue;
+  border-radius: 25px;
+  background: transparent;
+
+  @include mobile {
+    font-size: 15px;
+  }
+
+  @include mobileSmall {
+    font-size: $tiny;
+  }
+}
+
+.newsletter-submit-button {
+  flex-grow: 1;
+  color: $white;
+  background-color: $lighterBlue;
+  border: none;
+  font-weight: 500;
+  margin: 3px;
+
+  &:hover, &:active {
+    background-color: $lightestBlue;
+  }
+
+  @include mobile {
+    padding: 0 20px;
+  }
+
+  @include mobileSmall {
+    padding: 0 15px;
+  }
+}

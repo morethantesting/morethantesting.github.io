@@ -9,29 +9,27 @@ $smaller: 1.125rem;
 $smallest: 1rem;
 $tiny: 14px;
 
-// light blues
-$lightBlue: #64a1b3;
-$lighterBlue: #72b7cc;
-$lightestBlue: #81cee6;
+// greens
+$green: #02b875;
+$lightGreen: #44e59f;
 
-// dark blues
+// blues
+$lightestBlue: #81cee6;
+$lighterBlue: #72b7cc;
+$lightBlue: #64a1b3;
 $blue: #1e3766;
 $darkBlue: #1a3059;
 $darkerBlue: #162a4d;
 $darkestBlue: #122340;
 
-// greens
-$green: #02b875;
-$lightGreen: #44e59f;
-
 // grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #555;
-$lightGray: #a6a6a6;
-$lighterGray: #eee;
 $lightestGray: #f2f2f2;
+$lighterGray: #eee;
+$lightGray: #a6a6a6;
+$gray: #555;
+$darkGray: #333;
+$darkerGray: #222;
+$darkestGray: #111;
 
 // whites
 $white: #fff;
@@ -48,6 +46,7 @@ $roboto: Roboto, Helvetica, sans-serif;
   }
 }
 
+// small mobile
 @mixin mobileSmall {
   @media screen and (max-width: 320px) {
     @content;
