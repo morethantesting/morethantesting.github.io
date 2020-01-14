@@ -7,10 +7,12 @@ description: "Cookies policy of More Than Testing."
 image: /assets/more-than-testing.png
 
 header: "Cookies policy"
-subtitle: "Last updated: 14th Jan 2020"
+subtitle: "Last updated: 14th January 2020"
 
 sitemap: false
 ---
+
+<a href="/legal/" class="small-link">&larr; Back</a>
 
 More Than Testing Ltd (“us”, “we”, “our” or the “Company”) uses cookies on the <https://morethantesting.com> website (the “Service”). By using the Service, you consent to the use of cookies.
 
@@ -82,3 +84,5 @@ You can learn more about cookies and the following third-party websites:
 ## Contact
 
 If you have any questions about our Cookies Policy please contact us at <{{ site.social.email }}>.
+
+Thank you for visiting our site.
