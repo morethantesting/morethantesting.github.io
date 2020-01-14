@@ -443,6 +443,10 @@ nav {
 
 #page-content {
   margin-top: 50px;
+
+  &.home {
+    margin-top: 0;
+  }
 }
 
 #page-info {
