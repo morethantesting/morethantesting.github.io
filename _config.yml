@@ -20,10 +20,8 @@ author:
   description: Founder of More Than Testing
   avatar: /assets/dawid_avatar.jpg
   social:
-    dribbble:
     email: dawid@morethantesting.com
     facebook:
-    flickr:
     github:
     instagram:
     linkedin: dawid-dylowicz
@@ -32,9 +30,15 @@ author:
     twitter: ddylowicz
     stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
     youtube: # channel/<your_long_string> or user/<user-name>
-    googleplus: # anything in your profile username that comes after plus.google.com/
 
-twitter: MoreThanTesting
+social:
+  email: contact@morethantesting.com
+  facebook:
+  instagram: morethantesting
+  twitter: MoreThanTesting
+  youtube: channel/UCs10DeI1wMSAORqY54zjWkQ
+  twitter: MoreThanTesting
+
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
