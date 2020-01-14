@@ -83,6 +83,6 @@ You can learn more about cookies and the following third-party websites:
 
 ## Contact
 
-If you have any questions about our Cookies Policy please contact us at <{{ site.social.email }}>.
+If you have any questions about our Cookies Policy please contact us at <contact@morethantesting.com>.
 
 Thank you for visiting our site.

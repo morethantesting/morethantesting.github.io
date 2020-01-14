@@ -190,13 +190,7 @@ We may update this privacy policy from time to time. The updated version will be
 
 ## 13. How can you contact us about this policy?
 
-If you have questions or comments about this policy, you may email us at <contact@morethantesting.com> or by post to:
-
-More Than Testing Ltd  
-Kemp House
-Street Lane
-London, EC1 5VX   
-United Kingdom    
+If you have questions or comments about this policy, you may email us at <contact@morethantesting.com>.
 
 
 ## 14. How can you review, update, or delete the data we collect from you?
