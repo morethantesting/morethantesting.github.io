@@ -433,10 +433,6 @@ nav {
   @include mobile {
     font-size: $smallest;
   }
-
-  @include mobileSmall {
-    font-size: $tiny;
-  }
 }
 
 // Page
@@ -590,6 +586,11 @@ nav {
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
+
+      @include mobile {
+        font-size: $tiny;
+        color: $lightishGray;
+      }
 
       p {
         margin: 10px 0;

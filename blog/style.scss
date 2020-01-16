@@ -103,6 +103,10 @@
 
   .avatar {
     margin-right: 20px;
+
+    @include mobileSmall {
+      margin-right: 10px;
+    }
   }
 
   .author-profile-content {
@@ -114,6 +118,10 @@
       margin: 5px 0;
       color: $gray;
       font-size: $smallest;
+
+      @include mobileSmall {
+        font-size: $tiny;
+      }
     }
 
     .author-profile-social a {
