@@ -1,6 +1,6 @@
 ---
 layout: page
-custom_css: legal/privacy-policy/style.css
+custom_css: legal/privacy/style.css
 
 title: Privacy policy
 description: "Privacy policy of More Than Testing."

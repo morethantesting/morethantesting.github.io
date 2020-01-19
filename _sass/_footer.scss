@@ -2,7 +2,15 @@
 
 #wrapper-footer {
  width: 100%;
- margin-top: 40px;
+ margin: 40px 0;
+
+ a {
+   color: $lightGray;
+
+   &:hover {
+     color: $lightishGray;
+   }
+ }
 }
 
 #site-footer {
@@ -30,9 +38,16 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
   @include mobile {
     text-align: center;
     justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -42,16 +57,18 @@
   flex-wrap: wrap;
   text-align: left;
   height: 100%;
+  margin: 5px;
+
+  h4 {
+    font-size: $smallest;
+  }
 
   @include mobile {
     margin-top: 10px;
 
     text-align: center;
     align-items: center;
-  }
-
-  h4 {
-    font-size: $smallest;
+    flex-direction: column;
   }
 }
 
@@ -70,11 +87,17 @@
 
     li {
       margin-top: 5px;
+
+      @include mobile {
+        margin-top: 10px;
+      }
     }
   }
 }
 
 #footer-social {
+  margin-top: 20px;
+
   a {
     margin-right: 15px;
 
@@ -90,12 +113,4 @@
 
 #footer-legal {
   color: $lightishGray;
-
-  a {
-    color: $lightGray;
-
-    &:hover {
-      color: $lightishGray;
-    }
-  }
 }

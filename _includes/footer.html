@@ -2,29 +2,19 @@
   <div class="container">
     <div class="footer-containers">
 
-      <div class="footer-container row">
-        <section class="footer-section column">
-          <h4>Services</h4>
+      <div class="footer-container">
+        <section class="footer-section column" id="footer-services">
+          <h4>Our services</h4>
           <ul>
-            <li><a href="/masterclass/">Masterclass</a></li>
-            <li><a href="https://softwaretestingweekly.com">Weekly Newsletter</a></li>
+            <li><a href="/masterclass/" target="_blank">Masterclass</a></li>
+            <li><a href="https://softwaretestingweekly.com" target="_blank">Weekly Newsletter</a></li>
             <li><a href="/blog/">Blog</a></li>
           </ul>
         </section>
-
-        <!-- <section class="footer-section column">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="/legal/">Legal</a></li>
-            <li><a href="/legal/privacy-policy/">Privacy</a></li>
-            <li><a href="/legal/cookies-policy/">Cookies</a></li>
-          </ul>
-        </section> -->
       </div>
 
       <div class="footer-container column">
         <section class="footer-section" id="footer-social">
-          <h4>Follow</h4>
           <a href="https://www.twitter.com/{{ site.social.twitter }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/twitter.svg" /></a>
           <a href="https://www.instagram.com/{{ site.social.instagram }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/instagram.svg" /></a>
           <a href="https://www.youtube.com/{{ site.social.youtube }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/youtube.svg" /></a>
@@ -35,9 +25,10 @@
         </section>
 
         <section class="footer-section" id="footer-legal">
-          <a href="/legal/privacy-policy/">Privacy</a> | <a href="/legal/cookies-policy/">Cookies</a> | <a href="mailto:{{ site.social.email }}">Contact</a>
+          <a href="/legal/privacy/">Privacy</a> | <a href="/legal/cookies/">Cookies</a> | <a href="mailto:{{ site.social.email }}">Contact</a>
         </section>
       </div>
     </div>
+
   </div>
 </footer>

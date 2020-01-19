@@ -20,7 +20,7 @@ li {
   margin-top: 6px;
 }
 
-section {
+#wrapper-content section {
   padding-bottom: 30px;
 
   .container {
@@ -144,6 +144,20 @@ section {
       border: 1px solid $lightestBlue;
     }
   }
+}
+
+// custom footer
+#footer-services {
+  display: none;
+}
+
+.footer-containers {
+  justify-content: center;
+}
+
+.footer-container {
+  align-items: center;
+  text-align: center;
 }
 
 // Blinking cursor color
