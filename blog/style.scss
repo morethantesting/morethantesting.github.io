@@ -110,12 +110,16 @@
   }
 
   .author-profile-content {
+    font-family: $rubik;
+
     .author-name {
       margin: 5px 0;
+      letter-spacing: -0.2px;
     }
 
     .author-description {
       margin: 5px 0;
+      letter-spacing: -0.3px;
       color: $gray;
       font-size: $smallest;
 
