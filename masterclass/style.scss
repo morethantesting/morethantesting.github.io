@@ -20,8 +20,12 @@ li {
   margin-top: 6px;
 }
 
-#wrapper-content section {
+section {
   padding-bottom: 30px;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
 
   .container {
     border-top: 1px solid $lighterGray;
@@ -147,6 +151,13 @@ li {
 }
 
 // custom footer
+
+#wrapper-footer {
+  section {
+    padding-bottom: 20px;
+  }
+}
+
 #footer-services {
   display: none;
 }
