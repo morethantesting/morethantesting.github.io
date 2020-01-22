@@ -26,6 +26,7 @@
     height: 100vh;
     top: 0;
     margin: auto;
+    padding: 0;
 
     z-index: 1;
 
@@ -56,7 +57,7 @@
 
   @include mobile {
     margin-top: 30px;
-    margin-right: 45px;
+    margin-right: 15px;
   }
 }
 
@@ -68,17 +69,14 @@
   }
 }
 
-#menu li#social-links {
+#menu .social-links {
   display: none;
 
   @include mobile {
     display: block;
     margin-top: auto;
     margin-bottom: 20vh;
-
-    a {
-      padding: 5px;
-    }
+    margin-right: 15px;
   }
 }
 

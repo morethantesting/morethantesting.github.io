@@ -591,21 +591,17 @@ nav {
       @include mobile {
         font-size: $tiny;
         color: $lightishGray;
+
+        .social-links {
+          display: none;
+        }
       }
 
       p {
         margin: 10px 0;
       }
 
-      // .page-social {
-      //   a {
-      //     margin-right: 15px;
-      //
-      //     @include mobile {
-      //       margin-right: 20px;
-      //     }
-      //   }
-      // }
+
     }
   }
 }
@@ -620,6 +616,22 @@ nav {
 #site-credit {
   font: $smallest $rubik;
   color: $lightGray;
+}
+
+// social links
+
+.social-links {
+  a {
+    margin-right: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @include mobile {
+      padding: 5px;
+    }
+  }
 }
 
 // tooltip
