@@ -21,11 +21,8 @@
           <li><a href="{{ site.baseurl }}/masterclass/" class="nav-link" target="_blank">Masterclass</a></li>
           <li><a href="{{ site.baseurl }}/newsletter/" class="nav-link">Newsletter</a></li>
           <li><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
-          <li id="social-links">
-            <a href="https://twitter.com/{{ site.social.twitter }}" target="_blank">
-              <img class="icon icon-tiny" src="/assets/icons/social/twitter.svg" />
-            </a>
-          </li>
+
+          {% include social-links.html %}
         </ul>
       </div>
     </nav>
