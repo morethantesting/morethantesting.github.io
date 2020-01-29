@@ -1,3 +1,57 @@
+// Navigation
+
+#site-navigation {
+  margin: auto;
+  margin-right: 0;
+
+  @include mobile {
+    float: right;
+    font-size: $smallest;
+  }
+
+  @include mobileSmall {
+    top: 35px;
+  }
+}
+
+nav {
+  a {
+    margin-left: 20px;
+    text-align: right;
+    font-family: $rubik;
+    font-size: $tiny;
+    color: $lighterGray;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+
+    @include mobile {
+      margin: 0 auto;
+      color: $darkBlue;
+      font-weight: 400;
+    }
+  }
+
+  &.page {
+    a {
+      color: $darkBlue;
+
+      &:hover, &:active {
+        color: $lightGray;
+      }
+
+      @include mobile {
+        color: $lighterGray;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &.course {
+    display: none;
+  }
+}
+
 // hamburger menu
 
 #menu-toggle {

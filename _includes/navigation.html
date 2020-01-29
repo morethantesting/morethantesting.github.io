@@ -1,30 +1,20 @@
-<header id="site-header" class="clearfix {{ include.class }}">
-  <div id="site-logo">
-    <a href="/" id="site-avatar" class="{{ include.class }}">
-      <img src="{{ include.logo }}" alt="More Than Testing logo" />
-    </a>
+<div id="site-navigation">
+  <nav role="navigation" class="{{ include.class }}">
+    <div id="menu-toggle">
+      <input type="checkbox" />
 
-    <h1 id="site-name" class="{{ include.class }}"><a href="/">{{ site.name }}</a></h1>
-  </div>
+      <span class="{{ include.class }}"></span>
+      <span class="{{ include.class }}"></span>
+      <span class="{{ include.class }}"></span>
 
-  <div id="site-navigation">
-    <nav role="navigation" class="{{ include.class }}">
-      <div id="menu-toggle">
-        <input type="checkbox" />
+      <ul id="menu" class="{{ include.class }}">
+        <li id="home-link"><a href="{{ site.baseurl }}/" class="nav-link">Home</a></li>
+        <li><a href="{{ site.baseurl }}/masterclass/" class="nav-link" target="_blank">Masterclass</a></li>
+        <li><a href="{{ site.baseurl }}/newsletter/" class="nav-link">Newsletter</a></li>
+        <li><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
 
-        <span class="{{ include.class }}"></span>
-        <span class="{{ include.class }}"></span>
-        <span class="{{ include.class }}"></span>
-
-        <ul id="menu" class="{{ include.class }}">
-          <li id="home-link"><a href="{{ site.baseurl }}/" class="nav-link">Home</a></li>
-          <li><a href="{{ site.baseurl }}/masterclass/" class="nav-link" target="_blank">Masterclass</a></li>
-          <li><a href="{{ site.baseurl }}/newsletter/" class="nav-link">Newsletter</a></li>
-          <li><a href="{{ site.baseurl }}/blog/" class="nav-link">Blog</a></li>
-
-          {% include social-links.html %}
-        </ul>
-      </div>
-    </nav>
-  </div>
-</header>
+        {% include social-links.html %}
+      </ul>
+    </div>
+  </nav>
+</div>

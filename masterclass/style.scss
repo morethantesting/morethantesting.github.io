@@ -41,9 +41,41 @@ section {
   margin-top: 20px;
 }
 
-#page-info {
+#site-header {
+  justify-content: center;
+  align-items: center;
+}
+
+#site-logo {
+  @include mobile {
+    padding: 0;
+    float: none;
+    justify-content: center;
+  }
+}
+
+#site-avatar {
+  @include mobile {
+    display: block;
+  }
+}
+
+#page-header {
   .container {
     border-top: none;
+  }
+}
+
+#page-title {
+  font-size: $biggest;
+
+  @include mobile {
+    font-size: $bigger;
+    text-align: center;
+  }
+
+  @include mobileSmall {
+    font-size: $big;
   }
 }
 
