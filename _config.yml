@@ -21,15 +21,8 @@ author:
   avatar: /assets/dawid_avatar.jpg
   social:
     email: dawid@morethantesting.com
-    facebook:
-    github:
-    instagram:
     linkedin: dawid-dylowicz
-    pinterest:
-    rss: # just type anything here for a working RSS icon
     twitter: ddylowicz
-    stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-    youtube: # channel/<your_long_string> or user/<user-name>
 
 social:
   email: contact@morethantesting.com

@@ -15,14 +15,14 @@ subtitle: "The course registration is opening soon!"
 
 <div id="wrapper-header" class="course">
   <div class="container">
-    <header id="site-header" class="clearfix">
+    <header id="site-header">
       <div id="site-logo" class="page course">
         <a href="/" id="site-avatar" class="page course">
           <img src="/assets/m-white.png" alt="More Than Testing logo" />
         </a>
 
         <h1 id="site-name" class="page course">
-          <a href="/masterclass/">More Than Testing<br /><span id="site-name-masterclass">Masterclass</span></a>
+          <a href="/masterclass/">More Than Testing<br><span id="site-name-masterclass">Masterclass</span></a>
         </h1>
       </div>
     </header>
@@ -30,16 +30,16 @@ subtitle: "The course registration is opening soon!"
 </div>
 
 <div id="wrapper-content" role="main" class="page">
-  {% include header.html class="page course" %}
+  {% include page-header.html class="page course" %}
 
   <section id="course-signup">
     <div class="container">
       <img id="icon-announcement" src="../assets/icons/career/announcement.svg" alt="An announcement" />
-      <br /><br />
+      <br><br>
       <div id="wrapper-newsletter" class="page">
         {% include newsletter.html masterclass=true %}
       </div>
-      <br />
+      <br>
       <p>We'll let you know when the course registration is open. You'll also get <span class="medium-weight">an extra discount</span>!</p>
     </div>
   </section>

@@ -18,14 +18,19 @@
   }
 
   h1 {
-    font-size: $medium;
+    font-size: $big;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 10px;
 
-    @include mobileSmall {
+    @include mobile {
       font-size: $medium;
     }
+  }
+
+  p {
+    margin: 10px 0;
+    color: $gray;
   }
 }
 
@@ -35,16 +40,11 @@
 
 .post-content {
   h1 {
-    // font-family: $rubik;
     font-weight: 500;
     font-size: $bigger;
     margin-top: 20px;
 
     @include mobile {
-      font-size: $big;
-    }
-
-    @include mobileSmall {
       font-size: $medium;
     }
   }
@@ -63,6 +63,22 @@
     font-size: $big;
     margin-top: 0px;
     margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 45px;
+
+    @include mobile {
+      margin-top: 30px;
+    }
+  }
+
+  h3 {
+    margin-top: 35px;
+
+    @include mobile {
+      margin-top: 25px;
+    }
   }
 
   figure {

@@ -1,5 +1,5 @@
 <section class="social-links {{ include.class }}" id="{{ include.id }}">
-  <a href="https://www.twitter.com/{{ site.social.twitter }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/twitter.svg" /></a>
-  <!-- <a href="https://www.instagram.com/{{ site.social.instagram }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/instagram.svg" /></a>
-  <a href="https://www.youtube.com/{{ site.social.youtube }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/youtube.svg" /></a> -->
+  {% if site.social.twitter %}<a href="https://www.twitter.com/{{ site.social.twitter }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/twitter.svg" /></a>{% endif %}
+  <!-- {% if site.social.instagram %}<a href="https://www.instagram.com/{{ site.social.instagram }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/instagram.svg" /></a>{% endif %}
+  {% if site.social.youtube %}<a href="https://www.youtube.com/{{ site.social.youtube }}" target="_blank"><img class="icon icon-tiny" src="/assets/icons/social/youtube.svg" /></a>{% endif %} -->
 </section>
