@@ -1,4 +1,6 @@
 <figure class="image">
-  <img src="{{ include.url }}" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
+  {% if include.href %}<a href="{{ include.href }}" alt="{{ include.alt | default: 'image'}}" {% unless include.follow %}rel="nofollow"{% endunless %}>{% endif %}
+  <img src="{{ include.src }}" alt="{{ include.alt | default: 'image' }}">
+  {% if include.href %}</a>{% endif %}
+  {% unless include.dont_show_alt %}<figcaption>{{ include.alt }}</figcaption>{% endunless %}
 </figure>
