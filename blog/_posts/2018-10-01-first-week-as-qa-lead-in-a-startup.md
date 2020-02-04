@@ -1,6 +1,6 @@
 ---
 layout: post
-custom_css: blog/style.css
+custom_css: blog/blog.css
 
 title: "First week as QA Lead in a startup - 5 steps for 5 working days"
 description: "Read more to learn 5 steps that you should do in the first week as QA Lead in a startup, including real examples and practical advice."
@@ -88,7 +88,7 @@ Bringing everyone on the same page will help you prioritise and focus on the rig
 
 Personally, I presented it in form of a status matrix listing projects and matching them with QA factors that we wanted to improve. Also, it's cool to see how everything improves as you go. Here's a status matrix I created for one of the previous startups that I worked for:
 
-{% include image.html url="/blog/assets/qa-process-status.gif" description="QA Status Matrix" %}
+{% include image.html src="/blog/assets/qa-process-status.gif" alt="QA Status Matrix" %}
 
 ## **2. Assess the risks**
 

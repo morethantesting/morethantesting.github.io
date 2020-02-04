@@ -1,6 +1,6 @@
 ---
 layout: page
-custom_css: legal/terms-and-conditions/style.css
+custom_css: legal/terms-and-conditions/terms-and-conditions.css
 
 title: "Terms and Conditions"
 description: "Terms and Conditions of More Than Testing."

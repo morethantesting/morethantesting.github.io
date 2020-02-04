@@ -1,7 +1,7 @@
 ---
 layout: page
 class: page blog
-custom_css: blog/style.css
+custom_css: blog/blog.css
 
 title: Blog
 description: "Blog about software testing. Learn more about test automation and general software testing and QA practices."
@@ -17,7 +17,7 @@ subtitle: Read more about software testing.
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="date">{{ post.date | date: "%b %e" }} &middot; {{ post.read_time }} min read</div>
+      <div class="date">{{ post.date | date: "%b %e, %Y" }} &middot; {{ post.read_time }} min read</div>
 
       <div class="excerpt">
         <p>{{ post.excerpt }}</p>

@@ -1,6 +1,6 @@
 ---
 layout: page
-custom_css: legal/cookies/style.css
+custom_css: legal/cookies/cookies.css
 
 title: Cookies policy
 description: "Cookies policy of More Than Testing."
