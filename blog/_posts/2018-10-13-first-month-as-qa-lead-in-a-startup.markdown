@@ -1,6 +1,6 @@
 ---
 layout: post
-custom_css: blog/style.css
+custom_css: blog/blog.css
 
 title: "First month as QA Lead in a startup - 6 pieces of advice"
 description: "Read more to learn 6 pieces of advice on how you can have great impact in the first month as QA Lead in a startup. Real examples of QA practices included."
@@ -50,7 +50,7 @@ Once you sort it out, don't wait anymore and clearly communicate to the team wha
 
 Personally, I shared with the team my vision on modern QA role as part of a presentation. This is what it looked like:
 
-{% include image.html url="/blog/assets/qa-role-vision.png" description ="My vision of QA role" %}
+{% include image.html src="/blog/assets/qa-role-vision.png" alt="My vision of QA role" %}
 
 ## **Work on QA culture**
 
@@ -152,7 +152,7 @@ Showing your work is **so little but yet so much that you can do.**
 
 If you want to see an example, here's the QA knowledge space where I keep documentation of all projects and their outcomes:
 
-{% include image.html url="/blog/assets/qa-process.png" description ="Current list of my documents about the QA process" %}
+{% include image.html src="/blog/assets/qa-process.png" alt="Current list of my documents about the QA process" %}
 
 Also, I encourage you to go one step further and set personal goals for yourself. Whether or not there's a performance review process in place, think of 3-4 things that you want to achieve this quarter and write it down. It's best if you define goals that not only help you grow professionally but also contribute to the success of the team.
 
@@ -162,7 +162,7 @@ However, be humble and know where the line is. Don't boast, don't show your ego 
 
 Finally, here's an example of my personal goals for a quarter:
 
-{% include image.html url="/blog/assets/qa-personal-goals.png" description ="My personal QA goals" %}
+{% include image.html src="/blog/assets/qa-personal-goals.png" alt="My personal QA goals" %}
 
 * * *
 

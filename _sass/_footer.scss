@@ -2,7 +2,9 @@
 
 #wrapper-footer {
  width: 100%;
- margin: 40px 0;
+ margin-top: 40px;
+ padding-bottom: 40px;
+ background-color: rgba(0, 0, 0, 0.02);
 
  a {
    color: $lightGray;
@@ -10,6 +12,10 @@
    &:hover {
      color: $lightishGray;
    }
+ }
+
+ &.home {
+   padding: 0;
  }
 }
 
