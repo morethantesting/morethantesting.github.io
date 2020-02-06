@@ -22,7 +22,6 @@
 
   h1 {
     font-size: $big;
-    font-weight: 500;
     margin-top: 0px;
     margin-bottom: 10px;
 
@@ -74,7 +73,7 @@
     margin-top: 45px;
 
     @include mobile {
-      margin-top: 30px;
+      // margin-top: 40px;
     }
   }
 
@@ -84,6 +83,14 @@
     @include mobile {
       margin-top: 25px;
     }
+  }
+
+  p ~ ul {
+    margin-top: 0;
+  }
+
+  ul ~ p {
+    margin-bottom: 0;
   }
 
   figure {

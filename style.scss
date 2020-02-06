@@ -14,7 +14,7 @@ html {
 
 body {
   font: $smaller $roboto;
-  line-height: 1.625rem;
+  line-height: 1.6875rem;
   letter-spacing: -.003rem;
   background: $white;
   color: $darkGray;
@@ -87,8 +87,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  // font-family: $helveticaNeue;
   color: $darkBlue;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -.003rem;
   word-spacing: -.05rem;
   line-height: 1.2;
@@ -132,7 +133,8 @@ h4 {
 }
 
 p {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 
 a {
@@ -440,7 +442,7 @@ figcaption {
 }
 
 #page-subtitle {
-  color: $lightestGray;
+  color: $lighterGray;
   font-size: $small;
   font-family: $roboto;
   letter-spacing: -0.3px;
@@ -452,6 +454,7 @@ figcaption {
   }
 
   &.home {
+    margin-top: 10px;
     word-spacing: 1px;
 
     @include mobileSmall {
@@ -862,6 +865,14 @@ figcaption {
   border-radius: 6em;
   overflow: hidden;
 }
+
+// font-size
+
+.smallest {
+  font-size: $smallest;
+}
+
+// font-weight
 
 .medium-weight {
   font-weight: 500;
