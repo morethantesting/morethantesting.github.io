@@ -6,7 +6,6 @@ title: Joining a startup as the first QA
 description: "Read a story of joining a startup as the first QA. Learn practical advice based on experience and lessons learned after becoming a QA Lead in a startup."
 excerpt: "In a series of 5 articles I'll guide you through a story of joining a startup as the first QA, providing practical advice based on my experience and lessons that I've learned so far from day one to first month."
 date: 2018-09-01T14:15:46+00:00
-author: MoreThanTesting
 
 image: /blog/assets/joining-a-startup-as-the-first-qa.jpg
 alt: "A Lego trooper with a Lego C-3PO standing behind"
@@ -20,11 +19,11 @@ redirect_from:
 
 I want to tell you a story of **joining a startup as the first QA**.
 
-I'm a software tester and I've recently joined <a href="https://fiit.tv" rel="nofollow">Fiit</a> - the third VC backed startup in my career. For the first time, however, I am the only QA in the company.
+I'm a software tester and I've recently joined <a href="https://fiit.tv" rel="nofollow">Fiit</a> --- the third VC backed startup in my career. For the first time, however, I am the only QA in the company.
 
 Before I started at Fiit, I had worked for two established startups, <a href="https://getbase.com" rel="nofollow">Base</a> and <a href="https://onfido.com" rel="nofollow">Onfido</a>, with engineering teams between 50 and 100 people. In each case, the QA team was already in place.
 
-This time the game was different. There was nothing in place - it was a blank page. That meant no boundaries, but no safety net, too. At the same time, being the first one in a role was the most exciting thing.
+This time the game was different. There was nothing in place --- it was a blank page. That meant no boundaries, but no safety net, too. At the same time, being the first one in a role was the most exciting thing.
 
 But let me start from the beginning.
 
@@ -32,7 +31,7 @@ But let me start from the beginning.
 
 Back in my previous job at Onfido, I was doing just fine. In fact, I wasn't really looking for a new job.
 
-My role was wide - I led the QA process in an SDK team across Android, iOS and Web platforms. I switched between high level thinking about QA strategy, exploratory testing and automation. It was challenging and it was fun.
+My role was wide --- I led the QA process in an SDK team across Android, iOS and Web platforms. I switched between high level thinking about QA strategy, exploratory testing and automation. It was challenging and it was fun.
 
 However, as I was getting more confident in my role, the ambition for having more responsibility started blooming inside me. At some point, I realised I wanted to lead the QA process on a company level. It was definitely out of my comfort zone but I knew it was the only way forward.
 
@@ -48,7 +47,7 @@ It turned out that the key to that success was preparation. That's why in the fi
 
 Fast forward few months and I was starting a new job.
 
-Even though I've worked for 4 companies, I've always made the same mistake on the first day. I rushed to get my head around literally everything at once, which - in effect - got me quite stressed.
+Even though I've worked for 4 companies, I've always made the same mistake on the first day. I rushed to get my head around literally everything at once, which --- in effect --- got me quite stressed.
 
 This time I decided to analyse my mistakes and I learned three things that I should've done instead:
 
@@ -68,8 +67,8 @@ The next day I wanted to start acting right away. But this time I held my horses
 
 I reminded myself what Einstein said if he had an hour to solve a problem. He would spend 55 minutes thinking about that problem, and only 5 minutes about the solution. He was a smart guy so I decided to adopt his way of thinking.
 
-So I stopped myself from acting - I observed how things worked instead.
-I stopped myself from talking, too - I asked around and listened to the answers.
+So I stopped myself from acting --- I observed how things worked instead.
+I stopped myself from talking, too --- I asked around and listened to the answers.
 
 And I'm glad I did, because thanks to this I was able to quickly capture two very important things:
 
@@ -128,9 +127,9 @@ And that's it, so far.
 To sum up, here are all 5 articles from the series of **joining a startup as the first QA**:
 
   1. [How to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/)
-  2. [First day in a new job – 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-in-a-new-job/)
-  3. [First week as QA Lead in a startup – 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
-  4. [First month as QA Lead in a startup – 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
+  2. [First day in a new job — 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-in-a-new-job/)
+  3. [First week as QA Lead in a startup — 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
+  4. [First month as QA Lead in a startup — 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
   5. [What I’ve learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
 
 If you liked the content and would like to read more, **subscribe to the newsletter below** and follow blog on [Twitter](https://twitter.com/MoreThanTesting) and you'll be notified as soon as the next article appears.

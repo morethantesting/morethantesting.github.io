@@ -22,7 +22,6 @@
 
   h1 {
     font-size: $big;
-    font-weight: 500;
     margin-top: 0px;
     margin-bottom: 10px;
 
@@ -71,10 +70,10 @@
   }
 
   h2 {
-    margin-top: 45px;
+    margin-top: 50px;
 
     @include mobile {
-      margin-top: 30px;
+      margin-top: 40px;
     }
   }
 
@@ -84,6 +83,15 @@
     @include mobile {
       margin-top: 25px;
     }
+  }
+
+  p ~ ul {
+    margin-top: 0;
+  }
+
+  // it works only in some cases, weird
+  ul ~ p {
+    margin-bottom: 0;
   }
 
   figure {

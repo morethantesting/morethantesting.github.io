@@ -6,7 +6,6 @@ title: "What I've learned after 30 days as QA Lead in a startup"
 description: "Read more to get to know lessons learned from becoming a QA Lead in a startup, provided with examples and stories from my experience."
 excerpt: "In the final part of the series, I reflect on the first 30 days as QA Lead in a startup and talk about lessons that I've learned during that time. For each lesson I tell my own story, including the conclusions and the 'dos and don'ts'."
 date: 2018-10-24T12:40:28+00:00
-author: MoreThanTesting
 
 image: /blog/assets/lessons-learned-as-qa-lead-in-a-startup.jpg
 alt: "Lego workers maintaining the body of a DSLR camera"
@@ -50,39 +49,39 @@ If there's something particular that I want you to remember from this lesson, it
 
 **Start over:**
 
-  * Forget the way things worked before - it's different now.
-  * Drop your beliefs - they may not apply now.
-  * Reinvent your approach - by observing and adapting your knowledge to the current environment.
+  * Forget the way things worked before --- it's different now.
+  * Drop your beliefs --- they may not apply now.
+  * Reinvent your approach --- by observing and adapting your knowledge to the current environment.
 
 ## Lesson #2: The first thing to take is to take ownership
 
-At the beginning of my career, I have worked for almost two years in a big corporation, where I was responsible for executing pseudo-automated tests that required a lot of additional manual verification. My role was independent, but I was still a part of bigger team that was kind of a shell. I was inside - someone else was handling things outside. I was still a junior - little did I know about the importance of taking ownership.
+At the beginning of my career, I have worked for almost two years in a big corporation, where I was responsible for executing pseudo-automated tests that required a lot of additional manual verification. My role was independent, but I was still a part of bigger team that was kind of a shell. I was inside --- someone else was handling things outside. I was still a junior --- little did I know about the importance of taking ownership.
 
 Then I joined the first startup in my career and during the first month, I've learned how crucial it is.
 
-At first I was quiet and reserved. I tried not to stand out, because that's how it worked well in the previous job, so why change it? (As you can guess, I didn't know yet that I needed to _start over_). But in that startup, something has changed - the approach of taking up the tasks was different. Everyone was coming up with ideas and taking up tasks proactively, without anyone's suggestion or delegation. It was more about being proactive and responsible. It was _taking ownership_.
+At first I was quiet and reserved. I tried not to stand out, because that's how it worked well in the previous job, so why change it? (As you can guess, I didn't know yet that I needed to _start over_). But in that startup, something has changed --- the approach of taking up the tasks was different. Everyone was coming up with ideas and taking up tasks proactively, without anyone's suggestion or delegation. It was more about being proactive and responsible. It was _taking ownership_.
 
 Once I noticed how it worked, I started doing the same. The result? Respect from the team and recognition from the team leader. That was the moment I realised that taking ownership instead of waiting for being assigned a task was _the right thing to do_. In fact, that was the foundation of my futher growth.
 
 Not only I could work on things that I was interested in, but I could also add value to the team. They could trust me.
 
-How did it relate to my current QA Lead role? It was exactly the same. With the difference, that this time I knew exactly what I had to do. I realised that joining a new company is the biggest opportunity to show my approach, introduce my thinking and start doing things my way - before anyone even asked.
+How did it relate to my current QA Lead role? It was exactly the same. With the difference, that this time I knew exactly what I had to do. I realised that joining a new company is the biggest opportunity to show my approach, introduce my thinking and start doing things my way --- before anyone even asked.
 
-So remember, the first thing to take is to take ownership - and do it proactively.
+So remember, the first thing to take is to take ownership --- and do it proactively.
 
 ## Lesson #3: The good way to ask is to ask for help
 
-This is the kind of lesson that I can't learn enough. I've been reminded this in all workplaces - every time I postponed or refused to ask for help.
+This is the kind of lesson that I can't learn enough. I've been reminded this in all workplaces --- every time I postponed or refused to ask for help.
 
-I can tell you exactly how many times asking a question or two speeded up solving my problem by hours or even days. And not asking - slowed it down and caused delays. _Every single time._
+I can tell you exactly how many times asking a question or two speeded up solving my problem by hours or even days. And not asking --- slowed it down and caused delays. _Every single time._
 
-I thought I could build testing framework alone. I thought I could automate all tests by myself. I thought that only I could perform acceptance testing on a feature. Wrong. Wrong. Wrong. With this mindset, I wasn't accelerating the progress - I was holding it back.
+I thought I could build testing framework alone. I thought I could automate all tests by myself. I thought that only I could perform acceptance testing on a feature. Wrong. Wrong. Wrong. With this mindset, I wasn't accelerating the progress --- I was holding it back.
 
-It's strange - we prefer to close ourselves in an invisible box and fight with our problems alone instead of doing a little effort to ask someone for help.
+It's strange --- we prefer to close ourselves in an invisible box and fight with our problems alone instead of doing a little effort to ask someone for help.
 
 We think that asking for help is humiliating. Wrong. Asking for help is liberating. It's unlocking your work. It's freeing up the possibilities of solution. It's saving time of execution. It's opening the path for delegation. Asking for help enhances all qualities of leadership.
 
-If you're in a leadership role and you don't ask for help - you're not really a leader. You're a bottleneck - you think you know it all and can do better than everyone else but in fact you just slow everything down.
+If you're in a leadership role and you don't ask for help --- you're not really a leader. You're a bottleneck --- you think you know it all and can do better than everyone else but in fact you just slow everything down.
 
 Don't be this kind of leader. **Ask for help**.
 
@@ -94,22 +93,22 @@ Blame me, but I used to base some of my decisions purely on my own opinions mixe
 
 I definitely remember it now as QA Lead. And this time I've done it properly. Let me tell you how.
 
-When I started at my current job, one of the first tasks I recognised I had to do was automating UI tests for buying subscription via website. Remember, it was _days_ after I joined and had little context of what's going on - but I knew I had to act.
+When I started at my current job, one of the first tasks I recognised I had to do was automating UI tests for buying subscription via website. Remember, it was _days_ after I joined and had little context of what's going on --- but I knew I had to act.
 
 Did I use the tools I used before? Did I only test on Chrome because everyone uses it? No. First thing I did was taking a look at usage data. I looked up for the most used browsers _among our website users_.
 
 What turned out? Over 50% of visitors used mobile Safari. Could the framework that I was already familiar with test Safari? No.
 
-I've chosen a testing framework based on the real usage - not on the best practices in my previous workplace. Hadn't I looked at data first, I'd end up wasting a lot of time doing the wrong thing.
+I've chosen a testing framework based on the real usage --- not on the best practices in my previous workplace. Hadn't I looked at data first, I'd end up wasting a lot of time doing the wrong thing.
 
-You might have seen many of the bullet-pointed lists of "The best testing tools you should use" that say you to always use Selenium because everyone does - please stop. Don't test basing on someone's else best practices - use your data. Do you remember lesson #1? Whatever worked for them, may not work for you at all. Forget it and start over. There is only one valid approach.
+You might have seen many of the bullet-pointed lists of "The best testing tools you should use" that say you to always use Selenium because everyone does --- please stop. Don't test basing on someone's else best practices --- use your data. Do you remember lesson #1? Whatever worked for them, may not work for you at all. Forget it and start over. There is only one valid approach.
 
 **Test basing on data collected from users of your product.**
 
 Regarding the bullet-points, here are the only ones you need:
 
-  * Don't guesstimate - ask users.
-  * Don't make decisions based on opinions - use data.
+  * Don't guesstimate --- ask users.
+  * Don't make decisions based on opinions --- use data.
 
 ## Lesson #5: The important thing to mind is to mind your health
 
@@ -119,9 +118,9 @@ There's a short story behind it. It's from a collie from my previous work who ha
 
 After few weeks, he told me this: _"Listen, I haven't been ill for ages but 2 weeks in this role and I caught a proper cold. I don't know what happened, if this is a coincidence or not, but all of a sudden I couldn't get up from bed for a whole week. Do you imagine?"._
 
-I imagined - I heard it from other people too. We discussed this further and the only sane conclusion we could come up with was the correlation of taking over a more responsible position and the stress that it brings.
+I imagined --- I heard it from other people too. We discussed this further and the only sane conclusion we could come up with was the correlation of taking over a more responsible position and the stress that it brings.
 
-The lesson learned here is to be more careful during the first month and listen to the signals coming from your body. If you feel you have enough - say _"It's enough"_ and go home. Try to find ways to relax - more than you usually do. Find more time to take care of yourself, even though you think you have to focus on "more important things". You may miss a deadline or two but in the long run, you'll be better off. Apply something my friends repeatedly tell me: _"Work hard. Rest hard. But never too hard."_.
+The lesson learned here is to be more careful during the first month and listen to the signals coming from your body. If you feel you have enough --- say _"It's enough"_ and go home. Try to find ways to relax --- more than you usually do. Find more time to take care of yourself, even though you think you have to focus on "more important things". You may miss a deadline or two but in the long run, you'll be better off. Apply something my friends repeatedly tell me: _"Work hard. Rest hard. But never too hard."_.
 
 Last but not least, if you're looking for medical supplementation, forget carrots and vitamin C. I found out that <a href="https://www.sciencealert.com/here-s-the-only-supplement-you-should-take-for-a-cold" rel="nofollow">zinc is more effective</a> and, if taken as soon as you feel the first symptoms, is a good way to ease or even prevent from the cold. Since I started practicing this, I feel that zinc has already saved me several times.
 

@@ -2,11 +2,10 @@
 layout: post
 custom_css: blog/blog.css
 
-title: "First week as QA Lead in a startup - 5 steps for 5 working days"
+title: "First week as QA Lead in a startup — 5 steps for 5 working days"
 description: "Read more to learn 5 steps that you should do in the first week as QA Lead in a startup, including real examples and practical advice."
 excerpt: "In this article I talk about 5 steps that you should do in the first week as QA Lead in a startup, including real examples showing how I have actually done it."
 date: 2018-10-01T13:34:57+00:00
-author: MoreThanTesting
 
 image: /blog/assets/first-week-as-qa-lead-in-a-startup.jpg
 alt: "Lego trooper standing under a tree with a weapon"
@@ -28,13 +27,13 @@ So, one week. 5 working days. Doesn't sound like a lot, does it? But don't get f
 
 Why? Because this is the time when you can make great impact. Time, when you define what you and the team is going to focus on in near future.
 
-Look at it this way - in the first week, you're free. You're fresh and you see things from different perspective. That means it's a perfect time for you to pay attention to what's happening around and planning your further work.
+Look at it this way --- in the first week, you're free. You're fresh and you see things from different perspective. That means it's a perfect time for you to pay attention to what's happening around and planning your further work.
 
 So what should you do in the first week? Here are 5 steps that I recommend.
 
 ## **1. Get the baseline**
 
-First of all, you should find out what the current status of QA process among all products and projects is - **the baseline**.
+First of all, you should find out what the current status of QA process among all products and projects is --- **the baseline**.
 
 Note that **it is the most important task** in the first week. Both short-term and long-term decisions will be based on the outcome of this challenge. Thanks to this, you'll not only see where you stand, but it'll also help you put priority on most important things.
 
@@ -42,7 +41,7 @@ There are three steps that will help you in getting the baseline:
 
 ### **Talk to people**
 
-Firstly, talk to the _engineering manager_ - he has the best high level overview of what the biggest pains are.
+Firstly, talk to the _engineering manager_ --- he has the best high level overview of what the biggest pains are.
 
 Then talk to _engineers_ from all areas: frontend, mobile, backend, hardware. They will give you the fresh update on how it really is.
 
@@ -71,7 +70,7 @@ Compare what you see to how it worked in your previous companies. Take advantage
 
 Next, get access to analytics tools where the data is stored. Learn how customers use the service or product and include it in your reports.
 
-And remember - it's not only the quality of the product and service you'll be taking care of, but also the quality of teamwork and of communication within the team.
+And remember --- it's not only the quality of the product and service you'll be taking care of, but also the quality of teamwork and of communication within the team.
 
 ### **Write it all down. And show it**
 
@@ -84,7 +83,7 @@ There are two main reasons why you should do it:
 
 By showing your work, you will also get respect. It will give confidence not only to you but also to the team. At this stage, no one will doubt that you should be doing something else instead.
 
-Bringing everyone on the same page will help you prioritise and focus on the right things. You will also be able to back up your decisions - and no one will question.
+Bringing everyone on the same page will help you prioritise and focus on the right things. You will also be able to back up your decisions --- and no one will question.
 
 Personally, I presented it in form of a status matrix listing projects and matching them with QA factors that we wanted to improve. Also, it's cool to see how everything improves as you go. Here's a status matrix I created for one of the previous startups that I worked for:
 
@@ -103,7 +102,7 @@ Using data is straightforward. Get it, analyse, make conclusions.
 
 Note that by data I mean not only the baseline you've gathered from the team, but most importantly what you can get from users. Whether these are outcomes of user testing or analytics data of the product.
 
-Also, here's where you should use your experience and listen to your QA gut feeling. You have to trust yourself - there's no one who can do it better than you.
+Also, here's where you should use your experience and listen to your QA gut feeling. You have to trust yourself --- there's no one who can do it better than you.
 
 In my case, I used the following deduction method to find the most critical path:
 
@@ -119,7 +118,7 @@ Quick takeaway from that is to think not only from customer but also from busine
 
 Based on the baseline research and risks assessment you've done, you're now ready to set a short-term vision.
 
-I've mentioned before that getting the baseline is the most important tasks for the first week - and I wasn't lying. But it's the short-term vision that will have the biggest impact on the near future.
+I've mentioned before that getting the baseline is the most important tasks for the first week --- and I wasn't lying. But it's the short-term vision that will have the biggest impact on the near future.
 
 What should be included?
 
@@ -128,7 +127,7 @@ What should be included?
 
 One advice on that: _don't make it perfect, just make it right._
 
-What I'm trying to say is that you're not setting anything in stone here. Sure, you have to write down something, but treat it more like guidelines. I suggest you to take an iterative approach: first you try, then you learn, then you adapt. This means the plan can be modified as you go - and that's fine as long as you focus on the right things.
+What I'm trying to say is that you're not setting anything in stone here. Sure, you have to write down something, but treat it more like guidelines. I suggest you to take an iterative approach: first you try, then you learn, then you adapt. This means the plan can be modified as you go --- and that's fine as long as you focus on the right things.
 
 Note that in contrast to long-term vision, in this short period you should be more focused on the results than the process.
 
@@ -166,7 +165,7 @@ You might have realised by now that I'm a fan of writing things down. But it's n
 
 ### **Make it regular**
 
-Make sure there's an invitation in the calendar. Link the shared doc in the description of the meeting add description about the clear purpose of the meeting. How regular should it be? It depends - for instance my manager and I do it weekly.
+Make sure there's an invitation in the calendar. Link the shared doc in the description of the meeting add description about the clear purpose of the meeting. How regular should it be? It depends --- for instance my manager and I do it weekly.
 
 ### **Show your work**
 
@@ -174,29 +173,29 @@ Before each meeting, list down things that you are currently focused on.
 
 Here's an example of structure that I always fill in the doc:
 
-  1. _Personal things_ - my updates, i.e what I'm happy or sad about, any questions or comments
-  2. _Done things_ - what I've achieved the previous week
-  3. _Ongoing things_ - what I'm working on at the moment. Good place to highlight obstacles, delays or anything that goes not as planned
-  4. _Next things_ - what I'm planning to focus on in the next week
-  5. _Manager's updates_ - placeholder for my manager's updates
+  1. _Personal things_ --- my updates, i.e what I'm happy or sad about, any questions or comments
+  2. _Done things_ --- what I've achieved the previous week
+  3. _Ongoing things_ --- what I'm working on at the moment. Good place to highlight obstacles, delays or anything that goes not as planned
+  4. _Next things_ --- what I'm planning to focus on in the next week
+  5. _Manager's updates_ --- placeholder for my manager's updates
 
-One important advice here: always try to start the meeting by asking how you're doing or talking about what happened to you last weekend. It's a small-talk and some people may not be as good at it (I'm not) but believe me - this helps to break even the toughest ice. Especially useful if you have something serious to discuss later on.
+One important advice here: always try to start the meeting by asking how you're doing or talking about what happened to you last weekend. It's a small-talk and some people may not be as good at it (I'm not) but believe me --- this helps to break even the toughest ice. Especially useful if you have something serious to discuss later on.
 
-And remember, this is a meeting for you and it's you who should be talking the most. If your manager talks more than you - something is not right.
+And remember, this is a meeting for you and it's you who should be talking the most. If your manager talks more than you --- something is not right.
 
 If you want to know more about 1-on-1, <a href="http://theengineeringmanager.com/management-101/121s/" rel="nofollow">here's an in-depth article from manager's perspective</a>.
 
 ## **5. Hang out with the team**
 
-Last but not least, **say yes to everything that's social**. Whether it's a team lunch or beer after work - go for it. Even if it distracts you from planned work.
+Last but not least, **say yes to everything that's social**. Whether it's a team lunch or beer after work --- go for it. Even if it distracts you from planned work.
 
-You can go one step further and instead of waiting for invitation - make one. People are keen to get to know you, but by staying in their comfort zones they're not always the first ones to reach out to you.
+You can go one step further and instead of waiting for invitation --- make one. People are keen to get to know you, but by staying in their comfort zones they're not always the first ones to reach out to you.
 
 Why socialising is so important in the first week? It's because getting connected with the team and working on relationships as soon as possible will pay off sooner than you think.
 
 So if you're asked to go out with the team, don't find an excuse because you prefer to stay alone. Say yes and use this opportunity to learn something about your collies, whether it's related to work or their personal life.
 
-If it comes to me - I'm an introvert. But at work I always push myself to talk to people and socialise. Not only because I want to get to know my teammates better, but also because it positively affects our teamwork.
+If it comes to me --- I'm an introvert. But at work I always push myself to talk to people and socialise. Not only because I want to get to know my teammates better, but also because it positively affects our teamwork.
 
 Finally, having good relationships makes you more influential. And influence is what you should aim for when you're a leader.
 
