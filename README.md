@@ -1,2 +1,3 @@
 # morethantesting.github.io
-More Than Testing
+
+Copyright (c) 2020 More Than Testing Ltd. All rights reserved.

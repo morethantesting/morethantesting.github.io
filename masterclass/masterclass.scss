@@ -49,9 +49,21 @@ section {
   margin-top: 20px;
 }
 
+#wrapper-header {
+  height: 68px;
+
+  @include mobile {
+    height: 68px;
+  }
+}
+
 #site-header {
   justify-content: center;
   align-items: center;
+
+  @include mobile {
+    height: 68px;
+  }
 }
 
 #site-logo {

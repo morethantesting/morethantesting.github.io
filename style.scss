@@ -52,20 +52,22 @@ body {
 }
 
 #wrapper-content {
+  margin-top: 77px;
+
+  @include mobile {
+    margin-top: 60px;
+  }
+
   &.home {
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 0;
     right: 0;
     transform: translateY(-50%);
 
     @include mobile {
-      top: 45%;
+      top: 35%;
     }
-  }
-
-  &.post {
-    margin-top: 20px;
   }
 }
 
@@ -201,13 +203,29 @@ figcaption {
 /*********************/
 
 #wrapper-header {
-  color: $lightestGray;
-  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
+  height: 77px;
+
+  // for transform on blog posts
+  z-index: 1;
+
+  color: $lightestGray;
+  background-color: $white;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+
+  @include mobile {
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 4px 12px 0px;
+    height: 60px;
+  }
 
   &.home {
     box-shadow: none;
+    background: transparent;
+
     a:hover {
       color: $lightishGray;
     }
@@ -215,24 +233,6 @@ figcaption {
 
   &.page {
     color: $darkBlue;
-  }
-
-  &.post {
-    margin-bottom: 0;
-  }
-
-  @include mobile {
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    box-shadow: none;
-
-    &.page, &.post {
-      padding-top: 40px;
-    }
-
-    &.course {
-      padding-bottom: 0;
-    }
   }
 }
 
@@ -242,25 +242,10 @@ figcaption {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding: 10px 0;
 
   @include mobile {
-    &.page, &.post {
-      position: fixed;
-      background-color: $white;
-      top: 0;
-      left: 0;
-      right: 0;
-      border-bottom: 1px solid $lighterGray;
-      box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  }
-
-  &.home {
-    background-color: inherit;
+    height: 60px;
   }
 }
 
