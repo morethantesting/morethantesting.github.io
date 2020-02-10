@@ -12,6 +12,15 @@
     max-width: 720px;
   }
 }
+
+#wrapper-footer {
+  &.post {
+    .container {
+      max-width: 720px;
+    }
+  }
+}
+
 // Posts preview on /blog
 
 .post-preview {
@@ -26,7 +35,7 @@
     cursor: pointer;
     transform: scale(1.005);
   }
-  
+
   z-index: 0;
 
   h1 {

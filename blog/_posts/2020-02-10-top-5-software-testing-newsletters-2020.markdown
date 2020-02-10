@@ -5,7 +5,7 @@ custom_css: blog/blog.css
 title: Top 5 Software Testing newsletters to follow in 2020
 description: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2020."
 excerpt: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2020."
-date: 2020-02-10T12:15:46+00:00
+date: 2020-02-10T17:27:46+00:00
 
 image: /blog/assets/top-5-software-testing-newsletters-2020.png
 alt: "A colourful envelope illustration"
@@ -56,7 +56,7 @@ Curated by: {% include link.html href="https://www.martinig.ch/index.php" conten
 
 Methods & Tools has been publishing since 2000 (sic!) and it covers a monthly round-up of selected testing news. Some of the links are described, making it easier for a reader to choose what to read. If it comes to the design, well, the site may bring some nostalgia to those who remember the early days of the Internet when PHP was the king. 😊
 
-So if you're too busy to digest newsletters weekly, you want to follow this one.
+So if you're too busy to digest newsletters weekly, you probably want to follow this one.
 
 ## #5 {% include link.html href="https://angryweasel.com/blog/" content="Five for Friday" %}
 Published every: **Friday**  
