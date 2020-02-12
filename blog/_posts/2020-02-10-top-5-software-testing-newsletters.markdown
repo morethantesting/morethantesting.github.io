@@ -11,13 +11,17 @@ image: /blog/assets/top-5-software-testing-newsletters-2020.png
 alt: "A colourful envelope illustration"
 
 read_time: 3
+redirect_from:
+  - "/top-5-software-testing-newsletters-2020"
+  - "/top-5-software-testing-newsletters-2020/"
+  - "/top-5-software-testing-newsletters-2020/amp/"
 ---
 
 Are you looking for fresh and high-quality news on Software Testing?
 
 Let's face it, most of us don't have time to scan through the web looking for the latest updates. Luckily, some great people do just that and publish completely for free!
 
-Below you'll find 5 Software Testing newsletters to follow in 2020.
+Below you'll find top 5 Software Testing newsletters to follow in 2020.
 
 ## [Software Testing Weekly](https://softwaretestingweekly.com/)
 Published every: **Friday**  
@@ -25,7 +29,7 @@ Curated by: [Dawid Dylowicz](https://twitter.com/ddylowicz)
 Twitter: [@QANewsletter](https://twitter.com/QANewsletter)
 {% include image.html src="/blog/assets/newsletter-software-testing-weekly.png" alt="Software Testing Weekly" href="https://softwaretestingweekly.com/" follow=true %}
 
-Software Testing Weekly is the newest one, launched at the beginning of 2020. In each issue, you can find only the best 10–15 picks of software testing news. Every link is carefully selected and described with an insightful note, allowing you to easily decide on what to read. The newsletter includes a healthy mix of articles on testing, test automation and testing tools. And it's published on Friday --- the earliest of all the other newsletters.
+Software Testing Weekly is the newest newsletter, launched at the beginning of 2020. In each issue, you can find only the best 10–15 picks of software testing news. Every link is carefully selected and described with an insightful note, allowing you to easily decide on what to read. The newsletter includes a healthy mix of articles on testing, test automation and testing tools. And it's published on Friday --- the earliest of all the other newsletters.
 
 So if you want to be the first one to hear the quality (over quantity) news that are hand-picked and delivered in a nice, personal way --- this is the right choice for you.
 
@@ -47,7 +51,7 @@ Curated by: {% include link.html href="https://www.ministryoftesting.com" conten
 
 Ministry of Testing is one of the biggest online testing communities. Their main newsletter includes lots of links to various resources, ranging from testing and automation to podcasts and events. Many links are briefly described which helps to choose the right one to read. The issues tend to be quite long, but thanks to this everyone will find something useful there. Unfortunately, some links direct to paid content, causing rather a restrictive experience at times.
 
-So if you're looking for a healthy mix of all sorts of links and you don't mind paid content and waiting until Monday, you may find this one interesting.
+So if you're looking for a mix of all sorts of links and you don't mind paid content and waiting until Monday, you may find this one interesting.
 
 ## {% include link.html href="http://www.methodsandtools.com/facts/facts.php" content="Methods & Tools" %}
 Published every: **month**  
