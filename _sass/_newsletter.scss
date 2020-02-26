@@ -42,9 +42,9 @@
   min-width: 240px;
   padding: .6em;
   margin: 3px;
-  color: $blue;
+  color: $darkGrey;
   font-size: $smallest;
-  border: solid 2px $lighterBlue;
+  border: solid 2px $primary;
   border-radius: 25px;
   background: transparent;
 
@@ -57,17 +57,9 @@
   }
 }
 
-.newsletter-submit-button {
+.button-newsletter {
   flex-grow: 1;
-  color: $white;
-  background-color: $lighterBlue;
-  border: none;
-  font-weight: 500;
   margin: 3px;
-
-  &:hover, &:active {
-    background-color: $lightestBlue;
-  }
 
   @include mobile {
     padding: 0 20px;
