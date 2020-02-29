@@ -1,0 +1,78 @@
+// header (the sticky one)
+
+#wrapper-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 77px;
+
+  // so that zoomin' in blog posts on /blog that are using transform
+  // are not overlaying the menu
+  z-index: 1;
+
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+
+  @include mobile {
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 4px 12px 0px;
+    height: 60px;
+  }
+}
+
+// Header
+
+#site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+  @include mobile {
+    height: 60px;
+  }
+}
+
+#site-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  @include mobile {
+    float: left;
+  }
+}
+
+#site-avatar {
+  color: $darkGrey;
+  font-size: $bigger;
+  font-family: $rubik;
+  font-weight: 700;
+  margin-right: 10px;
+  width: 48px;
+  height: 48px;
+  border-radius: 2px;
+  border: 3px solid $darkGrey;
+  overflow: hidden;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+#site-name {
+  margin: 0;
+  color: $darkGrey;
+  cursor: pointer;
+  font-family: $rubik;
+  font-weight: 700;
+  font-size: $medium;
+  letter-spacing: -0.025rem;
+  word-spacing: 0.05rem;
+  text-transform: lowercase;
+
+  @include mobile {
+    font-size: $small;
+  }
+}
