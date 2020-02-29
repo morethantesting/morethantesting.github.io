@@ -24,19 +24,24 @@
 // Posts preview on /blog
 
 .post-preview {
-  padding: 3%;
+  padding: 20px;
   position: relative;
   margin-bottom: 1.8em;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
   border-radius: 3px;
   transition: 0.2s;
+
+  z-index: 0;
+
   &:hover, &:active {
     box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
     cursor: pointer;
     transform: scale(1.005);
   }
 
-  z-index: 0;
+  @include mobile {
+    padding: 15px;
+  }
 
   h1 {
     font-size: $big;
@@ -50,7 +55,7 @@
 
   p {
     margin: 10px 0;
-    color: $gray;
+    color: $grey;
   }
 }
 
@@ -75,9 +80,9 @@
 .post-content > .entry {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $lighterGray;
+    border-left: 2px solid $lighterGrey;
     padding: 0.1em 1em;
-    color: $lightGray;
+    color: $lightGrey;
     font-style: italic;
   }
 
@@ -119,7 +124,7 @@
 
   img {
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
-    border: solid 1px $lighterGray;
+    border: solid 1px $lighterGrey;
     border-radius: 3px;
   }
 
@@ -167,7 +172,7 @@
     .author-description {
       margin: 5px 0;
       letter-spacing: -0.3px;
-      color: $gray;
+      color: $grey;
       font-size: $smallest;
 
       @include mobileSmall {

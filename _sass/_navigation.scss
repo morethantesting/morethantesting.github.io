@@ -16,34 +16,16 @@
 
 nav {
   a {
+    color: $darkGrey;
     margin-left: 25px;
     text-align: right;
     font-family: $rubik;
-    font-size: $tiny;
-    color: $lighterGray;
-    font-weight: 300;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
+    font-size: $smallest;
+    font-weight: 700;
+    // letter-spacing: -0.025rem;
 
     @include mobile {
       margin: 0 auto;
-      color: $darkBlue;
-      font-weight: 400;
-    }
-  }
-
-  &.page {
-    a {
-      color: $darkBlue;
-
-      &:hover, &:active {
-        color: $lightGray;
-      }
-
-      @include mobile {
-        color: $lighterGray;
-        font-weight: 400;
-      }
     }
   }
 
@@ -68,9 +50,8 @@ nav {
   list-style-type: none;
 
   @include mobile {
-    background: $darkerBlue;
-    background-image: linear-gradient(to top, $darkerBlue 0%, $darkestBlue 100%);
-    box-shadow: -1px 0px 8px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: -1px 0px 12px 4px rgba(0, 0, 0, 0.075);
 
     flex-direction: column;
     align-items: center;
@@ -92,9 +73,7 @@ nav {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
     &.home {
-      background: $metallicWhite;
-      background-image: linear-gradient(to top, $metallicWhite 0%, $lightestGray 100%);
-      box-shadow: -5px 0px 8px 10px rgba(0, 0, 0, 0.12);
+      background-image: linear-gradient(to bottom, $white 50%, $lighterGrey 100%);
     }
   }
 }
@@ -164,11 +143,6 @@ nav {
 #menu-toggle span
 {
   display: none;
-  background: $darkBlue;
-
-  &.home {
-    background: $lighterGray;
-  }
 
   @include mobile {
     display: block;
@@ -177,7 +151,7 @@ nav {
     margin-bottom: 5px;
     position: relative;
 
-    background: $darkBlue;
+    background: $darkGrey;
     border-radius: 3px;
 
     z-index: 2;
@@ -210,11 +184,7 @@ nav {
  */
 #menu-toggle input:checked ~ span
 {
-  background: $lighterGray;
-
-  &.home {
-    background: $darkBlue;
-  }
+  background: $darkGrey;
 
   @include mobile {
     opacity: 1;
@@ -238,11 +208,7 @@ nav {
  */
 #menu-toggle input:checked ~ span:nth-last-child(2)
 {
-  background: $lighterGray;
-
-  &.home {
-    background: $darkBlue;
-  }
+  background: $darkGrey;
 
   @include mobile {
     transform: rotate(-45deg) translate(0, -1px);

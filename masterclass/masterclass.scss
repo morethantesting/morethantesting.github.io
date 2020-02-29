@@ -4,11 +4,12 @@
 @import "variables";
 
 body {
-  color: $darkBlue;
+  color: $darkGrey;
 }
 
 h1, h2, h3, h4 {
   font-family: $rubik;
+  color: $darkGrey;
 }
 
 h2 {
@@ -36,7 +37,7 @@ section {
   }
 
   .container {
-    border-top: 1px solid $lighterGray;
+    border-top: 1px solid $lighterGrey;
   }
 }
 
@@ -49,21 +50,9 @@ section {
   margin-top: 20px;
 }
 
-#wrapper-header {
-  height: 68px;
-
-  @include mobile {
-    height: 68px;
-  }
-}
-
 #site-header {
   justify-content: center;
   align-items: center;
-
-  @include mobile {
-    height: 68px;
-  }
 }
 
 #site-logo {
@@ -76,7 +65,21 @@ section {
 
 #site-avatar {
   @include mobile {
-    display: block;
+    // display: block;
+  }
+}
+
+#site-name {
+  a {
+    &:hover {
+      color: inherit;
+    }
+
+    br {
+      display: block;
+      margin: -5px 0;
+      content: " ";
+    }
   }
 }
 
@@ -86,33 +89,35 @@ section {
   }
 }
 
-#page-title {
-  font-size: $biggest;
+#site-name-masterclass {
+  font-size: $medium;
+  color: $primary;
+  font-weight: 700;
+  letter-spacing: 6.2px;
+  padding-left: 6px;
 
   @include mobile {
-    font-size: $bigger;
+    font-size: $small;
+    letter-spacing: 5.1px;
+    padding-left: 5px;
+  }
+}
+
+#page-title {
+  font-size: $biggest !important;
+
+  @include mobile {
+    font-size: $bigger !important;
     text-align: center;
   }
 
   @include mobileSmall {
-    font-size: $big;
+    font-size: $big !important;
   }
 }
 
 #page-subtitle {
   margin-bottom: 0;
-}
-
-#site-name-masterclass {
-  font-size: $small;
-  font-weight: 700;
-  letter-spacing: 5.3px;
-  padding-left: 4px;
-
-  @include mobile {
-    letter-spacing: 5.4px;
-    padding-left: 4px;
-  }
 }
 
 #course-intro {
@@ -164,7 +169,7 @@ section {
 }
 
 #course-explanation {
-  color: $gray;
+  color: $grey;
 
   h3 {
     font-weight: 500;
@@ -181,8 +186,12 @@ section {
   .avatar > img {
     background-size: cover;
     background-position: center;
-    transform: scale(1.11);
+    transform: scale(1.13);
   }
+}
+
+#course-faq {
+  padding-bottom: 0;
 }
 
 #course-wrapup {
@@ -190,15 +199,9 @@ section {
     font-weight: 700;
   }
 
-  .button-course {
-    color: $white;
-    background-color: $lighterBlue;
-    border: 1px solid $lighterBlue;
-
-    &:hover {
-      background-color: $lightestBlue;
-      border: 1px solid $lightestBlue;
-    }
+  >.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -230,7 +233,7 @@ section {
 // Blinking cursor color
 
 .blinking-cursor {
-  @include blinkingCursorAnimation($darkBlue);
+  @include blinkingCursorAnimation($darkGrey);
 }
 
-@include blinkingCursorKeyframes($darkBlue);
+@include blinkingCursorKeyframes($darkGrey);

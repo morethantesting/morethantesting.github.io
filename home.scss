@@ -1,4 +1,83 @@
 ---
 ---
 
-// @import "variables";
+@import "variables";
+
+section {
+  >.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    @include mobile {
+      align-items: flex-start;
+    }
+  }
+}
+
+.title {
+  color: $darkGrey;
+  margin: 10px 0;
+  padding: 0;
+  letter-spacing: -0.05rem;
+
+  font-family: $rubik;
+  font-weight: 700;
+  font-size: $biggest;
+  word-spacing: 0.05rem;
+
+  @include mobile {
+    font-size: $bigger;
+    text-align: left;
+  }
+
+  @include mobileSmall {
+    font-size: $big;
+  }
+}
+
+.subtitle {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: $darkGrey;
+  font-size: $small;
+  font-family: $roboto;
+  letter-spacing: -0.025rem;
+
+  @include mobile {
+    text-align: left;
+  }
+}
+
+.button {
+  margin: 10px 0;
+}
+
+#masterclass-section {
+  height: 90vh;
+  background-image: linear-gradient(to bottom, $white 50%, $lighterGrey 100%);
+
+  padding-bottom: 5vh;
+
+  @include mobile {
+    height: 80vh;
+  }
+}
+
+#newsletter-section {
+  height: 90vh;
+  background-color: $secondary;
+  color: $white;
+
+  .title {
+    color: $white;
+  }
+}
+
+#blog-section {
+  height: 90vh;
+  background-image: linear-gradient(to bottom, $lighterGrey 0%, $white 50%);
+  background-color: $ternary;
+}

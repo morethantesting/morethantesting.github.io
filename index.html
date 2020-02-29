@@ -5,9 +5,6 @@ custom_css: home.css
 
 description: "Do you want to start a career in tech? We're helping people become software testers and get a job in tech. Join other people like you and start learning now!"
 image: /assets/more-than-testing.png
-
-header: "Ready to start a <span class='lightest-blue'>career in tech</span>?<span class='blinking-cursor'>_</span>"
-subtitle: "Learn software testing and get a job in tech. No coding skills required."
 ---
 
 <div id="wrapper-header" class="home">
@@ -17,22 +14,29 @@ subtitle: "Learn software testing and get a job in tech. No coding skills requir
 </div>
 
 <div id="wrapper-content" role="main" class="home">
-  {% include page-header.html class="home" %}
-  <section id="page-content" class="home">
+  <section id="masterclass-section">
     <div class="container">
-      <a href="/masterclass/" class="button primary-button" target="_blank">Start learning &rarr;</a>
+      <h1 class="title">Ready to start a <span class='primary'>career in tech</span>?<span class='blinking-cursor'>_</span></h1>
+      <p class="subtitle">Learn software testing and get a job in tech. No coding skills required.</p>
+      <a href="/masterclass/" class="button button-primary" target="_blank">Start learning &rarr;</a>
+    </div>
+  </section>
+
+  <section id="newsletter-section">
+    <div class="container">
+      <h1 class="title">Looking for the best news on <span class='ternary'>software testing</span>?</h1>
+      <a href="https://softwaretestingweekly.com/" class="button button-ternary" target="_blank">See news &rarr;</a>
+    </div>
+  </section>
+
+  <section id="blog-section">
+    <div class="container">
+      <h1 class="title">Hungry for more <span class="primary">knowledge</span>?</h1>
+      <a href="/blog/" class="button button-primary">Read blog &rarr;</a>
     </div>
   </section>
 </div>
 
-
 <div id="wrapper-footer" class="home">
-  <footer id="site-footer">
-    <div class="container">
-      <section id="site-credit">
-        <p>&copy; 2020 More Than Testing Ltd</p>
-        {% include social-links.html %}
-      </section>
-    </div>
-  </footer>
+  {% include footer.html %}
 </div>

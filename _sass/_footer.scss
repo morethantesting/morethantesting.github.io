@@ -3,36 +3,39 @@
 #wrapper-footer {
  width: 100%;
  margin-top: 40px;
- padding-bottom: 40px;
- background-color: rgba(0, 0, 0, 0.02);
+ background-color: $darkGrey;
 
  a {
-   color: $lightGray;
+   color: $lightGrey;
 
    &:hover {
-     color: $lightishGray;
+     color: $lighterGrey;
    }
  }
 
  &.home {
-   padding: 0;
+   margin-top: 0;
  }
 }
 
 #site-footer {
  width: 100%;
- padding-top: 20px;
- border-top: 1px solid $lighterGray;
+ padding-top: 40px;
+ padding-bottom: 60px;
 
  font-family: $rubik;
 }
 
 #footer-services {
   margin-top: 0;
+
+  h4 {
+    color: $lighterGrey;
+  }
 }
 
 #footer-credit {
- color: $lightGray;
+ color: $lightGrey;
 }
 
 .row {
@@ -128,5 +131,5 @@
 }
 
 #footer-legal {
-  color: $lightishGray;
+  color: $lightGrey;
 }
