@@ -64,8 +64,10 @@ section {
 }
 
 #site-avatar {
+  margin-right: 5px;
+  
   @include mobile {
-    // display: block;
+    display: block;
   }
 }
 
@@ -233,7 +235,7 @@ section {
 // Blinking cursor color
 
 .blinking-cursor {
-  @include blinkingCursorAnimation($darkGrey);
+  @include blinkingCursorAnimation($primary);
 }
 
-@include blinkingCursorKeyframes($darkGrey);
+@include blinkingCursorKeyframes($primary);

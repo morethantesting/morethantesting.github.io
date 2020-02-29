@@ -1,10 +1,9 @@
 <header id="site-header" class="{{ include.class }}">
-  <div id="site-logo">
-    <a href="/" id="site-avatar" class="{{ include.class }}">
-      <img src="{{ include.logo }}" alt="More Than Testing logo" />
+  <div>
+    <a href="/" id="site-logo" class="{{ include.class }}">
+      <img id="site-avatar" src="{{ include.logo }}" alt="More Than Testing logo" />
+      <h1 id="site-name" class="{{ include.class }}">more than testing</h1>
     </a>
-
-    <h1 id="site-name" class="{{ include.class }}"><a href="/">more than testing</a></h1>
   </div>
 
   {% include navigation.html %}

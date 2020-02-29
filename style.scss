@@ -4,6 +4,7 @@
 // Imports
 @import "reset";
 @import "variables";
+@import "header";
 @import "navigation";
 @import "newsletter";
 @import "footer";
@@ -175,82 +176,6 @@ figcaption {
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
-
-#wrapper-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  height: 77px;
-
-  // for transform on blog posts
-  z-index: 1;
-
-  background-color: $white;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
-
-  @include mobile {
-    box-shadow: rgba(0, 0, 0, 0.075) 0px 4px 12px 0px;
-    height: 60px;
-  }
-}
-
-// Header
-
-#site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-
-  @include mobile {
-    height: 60px;
-  }
-}
-
-#site-logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-  @include mobile {
-    float: left;
-  }
-}
-
-#site-avatar {
-  display: none;
-  color: $darkGrey;
-  font-size: $bigger;
-  font-family: $rubik;
-  font-weight: 700;
-  margin-right: 10px;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 2px solid $darkGrey;
-
-  @include mobile {
-    display: none;
-  }
-}
-
-#site-name {
-  margin: 0;
-  color: $darkGrey;
-  cursor: pointer;
-  font-family: $rubik;
-  font-weight: 700;
-  font-size: $medium;
-  letter-spacing: -0.025rem;
-  word-spacing: 0.05rem;
-  text-transform: lowercase;
-
-  @include mobile {
-    font-size: $small;
-  }
-}
 
 // Page
 
@@ -699,10 +624,10 @@ figcaption {
 }
 
 .blinking-cursor {
-  @include blinkingCursorAnimation($darkGrey);
+  @include blinkingCursorAnimation($primary);
 }
 
-@include blinkingCursorKeyframes($darkGrey);
+@include blinkingCursorKeyframes($primary);
 
 // Icons
 
