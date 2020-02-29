@@ -190,9 +190,18 @@ section {
   }
 }
 
+#course-faq {
+  padding-bottom: 0;
+}
+
 #course-wrapup {
   h1 {
     font-weight: 700;
+  }
+
+  >.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
