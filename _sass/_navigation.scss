@@ -73,7 +73,7 @@ nav {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
     &.home {
-      background-image: linear-gradient(to bottom, $white 50%, $lightGrey 100%);
+      background-image: linear-gradient(to bottom, $white 50%, $lighterGrey 100%);
     }
   }
 }
