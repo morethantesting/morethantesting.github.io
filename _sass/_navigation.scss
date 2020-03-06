@@ -21,8 +21,8 @@ nav {
     text-align: right;
     font-family: $rubik;
     font-size: $smallest;
-    font-weight: 700;
-    // letter-spacing: -0.025rem;
+    font-weight: 500;
+    letter-spacing: -0.025rem;
 
     @include mobile {
       margin: 0 auto;
