@@ -3,8 +3,13 @@
 
 @import "variables";
 
+#wrapper-footer {
+  margin-top: 90px;
+}
+
 #course-signup > .container {
   border-top: none;
+  max-width: 800px;
   // padding-top: 30px;
 
   @include mobile {
@@ -20,8 +25,4 @@
     width: 96px;
     height: 96px;
   }
-}
-
-.newsletter-form {
-  justify-content: center;
 }

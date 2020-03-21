@@ -3,6 +3,10 @@
 
 @import "variables";
 
+#wrapper-newsletter {
+  max-width: 720px;
+}
+
 .newsletter-form {
   justify-content: flex-start;
 }
