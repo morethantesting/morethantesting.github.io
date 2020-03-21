@@ -39,10 +39,16 @@ section {
   font-size: $small;
 
   letter-spacing: -.025rem;
+
+  @include mobile {
+    font-size: $smaller;
+  }
 }
 
 .button {
   margin: 10px 0;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #masterclass-section {
