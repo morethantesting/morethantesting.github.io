@@ -26,12 +26,11 @@ $secondary: $darkBlue;
 $ternary: $lightBlue;
 
 // fonts
-$rubik: Rubik, Helvetica, sans-serif;
-$roboto: Roboto, Helvetica, sans-serif;
+$font: Inter, "Helvetica Neue", Arial, sans-serif;
 
 // mobile
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 690px) {
     @content;
   }
 }

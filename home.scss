@@ -10,10 +10,6 @@ section {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
-    @include mobile {
-      align-items: flex-start;
-    }
   }
 }
 
@@ -21,16 +17,14 @@ section {
   color: $darkGrey;
   margin: 10px 0;
   padding: 0;
-  letter-spacing: -0.05rem;
 
-  font-family: $rubik;
-  font-weight: 700;
+  letter-spacing: -.025rem;
+
+  font-weight: 800;
   font-size: $biggest;
-  word-spacing: 0.05rem;
 
   @include mobile {
     font-size: $bigger;
-    text-align: left;
   }
 
   @include mobileSmall {
@@ -43,12 +37,8 @@ section {
   margin-bottom: 10px;
   color: $darkGrey;
   font-size: $small;
-  font-family: $roboto;
-  letter-spacing: -0.025rem;
 
-  @include mobile {
-    text-align: left;
-  }
+  letter-spacing: -.025rem;
 }
 
 .button {
@@ -63,6 +53,11 @@ section {
 
   @include mobile {
     height: 85vh;
+  }
+
+  .title {
+    font-size: $biggest;
+    letter-spacing: -.0625rem;
   }
 }
 

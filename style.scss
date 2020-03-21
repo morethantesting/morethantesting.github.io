@@ -14,9 +14,9 @@ html {
 }
 
 body {
-  font: $smaller $roboto;
+  font: $smaller $font;
   line-height: 1.6875rem;
-  letter-spacing: -.003rem;
+  letter-spacing: -.0125rem;
   background: $white;
   color: $darkGrey;
 
@@ -27,7 +27,6 @@ body {
   text-rendering: optimizeLegibility;
 
   &.course {
-    font-family: $rubik;
     text-align: center;
   }
 }
@@ -64,11 +63,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  // font-family: $helveticaNeue;
   color: $darkGrey;
   font-weight: 700;
-  letter-spacing: -.003rem;
-  word-spacing: -.05rem;
+  letter-spacing: -.0375rem;
+  word-spacing: .05rem;
   line-height: 1.2;
   margin: 1em 0 15px;
   padding: 0;
@@ -197,20 +195,18 @@ figcaption {
 
 #page-title {
   color: $darkGrey;
-  font-family: $rubik;
-  font-weight: 700;
+
+  font-weight: 800;
   font-size: $massive;
-  letter-spacing: 0.3px;
-  word-spacing: 2px;
   margin: auto;
+  text-align: left;
 
   @include mobile {
     font-size: $medium;
-    text-align: left;
   }
 
   &.page {
-    letter-spacing: -2px;
+    letter-spacing: -.0375rem;
     margin-bottom: 15px;
 
     @include mobile {
@@ -224,10 +220,10 @@ figcaption {
 
   &.course {
     font-size: $biggest;
+    text-align: center;
 
     @include mobile {
       font-size: $bigger;
-      text-align: center;
     }
 
     @include mobileSmall {
@@ -239,8 +235,7 @@ figcaption {
 #page-subtitle {
   color: $darkGrey;
   font-size: $small;
-  font-family: $roboto;
-  letter-spacing: -0.025rem;
+  letter-spacing: -.025rem;
 
   @include mobile {
     font-size: $smaller;
@@ -290,9 +285,8 @@ figcaption {
   padding: 0 25px;
   border: 2px solid;
   border-radius: 25px;
-  font-family: $rubik;
   font-size: $smaller;
-  font-weight: 500;
+  font-weight: 600;
   transition: all .15s ease-in-out;
   -webkit-appearance: none;
   cursor: pointer;
@@ -384,7 +378,6 @@ figcaption {
   margin-top: 5px;
   margin-left: -60px;
   padding: 5px 0;
-  letter-spacing: -.1px;
 }
 
 .tooltip:hover .tooltip-text {

@@ -6,22 +6,20 @@
 #wrapper-content {
   &.post {
     padding-top: 20px;
-  }
 
-  >.container {
-    max-width: 720px;
-  }
-}
-
-#wrapper-footer {
-  &.post {
-    .container {
+    >.container {
       max-width: 720px;
     }
   }
 }
 
 // Posts preview on /blog
+
+#page-content, #page-header {
+  >.container {
+    max-width: 720px;
+  }
+}
 
 .post-preview {
   padding: 20px;
@@ -66,7 +64,6 @@
 // Inside post
 
 .post-title {
-  font-weight: 700;
   margin-bottom: 5px;
   font-size: $bigger;
 
@@ -154,24 +151,29 @@
   margin: 50px 0;
 
   .avatar {
+    height: 100px;
+    width: 100px;
     margin-right: 20px;
 
     @include mobileSmall {
       margin-right: 10px;
     }
+
+    >img {
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.1);
+      z-index: 0;
+    }
   }
 
   .author-profile-content {
-    font-family: $rubik;
-
     .author-name {
       margin: 5px 0;
-      letter-spacing: -0.2px;
     }
 
     .author-description {
       margin: 5px 0;
-      letter-spacing: -0.3px;
       color: $grey;
       font-size: $smallest;
 
