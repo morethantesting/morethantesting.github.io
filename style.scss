@@ -506,6 +506,16 @@ figcaption {
     box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
   }
 
+  &-link {
+    transition: 0.2s;
+    z-index: 0;
+
+    &:hover, &:active {
+      cursor: pointer;
+      transform: scale(1.005);
+    }
+  }
+
   @include mobile {
     min-width: 200px;
   }
@@ -607,6 +617,14 @@ figcaption {
 }
 
 // misc
+
+.mobile-only {
+  display: none !important;
+
+  @include mobile {
+    display: block !important;
+  }
+}
 
 .note {
   font-size: $tiny;

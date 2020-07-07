@@ -94,14 +94,6 @@ nav {
   }
 }
 
-#menu li#home-link {
-  display: none;
-
-  @include mobile {
-    display: block;
-  }
-}
-
 #menu .social-links {
   display: none;
 
