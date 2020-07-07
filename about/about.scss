@@ -1,0 +1,19 @@
+---
+---
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-container {
+  text-align: center;
+}
+
+.avatar > img {
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1);
+}

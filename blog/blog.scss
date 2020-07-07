@@ -15,12 +15,6 @@
 
 // Posts preview on /blog
 
-#page-content, #page-header {
-  >.container {
-    max-width: 720px;
-  }
-}
-
 .post-preview {
   padding: 20px;
   position: relative;
@@ -151,19 +145,10 @@
   margin: 50px 0;
 
   .avatar {
-    height: 100px;
-    width: 100px;
     margin-right: 20px;
 
     @include mobileSmall {
       margin-right: 10px;
-    }
-
-    >img {
-      background-size: cover;
-      background-position: center;
-      transform: scale(1.1);
-      z-index: 0;
     }
   }
 
@@ -180,10 +165,6 @@
       @include mobileSmall {
         font-size: $tiny;
       }
-    }
-
-    .author-profile-social a {
-      margin-right: 10px;
     }
   }
 }

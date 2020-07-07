@@ -180,6 +180,10 @@ figcaption {
 #page-content {
   margin-top: 50px;
 
+  >.container {
+    max-width: 720px;
+  }
+
   @include mobile {
     margin-top: 35px;
   }
@@ -187,6 +191,10 @@ figcaption {
 
 #page-header {
   padding-top: 50px;
+
+  >.container {
+    max-width: 720px;
+  }
 
   @include mobile {
     padding-top: 35px;
@@ -199,7 +207,7 @@ figcaption {
   font-weight: 800;
   font-size: $massive;
   margin: auto;
-  text-align: left;
+  text-align: center;
 
   @include mobile {
     font-size: $medium;
@@ -220,7 +228,6 @@ figcaption {
 
   &.course {
     font-size: $biggest;
-    text-align: center;
 
     @include mobile {
       font-size: $bigger;
@@ -236,10 +243,10 @@ figcaption {
   color: $darkGrey;
   font-size: $small;
   letter-spacing: -.025rem;
+  text-align: center;
 
   @include mobile {
     font-size: $smaller;
-    text-align: left;
     padding-right: 20px;
   }
 
@@ -510,6 +517,10 @@ figcaption {
   align-items: center;
 
   padding: 15px 10px;
+
+  p {
+    margin: 15px 0;
+  }
 }
 
 // Steps
@@ -533,6 +544,10 @@ figcaption {
   height: 100%;
 
   padding: 15px 10px;
+
+  p {
+    margin: 15px 0;
+  }
 }
 
 // Card
@@ -561,6 +576,10 @@ figcaption {
   flex-direction: column;
 
   padding: 25px;
+
+  p {
+    margin: 15px 0;
+  }
 
   @include mobile {
     padding: 15px;
@@ -641,8 +660,8 @@ figcaption {
   }
 
   &-big {
-    height: 128px;
     width: 128px;
+    height: 128px;
   }
 }
 
@@ -650,6 +669,31 @@ figcaption {
   border: 2px solid $primary;
   border-radius: 50%;
   overflow: hidden;
+
+  >img {
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+    z-index: 0;
+  }
+
+  &-medium {
+    width: 100px;
+    height: 100px;
+  }
+
+  &-big {
+    width: 132px;
+    height: 132px;
+  }
+}
+
+// social links
+
+.social-links-author {
+  a {
+    margin-right: 10px;
+  }
 }
 
 // font-size
