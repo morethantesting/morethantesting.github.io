@@ -1,2 +1,17 @@
 ---
 ---
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-container {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
