@@ -4,6 +4,7 @@
  width: 100%;
  margin-top: 60px;
  background-color: $darkGrey;
+ color: $lightGrey;
 
  a {
    color: $lightGrey;
@@ -19,15 +20,13 @@
 }
 
 #site-footer {
- width: 100%;
- padding-top: 40px;
- padding-bottom: 60px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
 
- 
-
- .container {
+  .container {
    max-width: 720px;
- }
+  }
 }
 
 .row {
@@ -40,7 +39,7 @@
 
 .footer-containers {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 
   margin-top: 20px;
@@ -60,13 +59,8 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  text-align: left;
   height: 100%;
   margin: 5px;
-
-  h4 {
-    font-size: $smallest;
-  }
 
   @include mobile {
     margin-top: 10px;
@@ -87,8 +81,15 @@
     margin-top: 25px;
   }
 
+  h4 {
+    text-align: center;
+    font-size: $smallest;
+    color: $lighterGrey;
+  }
+
   ul {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
 
@@ -106,26 +107,21 @@
   }
 }
 
-#footer-services {
-  margin-top: 0;
+#footer-credits {
+  text-align: center;
+  color: $lightGrey;
 
-  h4 {
-    color: $lighterGrey;
-  }
-}
-
-#footer-credit-container {
-  align-items: flex-end;
-  text-align: right;
-
-  @include mobile {
-    align-items: center;
-    text-align: center;
-  }
+  margin-top: 30px;
+  border-top: 0.5px solid $grey;
 }
 
 #footer-social {
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 30px;
+
+  @include mobile {
+    margin-top: 50px;
+  }
 
   a {
     margin-right: 15px;
@@ -138,12 +134,4 @@
       margin-right: 0;
     }
   }
-}
-
-#footer-credit {
-  color: $lightGrey;
-}
-
-#footer-legal {
-  color: $lightGrey;
 }

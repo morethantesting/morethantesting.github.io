@@ -196,26 +196,21 @@ section {
 // custom footer
 
 #wrapper-footer {
-  #footer-social {
-    margin-top: 0;
-  }
-
   section {
     padding-bottom: 0px;
   }
 }
 
-#footer-services {
+#footer-services, #footer-about-us {
   display: none;
+}
+
+#footer-social {
+  margin-top: 20px;
 }
 
 .footer-containers {
   justify-content: center;
-}
-
-#footer-credit-container {
-  align-items: center;
-  text-align: center;
 }
 
 // Blinking cursor color
