@@ -207,6 +207,10 @@ section {
 
 #footer-social {
   margin-top: 20px;
+
+  @include mobile {
+    margin-top: 0;
+  }
 }
 
 .footer-containers {
