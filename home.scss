@@ -51,9 +51,19 @@ section {
   padding-right: 50px;
 }
 
+.link-scroll-down {
+  transform: translateY(-50%);
+  display: inline-block;
+
+  @include mobile {
+    transform: none;
+  }
+}
+
 #masterclass-section {
   height: 90vh;
-  background-image: linear-gradient(to bottom, $white 50%, $lighterGrey 100%);
+  background-image: linear-gradient(to bottom, $white 50%, $lightestGrey 100%);
+  text-align: center;
 
   padding-bottom: 5vh;
 
@@ -68,16 +78,12 @@ section {
 
 #newsletter-section {
   height: 90vh;
-  background-color: $secondary;
-  color: $lighterGrey;
-
-  .title {
-    color: $lighterGrey;
-  }
+  background-color: $lightestGrey;
+  text-align: center;
 }
 
 #blog-section {
   height: 90vh;
-  background-image: linear-gradient(to bottom, $lighterGrey 0%, $white 50%);
-  background-color: $ternary;
+  background-image: linear-gradient(to bottom, $lightestGrey 0%, $white 50%);
+  text-align: center;
 }
