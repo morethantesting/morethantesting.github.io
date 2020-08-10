@@ -251,15 +251,6 @@ figcaption {
     padding-right: 20px;
   }
 
-  &.home {
-    margin-top: 10px;
-    word-spacing: 1px;
-
-    @include mobileSmall {
-      font-size: $smallest;
-    }
-  }
-
   &.page {
     font-size: $medium;
     padding-left: 3px;
