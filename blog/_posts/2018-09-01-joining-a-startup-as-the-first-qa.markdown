@@ -130,6 +130,6 @@ To sum up, here are all 5 articles from the series of **joining a startup as the
   2. [First day in a new job — 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-in-a-new-job/)
   3. [First week as QA Lead in a startup — 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
   4. [First month as QA Lead in a startup — 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
-  5. [What I’ve learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
+  5. [Lessons learned as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
 
 If you liked the content and would like to read more, **subscribe to the newsletter below** and follow blog on [Twitter](https://twitter.com/MoreThanTesting) and you'll be notified as soon as the next article appears.
