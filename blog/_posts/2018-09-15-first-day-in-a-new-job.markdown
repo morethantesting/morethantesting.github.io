@@ -17,7 +17,7 @@ redirect_from:
   - "/first-day-in-a-new-job/amp/"
 ---
 
-_This article is the second part of a series of 5 articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [how to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/)._
+_This article is the second part of a series of 5 articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [how to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/)._
 
 * * *
 
@@ -37,7 +37,7 @@ But hold your horses.
 
 Don't be tempted to jump into the deep water straight away, no matter what pressure you may feel. The truth is, no one expects anything from you on the first day --- maybe apart from getting to know your name.
 
-Speaking of your name, it's important that you're noticed from day one. Introduce yourself to the team, either by doing it yourself or asking your manager --- both will work. If you [did your homework]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/), connecting each person's name and position should be instant.
+Speaking of your name, it's important that you're noticed from day one. Introduce yourself to the team, either by doing it yourself or asking your manager --- both will work. If you [did your homework]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/), connecting each person's name and position should be instant.
 
 Same goes to your behaviour --- take it easy. Don't stress about how you're going to be received. Although it's important to make a good first impression, you shouldn't try too hard. It's not a one-off sales pitch you're doing here --- you are now part of the company.
 

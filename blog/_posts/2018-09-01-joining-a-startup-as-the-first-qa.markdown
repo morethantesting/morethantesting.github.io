@@ -21,31 +21,31 @@ I want to tell you a story of **joining a startup as the first QA**.
 
 I'm a software tester and I've recently joined <a href="https://fiit.tv" rel="nofollow">Fiit</a> --- the third VC backed startup in my career. For the first time, however, I am the only QA in the company.
 
-Before I started at Fiit, I had worked for two established startups, <a href="https://getbase.com" rel="nofollow">Base</a> and <a href="https://onfido.com" rel="nofollow">Onfido</a>, with engineering teams between 50 and 100 people. In each case, the QA team was already in place.
+Before I started at Fiit, I had worked for two established startups, <a href="https://getbase.com" rel="nofollow">Base</a> (acquired by Zendesk in 2018) and <a href="https://onfido.com" rel="nofollow">Onfido</a>, with engineering teams between 50 and 100 people. In each case, the QA team was already in place.
 
-This time the game was different. There was nothing in place --- it was a blank page. That meant no boundaries, but no safety net, too. At the same time, being the first one in a role was the most exciting thing.
+This time the game was different. There was nothing in place --- it was a blank page. That meant no boundaries, but no safety net, too. At the same time, being the first one in a role was a super exciting thing.
 
 But let me start from the beginning.
 
-## **Before I even joined**
+## **Preparing for the QA Lead role**
 
 Back in my previous job at Onfido, I was doing just fine. In fact, I wasn't really looking for a new job.
 
-My role was wide --- I led the QA process in an SDK team across Android, iOS and Web platforms. I switched between high level thinking about QA strategy, exploratory testing and automation. It was challenging and it was fun.
+My role was wide --- I led the QA process in an SDK team across Android, iOS and Web platforms. I switched between high-level thinking about the QA strategy, exploratory testing and automation. It was challenging but it was fun.
 
-However, as I was getting more confident in my role, the ambition for having more responsibility started blooming inside me. At some point, I realised I wanted to lead the QA process on a company level. It was definitely out of my comfort zone but I knew it was the only way forward.
+However, as I was getting more confident in my role, the ambition for having more responsibility started blooming inside me. At some point, I realised I wanted to lead the QA process at a company level. It was definitely out of my comfort zone but I knew it was the only way to go.
 
 I understood that I had to start getting ready and all I could do was to prepare and wait for an opportunity to come either from the inside or the outside.
 
 And I was right.
 
-Couple months later, the opportunity to take over a QA Lead role at Fiit revealed itself. And I took the chance.
+A couple months later, the opportunity to take over the QA Lead role at Fiit revealed itself. And I took the chance.
 
-It turned out that the key to that success was preparation. That's why in the first part of this story I wrote about [how to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/).
+It turned out that the key to that success was good preparation. You can read about my methods in the first part of this story where I tell you [how to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/).
 
 ## **Doing it wrong on the first day**
 
-Fast forward few months and I was starting a new job.
+Fast forward a few months and I was starting a new job.
 
 Even though I've worked for 4 companies, I've always made the same mistake on the first day. I rushed to get my head around literally everything at once, which --- in effect --- got me quite stressed.
 
@@ -55,13 +55,13 @@ This time I decided to analyse my mistakes and I learned three things that I sho
   2. Take notes.
   3. Take time.
 
-To make that lesson even more empathic, I wrapped it in a quote: _"On the first day, save yourself"._
+To make that lesson even more vivid, I wrapped it in a quote: _"On the first day, save yourself"._
 
-It sounds uneasy, but there's a reason for that. I elaborate on this in the second part of this story about [3 things I've learned the hard way about the first day in a new job]({{ site.baseurl }}/blog/first-day-in-a-new-job/).
+It may sound surprising, but there's a reason for that. I elaborate on this in the second part of this story about [the 3 things I've learned the hard way about the first day in a new job]({{ site.baseurl }}/blog/first-day-in-a-new-job/).
 
 ## **Using the power of observation in the first week**
 
-The first day has passed.
+Alright, the first day has passed.
 
 The next day I wanted to start acting right away. But this time I held my horses.
 
@@ -72,14 +72,14 @@ I stopped myself from talking, too --- I asked around and listened to the answer
 
 And I'm glad I did, because thanks to this I was able to quickly capture two very important things:
 
-  1. Status of where we were with QA process and what were the biggest roadblocks.
-  2. What the biggest risks from business perspective were.
+  1. The current status of the QA process focused on the biggest bottlenecks.
+  2. The biggest business risks, potentially affected by tech.
 
-This was the baseline. This was where we started. Basing on these two outcomes, I was able to prepare a short-term test plan.
+This was the baseline. This was where I started. Thanks to this, I was able to prepare a short-term test plan.
 
 However, the first week wasn't only about that. The equally important thing, especially in context of leadership role, was building relationships with the team.
 
-I talk more about this in the third part about [the first week as QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provided 5 detailed steps on what to do.
+To learn what I did, read about [the first week as QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provided 5 detailed steps that can help you get started.
 
 ## **Focusing on execution in the first month**
 
@@ -116,7 +116,7 @@ Here's a list of the 5 most important ones:
   2. The first thing to take is to **take** **ownership**.
   3. The good way to ask is to **ask for help**.
   4. The wise thing to use is to **use data**.
-  5. The important thing to mind is to **mind your health**.
+  5. The important thing to mind is to **mind your well-being**.
 
 If you want to know the story behind each of them, check out the last part of this series in an article about [what I've learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/).
 
@@ -126,7 +126,7 @@ And that's it, so far.
 
 To sum up, here are all 5 articles from the series of **joining a startup as the first QA**:
 
-  1. [How to prepare for a leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-leadership-role/)
+  1. [How to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/)
   2. [First day in a new job — 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-in-a-new-job/)
   3. [First week as QA Lead in a startup — 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
   4. [First month as QA Lead in a startup — 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
