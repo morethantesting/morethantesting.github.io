@@ -706,19 +706,6 @@ figcaption {
   }
 }
 
-// site logo
-
-// for logo-full.html
-.svg-logo-full {
-  padding-top: 3px;
-  width: 100%;
-  height: auto;
-
-  @include mobile {
-    padding-top: 2px;
-  }
-}
-
 // social links
 
 .social-links-author {

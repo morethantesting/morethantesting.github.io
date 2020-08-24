@@ -51,6 +51,11 @@
   text-indent: -9999px;
 
   @include mobile {
+    width: 220px;
+    height: 29px;
+  }
+
+  @include mobileSmall {
     width: 200px;
     height: 27px;
   }
