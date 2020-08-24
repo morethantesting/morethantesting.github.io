@@ -13,7 +13,7 @@
   z-index: 1;
 
   background-color: $white;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+  box-shadow: rgba(0, 0, 0, 0.0375) 0px 4px 12px 0px;
 
   @include mobile {
     box-shadow: rgba(0, 0, 0, 0.075) 0px 4px 12px 0px;
@@ -36,8 +36,17 @@
 
 #site-logo {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
+
+  height: 57px;
+
+  max-width: 260px;
+  max-height: 57px;
+
+  @include mobile {
+    max-width: 200px;
+  }
 }
 
 #site-avatar {
@@ -58,16 +67,16 @@
 
 #site-name {
   margin: 0;
-  color: $darkGrey;
-  cursor: pointer;
+  // color: $darkGrey;
+  // cursor: pointer;
 
-  font-weight: 800;
-  font-size: $big;
-  letter-spacing: -.05rem;
-  word-spacing: 0.05rem;
-  text-transform: lowercase;
+  // font-weight: 800;
+  // font-size: $big;
+  // letter-spacing: -.05rem;
+  // word-spacing: 0.05rem;
+  // text-transform: lowercase;
 
-  @include mobile {
-    font-size: $small;
-  }
+  // @include mobile {
+  //   font-size: $small;
+  // }
 }

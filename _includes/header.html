@@ -1,8 +1,13 @@
 <header id="site-header" class="{{ include.class }}">
   <div>
-    <a href="/" id="site-logo" class="{{ include.class }}">
-      <h1 id="site-name" class="{{ include.class }}">more than testing</h1>
-    </a>
+    <h1 id="site-name">
+      <a href="/" id="site-logo">
+        {% include logo-full.html %}
+      </a>
+    </h1>
+    <!-- <a href="/" id="site-logo" class="{{ include.class }}">
+      <h1 id="site-name">more than testing</h1>
+    </a> -->
   </div>
 
   {% include navigation.html %}

@@ -91,12 +91,12 @@ section {
   font-size: $medium;
   color: $primary;
   font-weight: 700;
-  letter-spacing: 5.5px;
+  letter-spacing: 5.6px;
   padding-left: 6px;
 
   @include mobile {
     font-size: $small;
-    letter-spacing: 4.4px;
+    letter-spacing: 4.5px;
     padding-left: 5px;
   }
 }
@@ -184,7 +184,7 @@ section {
 
 #course-wrapup {
   h1 {
-    font-weight: 800;
+    font-weight: 700;
   }
 
   >.container {

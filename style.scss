@@ -53,7 +53,7 @@ body {
 .container {
   margin: 0 auto;
   min-width: 320px;
-  max-width: 960px;
+  max-width: calc(25% + 700px);
   padding: 0 20px;
   width: 100%;
   height: 100%;
@@ -205,7 +205,7 @@ figcaption {
 #page-title {
   color: $darkGrey;
 
-  font-weight: 800;
+  font-weight: 700;
   font-size: $massive;
   margin: auto;
   text-align: center;
@@ -285,7 +285,7 @@ figcaption {
   border: 2px solid;
   border-radius: 25px;
   font-size: $smaller;
-  font-weight: 600;
+  font-weight: 700;
   transition: all .15s ease-in-out;
   -webkit-appearance: none;
   cursor: pointer;
@@ -698,6 +698,19 @@ figcaption {
   &-big {
     width: 132px;
     height: 132px;
+  }
+}
+
+// site logo
+
+// for logo-full.html
+.svg-logo-full {
+  padding-top: 3px;
+  width: 100%;
+  height: auto;
+
+  @include mobile {
+    padding-top: 2px;
   }
 }
 
