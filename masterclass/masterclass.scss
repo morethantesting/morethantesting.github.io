@@ -53,7 +53,12 @@ section {
   align-items: center;
 }
 
-#site-logo {
+#site-logo-masterclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
   @include mobile {
     padding: 0;
     float: none;
@@ -61,7 +66,16 @@ section {
   }
 }
 
-#site-name {
+// #site-avatar-masterclass {
+//   @include mobile {
+//     width: 42px;
+//     height: 42px;
+//   }
+// }
+
+#site-name-masterclass {
+  margin: 0;
+
   font-size: $medium;
 
   @include mobile {
@@ -87,7 +101,7 @@ section {
   }
 }
 
-#site-name-masterclass {
+#span-masterclass {
   font-size: $medium;
   color: $primary;
   font-weight: 700;
