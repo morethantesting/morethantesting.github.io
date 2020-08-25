@@ -17,7 +17,7 @@ redirect_from:
   - "/lessons-learned-as-qa-lead-in-a-startup/amp/"
 ---
 
-_This article is the final part of a series about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can also read the previous part about [the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)._
+_This article is the final part of a series about [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/). You can also read the previous part about [the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)._
 
 * * *
 
@@ -138,7 +138,7 @@ So here we are with 5 lessons learned as QA Lead in a startup:
 
 * * *
 
-With this article, the series of [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/) comes to an end.
+With this article, the series of [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/) comes to an end.
 
 If you enjoyed reading it so far, please spread the word and share it with your friends or on social media. I appreciate every share.
 

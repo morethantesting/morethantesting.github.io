@@ -17,7 +17,7 @@ redirect_from:
   - "/first-month-as-qa-lead-in-a-startup/amp/"
 ---
 
-_This article is the 4th part of a 5-article series about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/)._
+_This article is the 4th part of a 5-article series about [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/)._
 
 * * *
 
@@ -37,7 +37,7 @@ Let's take a look.
 
 One thing is clear: you're the QA Lead here --- no one else.
 
-But what does that role really stand for? Well, this time you have to figure it out by yourself. You need to get it clear in your mind first. It would massively help if you [prepared for the leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/).
+But what does that role really stand for? Well, this time you have to figure it out by yourself. You need to get it clear in your mind first. It would massively help if you [prepared for the leadership role]({{ site.baseurl }}/blog/how-to-prepare-for-qa-lead-role/).
 
 However, the vision living in your head is not enough to completely shape your role in a new job. You have to consider what expectations are put on you as well. I advise you to find out how your manager imagines your responsibilities. You can go even further and ask some engineers how they imagine the QA role as well.
 

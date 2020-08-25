@@ -19,7 +19,7 @@ redirect_from:
   - "/blog/first-day-in-a-new-job/"
 ---
 
-_This article is the second part of a series of 5 articles about [joining a startup as the first QA]({{ site.baseurl }}/blog/joining-a-startup-as-the-first-qa/). You can read the previous part about [how to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/)._
+_This article is the second part of a series of 5 articles about [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/). You can read the previous part about [how to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-qa-lead-role/)._
 
 * * *
 
@@ -41,7 +41,7 @@ Don't be tempted to jump into the deep water straight away, no matter what press
 
 That's it.
 
-So introduce yourself to the team, either by doing it yourself or asking your manager for a nice introduction --- both will work. If you [prepared for this day]({{ site.baseurl }}/blog/how-to-prepare-for-a-qa-lead-role/), connecting each person's name and position should be much easier.
+So introduce yourself to the team, either by doing it yourself or asking your manager for a nice introduction --- both will work. If you [prepared for this day]({{ site.baseurl }}/blog/how-to-prepare-for-qa-lead-role/), connecting each person's name and position should be much easier.
 
 Same goes to your behaviour --- take it easy. Don't stress about how you're going to be received. Although it's important to make a good first impression, you shouldn't try too hard. It's not a one-off sales pitch you're doing here --- you are now part of the company. You're starting a long-term game.
 
