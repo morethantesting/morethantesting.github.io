@@ -99,15 +99,6 @@
     }
   }
 
-  p ~ ul {
-    margin-top: 0;
-  }
-
-  // it works only in some cases, weird
-  ul ~ p {
-    margin-bottom: 0;
-  }
-
   figure {
     margin: 20px auto;
     text-align: center;
