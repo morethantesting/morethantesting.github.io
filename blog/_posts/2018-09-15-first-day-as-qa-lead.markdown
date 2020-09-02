@@ -2,9 +2,9 @@
 layout: post
 custom_css: blog/blog.css
 
-title: "First day as QA Lead — 3 things I learned the hard way"
-description: "Learn 3 lessons learned from the first day as QA Lead and why refusing to work is the way to go."
-excerpt: "Here I provide you with 3 takeaways from the first day as QA Lead that I wish I knew before. And you, probably, too."
+title: "First day as a QA Lead — 3 things I learned the hard way"
+description: "Learn 3 lessons learned from the first day as a QA Lead and why refusing to work is the way to go."
+excerpt: "Here I provide you with 3 takeaways from the first day as a QA Lead that I wish I knew before. And you, probably, too."
 date: 2018-09-15T10:11:43+00:00
 
 image: /blog/assets/first-day-in-a-new-job.jpg

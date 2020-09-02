@@ -130,4 +130,4 @@ I hope by now you understand how you can prepare for a QA Lead role and why it's
 
 I wish you all the best of _luck_!
 
-And in the next part of the series, I'll tell you about [the 3 key takeaways from the first day as QA Lead]({{ site.baseurl }}/blog/first-day-as-qa-lead/) that I wish I knew before.
+And in the next part of the series, I'll tell you about [the 3 key takeaways from the first day as a QA Lead]({{ site.baseurl }}/blog/first-day-as-qa-lead/) that I wish I knew before.

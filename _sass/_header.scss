@@ -13,10 +13,10 @@
   z-index: 1;
 
   background-color: $white;
-  box-shadow: rgba(0, 0, 0, 0.0375) 0px 4px 12px 0px;
+  box-shadow: rgba(0, 0, 0, 0.025) 0px 4px 12px 0px;
 
   @include mobile {
-    box-shadow: rgba(0, 0, 0, 0.075) 0px 4px 12px 0px;
+    box-shadow: rgba(0, 0, 0, 0.0375) 0px 4px 12px 0px;
     height: 60px;
   }
 }
@@ -41,7 +41,7 @@
 }
 
 #site-logo {
-  display: block; 
+  display: block;
   width: 260px;
   height: 35px;
 
