@@ -2,9 +2,9 @@
 layout: post
 custom_css: blog/blog.css
 
-title: "First month as QA Lead in a startup — 6 pieces of advice"
-description: "Read more to learn 6 pieces of advice on how you can make a great impact as QA Lead in a startup. Including real examples of the best QA practices."
-excerpt: "This time I give you 6 pieces of advice on what to do in the first month as QA Lead in a startup, including real examples based on my experience."
+title: "First month as a QA Lead in a startup — 6 pieces of advice"
+description: "Read more to learn 6 pieces of advice on how you can make a great impact as a QA Lead in a startup. Including real examples of the best QA practices."
+excerpt: "This time I give you 6 pieces of advice on what to do in the first month as a QA Lead in a startup, including real examples based on my experience."
 date: 2018-10-13T17:18:23+00:00
 
 image: /blog/assets/first-month-as-qa-lead-in-a-startup.jpg
@@ -21,7 +21,7 @@ _This article is the 4th part of a 5-article series about [joining a startup as 
 
 * * *
 
-In the previous article, I wrote about [5 things to do in the first week]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/). This time I want to zoom out and tell you about what to focus on **in the first month as QA Lead in a startup.**
+In the previous article, I wrote about [5 things to do in the first week]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/). This time I want to zoom out and tell you about what to focus on **in the first month as a QA Lead in a startup.**
 
 Imagine this: after one month, you are already a well-recognised part of the team. You have proven your attitude, your skills and your character. You have shown your work and you are respected for your contribution. People are keen to help you achieve your vision and they support you by executing testing tasks.
 
@@ -165,7 +165,7 @@ Finally, here's an example of my personal goals for this quarter:
 
 * * *
 
-And here we are with 6 things that I recommend you to do in the first month as QA Lead in a startup. Let's sum it up:
+And here we are with 6 things that I recommend you to do in the first month as a QA Lead in a startup. Let's sum it up:
 
   1. Define your role
   2. Work on the QA Culture
@@ -174,4 +174,4 @@ And here we are with 6 things that I recommend you to do in the first month as Q
   5. Delegate testing tasks
   6. Show your work
 
-In the final part, I will tell you about [what I've learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/).
+In the final part, I will tell you about [what I've learned after 30 days as a QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/).

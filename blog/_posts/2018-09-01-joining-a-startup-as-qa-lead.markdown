@@ -81,7 +81,7 @@ This was the baseline. This was where I started. Thanks to this, I was able to p
 
 However, the first week wasn't only about that. The equally important thing, especially in the context of leadership role, was building relationships with the team.
 
-To learn what I did, read about [the first week as QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provide 5 detailed steps that can help you get started.
+To learn what I did, read about [the first week as a QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provide 5 detailed steps that can help you get started.
 
 ## **Focusing on execution in the first month**
 
@@ -104,13 +104,13 @@ There are a few more things that I did in the first month. The full list goes as
   5. Delegate testing tasks
   6. Show your work
 
-I wrote about each of them in detail in the fourth part about [the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)**.**
+I wrote about each of them in detail in the fourth part about [the first month as a QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)**.**
 
 And frankly, if I was about to choose a must-read article from the series, it would be this one.
 
 ## **What I've learned after 30 days**
 
-After spending my first 30 days as QA Lead in a startup, I learned powerful lessons as well as confirmed the ones that I had already known.
+After spending my first 30 days as a QA Lead in a startup, I learned powerful lessons as well as confirmed the ones that I had already known.
 
 Here's a list of the 5 most important ones:
 
@@ -120,7 +120,7 @@ Here's a list of the 5 most important ones:
   4. The wise thing to use is to **use data**.
   5. The important thing to mind is to **mind your well-being**.
 
-If you want to know the story behind each of them, check out the last part of this series in an article about [what I've learned after 30 days as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/).
+If you want to know the story behind each of them, check out the last part of this series in an article about [what I've learned after 30 days as a QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/).
 
 * * *
 
@@ -129,9 +129,9 @@ And that's it, so far.
 To sum up, here are all 5 articles from the series of **joining a startup as a QA Lead**:
 
   1. [How to prepare for a QA Lead role]({{ site.baseurl }}/blog/how-to-prepare-for-qa-lead-role/)
-  2. [First day as QA Lead — 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-as-qa-lead/)
-  3. [First week as QA Lead in a startup — 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
-  4. [First month as QA Lead in a startup — 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
-  5. [Lessons learned as QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
+  2. [First day as a QA Lead — 3 things I learned the hard way]({{ site.baseurl }}/blog/first-day-as-qa-lead/)
+  3. [First week as a QA Lead in a startup — 5 steps for 5 working days]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/)
+  4. [First month as a QA Lead in a startup — 6 pieces of advice]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)
+  5. [Lessons learned as a QA Lead in a startup]({{ site.baseurl }}/blog/lessons-learned-as-qa-lead-in-a-startup/)
 
 If you liked the content and would like to read more, subscribe to the newsletter below and follow the blog on [Twitter](https://twitter.com/MoreThanTesting) and you'll be notified as soon as the next article appears.

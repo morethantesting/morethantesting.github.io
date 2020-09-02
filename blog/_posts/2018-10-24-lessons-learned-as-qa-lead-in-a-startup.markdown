@@ -2,9 +2,9 @@
 layout: post
 custom_css: blog/blog.css
 
-title: "Lessons learned as QA Lead in a startup"
+title: "Lessons learned as a QA Lead in a startup"
 description: "Read more to get to know the lessons I learned from becoming a QA Lead in a startup, including examples and stories from my experience."
-excerpt: "In the final part of the series, I reflect on the first 30 days as QA Lead in a startup and talk about lessons that I've learned during that time. For each lesson I tell my own story, including the conclusions and the 'dos and don'ts'."
+excerpt: "In the final part of the series, I reflect on the first 30 days as a QA Lead in a startup and talk about lessons that I've learned during that time. For each lesson I tell my own story, including the conclusions and the 'dos and don'ts'."
 date: 2018-10-24T12:40:28+00:00
 
 image: /blog/assets/lessons-learned-as-qa-lead-in-a-startup.jpg
@@ -17,11 +17,11 @@ redirect_from:
   - "/lessons-learned-as-qa-lead-in-a-startup/amp/"
 ---
 
-_This article is the final part of a series about [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/). You can also read the previous part about [the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)._
+_This article is the final part of a series about [joining a startup as a QA Lead]({{ site.baseurl }}/blog/joining-a-startup-as-qa-lead/). You can also read the previous part about [the first month as a QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/)._
 
 * * *
 
-I've spent my first 30 days as QA Lead in a startup and I want to share with you 5 important lessons that I've learned so far.
+I've spent my first 30 days as a QA Lead in a startup and I want to share with you 5 important lessons that I've learned so far.
 
 Let's start.
 
@@ -128,7 +128,7 @@ Last but not least, if you're looking for medical supplementation, forget carrot
 
 * * *
 
-So here we are with 5 lessons learned as QA Lead in a startup:
+So here we are with 5 lessons learned as a QA Lead in a startup:
 
   1. The best way to start is to **start over**.
   2. The first thing to take is to **take** **ownership**.

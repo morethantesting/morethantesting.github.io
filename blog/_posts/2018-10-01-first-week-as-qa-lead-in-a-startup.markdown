@@ -2,9 +2,9 @@
 layout: post
 custom_css: blog/blog.css
 
-title: "First week as QA Lead in a startup — 5 steps for 5 working days"
-description: "Read more to learn 5 steps that you should do in the first week as QA Lead in a startup, including real examples and practical advice."
-excerpt: "In this article, I talk about 5 steps that you should do in the first week as QA Lead in a startup, based on real examples of how I've actually done it."
+title: "First week as a QA Lead in a startup — 5 steps for 5 working days"
+description: "Read more to learn 5 steps that you should do in the first week as a QA Lead in a startup, including real examples and practical advice."
+excerpt: "In this article, I talk about 5 steps that you should do in the first week as a QA Lead in a startup, based on real examples of how I've actually done it."
 date: 2018-10-01T13:34:57+00:00
 
 image: /blog/assets/first-week-as-qa-lead-in-a-startup.jpg
@@ -21,7 +21,7 @@ _This article is the third part out of five articles about [joining a startup a
 
 * * *
 
-In this article, I will tell you about the first week as QA Lead in a startup. We'll start getting more into QA-specific details now.
+In this article, I will tell you about the first week as a QA Lead in a startup. We'll start getting more into QA-specific details now.
 
 So, one week. Five working days. Doesn't sound like a lot, does it? But don't get fooled. It turns out these are very, very important five days.
 
@@ -205,7 +205,7 @@ Finally, having good relationships makes you more influential. And influence is 
 
 * * *
 
-And that's it! To sum up, here we are with the 5 things for 5 days of the first week as QA Lead:
+And that's it! To sum up, here we are with the 5 things for 5 days of the first week as a QA Lead:
 
   1. Get the baseline
   2. Assess the risks
@@ -213,4 +213,4 @@ And that's it! To sum up, here we are with the 5 things for 5 days of the first 
   4. Set a 1-on-1 with your manager
   5. Hang out with the team
 
-In the next article of the series, you can read about [6 pieces of advice for the first month as QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/).
+In the next article of the series, you can read about [6 pieces of advice for the first month as a QA Lead in a startup]({{ site.baseurl }}/blog/first-month-as-qa-lead-in-a-startup/).
