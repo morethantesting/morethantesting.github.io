@@ -124,7 +124,7 @@ The lesson learned here is to be more mindful of your well-being, especially dur
 
 Apply what that my friends repeatedly tell me: _"Work hard. Rest hard. But never too hard."_.
 
-Last but not least, if you're looking for medical supplementation, forget carrots and vitamin C. It turns out that <a href="https://www.sciencealert.com/here-s-the-only-supplement-you-should-take-for-a-cold" rel="nofollow">zinc is more effective</a> if taken as soon as you feel the first symptoms of a cold. Since I've started practising this, I feel that zinc saved me several times.
+Last but not least, if you're looking for medical supplementation, forget carrots and vitamin C. It turns out that {% include link.html href="https://www.sciencealert.com/here-s-the-only-supplement-you-should-take-for-a-cold" content="zinc is more effective" %} if taken as soon as you feel the first symptoms of a cold. Since I've started practising this, I feel that zinc saved me several times.
 
 * * *
 

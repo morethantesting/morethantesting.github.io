@@ -187,7 +187,7 @@ I know many people don't like it --- and I'm not a fan too --- but this immensel
 
 And remember, this is a meeting for you and it's you who should be talking the most. If your manager talks more than you --- something is not right there.
 
-If you want to know more about 1-on-1, <a href="https://theengineeringmanager.com/management-101/121s/" rel="nofollow">here's an in-depth article from the manager's perspective</a>.
+If you want to know more about 1-on-1, {% include link.html href="https://theengineeringmanager.com/management-101/121s/" content="here\'s an in-depth article from the manager\'s perspective" %}.
 
 ## **5. Hang out with the team**
 

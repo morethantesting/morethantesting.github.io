@@ -71,7 +71,7 @@ Culture is a common set of behaviours. You may be driving the bus, but **you nee
 
 Let me give you an example.
 
-I'm a big fan of <a href="https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles" rel="nofollow">Modern Testing Principles</a> and I based my QA culture vision on them. These principles may sound radical from traditional QA point of view --- especially to developers. At the same time, I'm against sudden changes, because rejection is often the first reaction. I prefer doing things step by step. That's why started by presenting the QA culture vision to the team and opened the discussion.
+I'm a big fan of {% include link.html href="https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles" content="Modern Testing Principles" %} and I based my QA culture vision on them. These principles may sound radical from traditional QA point of view --- especially to developers. At the same time, I'm against sudden changes, because rejection is often the first reaction. I prefer doing things step by step. That's why started by presenting the QA culture vision to the team and opened the discussion.
 
 To my surprise, the reception was positive. I was asked a few questions but these were not aimed to challenge in the idea, but to reassure that we were on the same page.
 
