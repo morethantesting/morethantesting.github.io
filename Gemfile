@@ -7,4 +7,4 @@ gem 'jekyll-feed', '~>0.15.0'
 gem 'jekyll-sitemap', '~>1.4.0'
 gem 'jekyll-redirect-from', '~>0.16.0'
 
-gem 'kramdown-parser-gfm', '~>1.0.1'
+gem 'kramdown-parser-gfm', '~>1.1.0'
