@@ -2,13 +2,13 @@
 layout: post
 custom_css: blog/blog.css
 
-title: Top 5 Software Testing newsletters to follow in 2020
-description: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2020."
-excerpt: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2020."
-date: 2020-02-10T17:27:46+00:00
+title: Top 5 Software Testing newsletters to follow in 2021
+description: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2021."
+excerpt: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2021."
+date: 2021-02-10T17:27:46+00:00
 
-image: /blog/assets/top-5-software-testing-newsletters-2020.png
-alt: "A colourful envelope illustration"
+image: /blog/assets/software-testing-newsletters.png
+alt: "An illustration of a colourful envelope"
 
 read_time: 3
 redirect_from:
@@ -21,17 +21,17 @@ Are you looking for fresh and high-quality news on Software Testing?
 
 Let's face it, most of us don't have time to scan through the web looking for the latest updates. Luckily, some great people do just that and publish completely for free!
 
-Below you'll find top 5 Software Testing newsletters to follow in 2020.
+Below you'll find top 5 Software Testing newsletters to follow in 2021.
 
 ## [Software Testing Weekly](https://softwaretestingweekly.com/)
 Published every: **Friday**  
-Curated by: [Dawid Dylowicz](https://twitter.com/ddylowicz)  
+Curated by: [Dawid Dylowicz](https://linkedin.com/in/dawid-dylowicz/)  
 Twitter: [@QANewsletter](https://twitter.com/QANewsletter)
 {% include image.html src="/blog/assets/newsletter-software-testing-weekly.png" alt="Software Testing Weekly" href="https://softwaretestingweekly.com/" follow=true %}
 
-Software Testing Weekly is the latest one as it launched at the beginning of 2020. In each issue, you can find only the best 10–15 picks of software testing news. Every link is carefully selected and described with an insightful note, allowing you to easily decide on what to read. The newsletter includes a healthy mix of articles on testing, test automation and testing tools. And it's published every Friday --- the earliest of all the other newsletters.
+Software Testing Weekly is a newsletter focused on selecting the best 15–20 news every week. Every link is carefully selected and described with an insightful note, allowing you to easily decide on what to read. The newsletter includes a healthy mix of articles on testing, test automation, testing tools and more. And it's published every Friday --- the earliest of all the other newsletters.
 
-So if you want to be the first one to hear the best news that are hand-picked and delivered in a nice, personal way --- this is the right choice for you.
+So if you want to be the first one to read the best, hand-picked news delivered in a nice, personal way --- this is the right choice for you.
 
 <span class="smallest light-grey">Disclosure: I run this newsletter.</span>
 

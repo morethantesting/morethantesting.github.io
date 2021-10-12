@@ -6,7 +6,7 @@
 name: More Than Testing
 
 # Short bio or description (displayed in the header)
-description: Software Testing For Everyone
+description:
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /favicon.ico
@@ -17,7 +17,7 @@ avatar: /favicon.ico
 
 author:
   name: Dawid Dylowicz
-  description: Founder of More Than Testing
+  description: QA Lead, SDET with 8+ years of experience in software testing.
   avatar: /assets/dawid_avatar.jpg
   social:
     linkedin: dawid-dylowicz
@@ -27,7 +27,7 @@ social:
   email: hello@morethantesting.com
   facebook: MoreThanTesting
   instagram: morethantesting
-  twitter: MoreThanTesting
+  twitter: morethantesting
   youtube: channel/UCs10DeI1wMSAORqY54zjWkQ
 
 

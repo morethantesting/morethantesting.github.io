@@ -14,7 +14,7 @@ $darkBlue: #002862;
 $blue: #0050C4;
 $lightBlue: #97C8F1;
 
-$darkGrey: #1a1a1a;
+$darkGrey: #212121;
 $grey: #696B6C;
 $lightGrey: #A9ABAD;
 $lighterGrey: #E7EAED;
@@ -28,6 +28,9 @@ $ternary: $lightBlue;
 
 // fonts
 $font: Inter, "Helvetica Neue", Arial, sans-serif;
+
+// design
+$borderRadius: 9px;
 
 // mobile
 @mixin mobile {
