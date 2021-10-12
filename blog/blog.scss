@@ -68,6 +68,13 @@
   }
 }
 
+.post-content {
+  img {
+    border-radius: $borderRadius;
+  }
+}
+
+// Article body
 .post-content > .entry {
   blockquote {
     margin: 1.8em .8em;
@@ -107,7 +114,6 @@
   img {
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
     border: solid 1px $lighterGrey;
-    border-radius: $borderRadius;
   }
 
   video {

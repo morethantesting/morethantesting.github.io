@@ -7,9 +7,6 @@ description: "Are you looking for fresh and high-quality news on Software Testin
 excerpt: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2021."
 date: 2021-02-10T17:27:46+00:00
 
-image: /blog/assets/software-testing-newsletters.png
-alt: "An illustration of a colourful envelope"
-
 read_time: 3
 redirect_from:
   - "/top-5-software-testing-newsletters-2020"
