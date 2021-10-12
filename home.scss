@@ -78,7 +78,7 @@ section {
 
 #newsletter-section {
   height: 90vh;
-  // background-color: $lightestGrey;
+  background-image: linear-gradient(to bottom, $white 50%, $lightestGrey 100%);
   text-align: center;
 
   padding-bottom: 5vh;
@@ -90,7 +90,7 @@ section {
 
 #blog-section {
   height: 90vh;
-  // background-image: linear-gradient(to bottom, $lightestGrey 0%, $white 50%);
+  background-image: linear-gradient(to bottom, $lightestGrey 0%, $white 50%);
   text-align: center;
 }
 
