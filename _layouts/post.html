@@ -15,7 +15,7 @@ layout: default
 
       <h1 class="post-title">{{ page.title }}</h1>
 
-      <section class="date">{{ page.date | date: "%b %e, %Y" }} · {{ page.read_time }} min read</section>
+      <section class="date">{{ page.date | date: "%b %e, %Y" }} · {{ page.read_time }} min read · {{ site.author.name }}</section>
 
       {% if page.image %}
         {% capture image_src %}{{ page.image }}{% endcapture %}
