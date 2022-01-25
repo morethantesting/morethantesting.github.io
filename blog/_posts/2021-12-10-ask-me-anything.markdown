@@ -107,6 +107,8 @@ For more trends, I recommend checking out {% include link.html href="https://abh
 
 Also, {% include link.html href="https://www.qamadness.com/software-development-and-qa-trends-to-watch-in-2022/" content="Software Development and QA Trends to Watch in 2022" %} is another very interesting read that I found recently.
 
+Also {% include link.html href="https://visible-quality.blogspot.com/2021/08/future-of-testing-and-last-five-years.html" content="Reflection on the last five years and future of testing" %}.
+
 #### 9. Ale: I really appreciate the work you do every week, but don't you feel like our industry lacks a bit of innovation? Don't get me wrong, there are a few jewels here and there, but there are also dozens of articles discussing the same old ideas from the past decade without providing a new angle.
 
 I agree with you it may feel a bit like this but I don't think it's any different from other areas of software development (unless you look specifically at the rapidly changing JavaScript ecosystem!).
@@ -116,9 +118,10 @@ We need to look at a longer time horizon here. It takes time for the innovation 
 For example, here are my personal top game-changers:
 * {% include link.html href="https://agiletester.ca/" content="Agile Testing" %} (2010) by Lisa Crispin and Janet Gregory.
 * {% include link.html href="https://martinfowler.com/bliki/TestPyramid.html" content="Test Pyramid" %} (2012) by Martin Fowler
+* {% include link.html href="https://www.growingagile.co.za/2015/04/the-testing-manifesto/" content="The Testing Manifesto" %} (2015) by Growing Agile
 * {% include link.html href="https://www.cypress.io/" content="Cypress.io" %} (2015)
 * {% include link.html href="https://principlesofchaos.org/" content="Principles of Chaos Engineering" %} (2016) by Netflix.
-* {% include link.html href="https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles" content="Modern Testing Principles" %} (2018) by Alan Page and Brent Johnson.
+* {% include link.html href="https://www.ministryoftesting.com/dojo/lessons/modern-testing-principles" content="Modern Testing Principles" %} (2018) by Alan Page and Brent Jensen.
 
 Even though they're a few years old, all of them still apply today.
 
