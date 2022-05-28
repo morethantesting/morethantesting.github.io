@@ -75,7 +75,7 @@ I'm a big fan of {% include link.html href="https://www.ministryoftesting.com/do
 
 To my surprise, the reception was positive. I got asked a few questions but these were not aimed to challenge the idea, but to reassure that we were on the same page.
 
-Why did it work so well? I bet on two things. First, I work with open-minded people who are not afraid of trying out new things. Second, I've built good relationships with them and they trusted me.
+Why did it work so well? I bet on two things. First, I work with open-minded people who are not afraid of trying out new things. Second, I've built good relationships with them and they trust me.
 
 So does it mean the culture has been all set? Not at all. For now, we just sowed a seed that we have to water every day.
 
@@ -87,7 +87,9 @@ Here I refer to the short-term vision that I wrote about in the previous article
 
 So during the first month, you should focus on executing that vision. Whatever you defined there --- now is the time to do it.
 
-At the same time, however, you should start looking into the future. Envision how you want the QA process to look in your organisation. Since it's about recognising what should be done next --- let's face it --- it's not an easy task. It depends on many factors, such as the priorities in your organisation, the mindset in the team, and the potential risks associated with people, technology, customers and product.
+At the same time, however, you should start looking into the future. Envision how you want the QA process to look like in your organisation. Since it's about recognising what should be done next --- let's face it --- it's not an easy task.
+
+It depends on many factors, such as the priorities in your organisation, the mindset in the team, and the potential risks associated with people, technology, customers and product.
 
 Hence I advise you to **start focusing on the process, rather than the results**.
 
@@ -139,7 +141,7 @@ Finally, remember that you're in charge of starting and making the QA machine wo
 
 Last but not least, you need to show your work.
 
-Why is it important? Your work as a QA might be hardly visible at times, so it's crucial to proactively share with the team. When you show your work, you make things transparent and visible to everyone. You build trust not only in the team but also in yourself.
+Why is it important? Your work as a QA might be hardly visible at times, so it's crucial to proactively share your results with the team. When you show your work, you make things transparent and visible to everyone. You build trust not only in the team but also in yourself.
 
 To do that, I recommend you to simply keep track of:
 

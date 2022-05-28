@@ -137,7 +137,7 @@ What I did was creating a phased attack plan for implementing end-to-end automat
 
 **Phase 1**
 
-  1. Research website UI testing frameworks allowing to test on desktop and mobile Safari (which at the time was the most used browsers among our visitors).
+  1. Research web UI testing frameworks allowing to test on desktop and mobile Safari browsers (which at the time was the most used browsers among our visitors).
   2. Set up the testing framework in the project's repository.
   3. Proof of concept: create the simplest test and run locally on Safari.
 
@@ -147,7 +147,7 @@ What I did was creating a phased attack plan for implementing end-to-end automat
   2. Make it run on a continuous integration platform on every pull request created to the master branch.
   3. Document the decisions and solution for reference.
 
-Remember that implementing the short-term vision is the responsibility of the whole team. As soon as you finish, present it to your team and make sure you agree on that. Then you can delegate some tasks to your collies. That's it, well done!
+Remember that implementing the short-term vision is the responsibility of the whole team. As soon as you finish, present it to your team and make sure you agree on that. Then you can delegate some tasks to your colleagues. That's it, well done!
 
 ## **4. Set a 1-on-1 with your manager**
 
@@ -157,7 +157,7 @@ You don't have to wait for the 1-on-1 meeting to appear in your calendar on your
 
 There are four things I strongly recommend you to adapt:
 
-### **Make the purpose of the meeting clear**
+### **Make the purpose clear**
 
 While it's the responsibility of the manager to do so, you should remember about this step nevertheless.
 
@@ -169,7 +169,7 @@ You might have realised by now that I'm a fan of writing things down. But it's n
 
 Make sure there's an invite in your calendar. Link the shared doc in the description of the meeting and point out the clear purpose of the meeting. How regular should it be? It depends on your needs. For instance, my manager and I do it weekly.
 
-### **Show your work**
+### **Make yourself visible**
 
 Again, this is a very important piece of your job --- to share what you do. So before each meeting, list down the things that you are currently focused on.
 
@@ -181,27 +181,27 @@ Here's an example of the structure that I always fill in the doc:
   4. _Next things_ --- what I'm planning to focus on in the next week.
   5. _Manager's updates_ --- a placeholder for my manager's updates.
 
-One important note: always try to start the meeting with some light but genuine small-talk. It can be as simple as asking: _how are you doing today?_.
+One important note: always try to start the meeting with some light but genuine small-talk. It can be as simple as asking: _What's on your mind today?_.
 
 I know many people don't like it --- and I'm not a fan too --- but this immensely helps to break even the toughest ice. Especially useful if you have something serious to discuss later on.
 
 And remember, this is a meeting for you and it's you who should be talking the most. If your manager talks more than you --- something is not right there.
 
-If you want to know more about 1-on-1, {% include link.html href="https://theengineeringmanager.com/management-101/121s/" content="here\'s an in-depth article from the manager\'s perspective" %}.
+If you want to know more about 1-on-1, {% include link.html href="https://theengineeringmanager.com/management-101/121s/" content="here\'s a good article describing the manager\'s perspective" %}.
 
 ## **5. Hang out with the team**
 
-Last but not least, **say yes to everything social**. Whether it's a team lunch or drinks after work --- go for it. Even if it distracts you from planned work.
+Last but not least, **say yes to all things social**. Whether it's a team lunch or drinks after work --- go for it. Even if it distracts you from planned work.
 
-You can go one step further and instead of waiting for an invitation --- make one. People want to get to know you but by staying in their comfort zones they're not always the first ones to reach out to you.
+You can go even one step further. Instead of waiting for an invitation --- make one. People want to get to know you but by staying in their comfort zones they're not always the first ones to reach out to you.
 
-Why socialising is so important in the first week? Because getting connected with the team and working on relationships as soon as possible will pay off as soon as you need to collaborate with them. And you will, sooner than you think.
+Ok, but why socialising is so important in the first week? Because getting connected with the team and working on relationships as soon as possible will pay off as soon as you need to collaborate with them. And you will, sooner than you think.
 
-So if you're asked to go out with the team, don't find excuses just because you don't feel like going. Say yes and use this opportunity to learn something new about your collies, whether it's related to work or their personal life.
+So if you're asked to go out, don't find excuses just because you don't feel like going. Say yes and use this opportunity to learn something new about your colleagues, whether it's related to work or their personal life.
 
-If it comes to me --- I'm an introvert. But at work, I always push myself to talk to people and socialise. Not only because I want to get to know my teammates better, but also because it positively affects our teamwork.
+When it comes to me --- I'm an introvert. But at work, I always push myself to talk to people and socialise. Not only because I want to get to know my teammates better, but also because it positively affects our teamwork.
 
-Finally, having good relationships makes you more influential. And influence is what you should aim for when you're a leader.
+Finally, having good relationships makes you more influential. And influence is what you need the most when you're a leader.
 
 * * *
 

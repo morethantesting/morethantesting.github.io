@@ -2,10 +2,10 @@
 layout: post
 custom_css: blog/blog.css
 
-title: Top 5 Software Testing newsletters to follow in 2021
-description: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2021."
-excerpt: "Are you looking for fresh and high-quality news on Software Testing? Here you'll find top 5 Software Testing newsletters to follow in 2021."
-date: 2021-02-10T17:27:46+00:00
+title: Top 5 Software Testing newsletters to follow in 2022
+description: "Looking for fresh and high-quality news on Software Testing? Here you'll find the top 5 Software Testing newsletters to follow in 2022."
+excerpt: "Looking for fresh and high-quality news on Software Testing? Here you'll find the top 5 Software Testing newsletters to follow in 2022."
+date: 2022-02-10T17:27:46+00:00
 
 read_time: 3
 redirect_from:
@@ -18,7 +18,7 @@ Are you looking for fresh and high-quality news on Software Testing?
 
 Let's face it, most of us don't have time to scan through the web looking for the latest updates. Luckily, some great people do just that and publish completely for free!
 
-Below you'll find top 5 Software Testing newsletters to follow in 2021.
+Below you'll find top 5 Software Testing newsletters to follow in 2022.
 
 ## [Software Testing Weekly](https://softwaretestingweekly.com/)
 Published every: **Friday**  

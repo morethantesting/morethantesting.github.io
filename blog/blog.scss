@@ -16,17 +16,18 @@
 // Posts preview on /blog
 
 .post-preview {
-  padding: 20px;
+  padding: 30px;
   position: relative;
   margin-bottom: 1.8em;
-  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.12) 1px 2px 8px;
   border-radius: $borderRadius;
   transition: 0.2s;
 
   z-index: 0;
 
   &:hover, &:active {
-    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.12) 3px 6px 24px ;
     cursor: pointer;
     transform: scale(1.005);
   }
@@ -76,11 +77,13 @@
 
 // Article body
 .post-content > .entry {
+  color: black;
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $lighterGrey;
     padding: 0.1em 1em;
-    color: $lightGrey;
+    color: $grey;
     font-style: italic;
   }
 
@@ -112,7 +115,7 @@
   }
 
   img {
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.12) 1px 2px 8px;
     border: solid 1px $lighterGrey;
   }
 

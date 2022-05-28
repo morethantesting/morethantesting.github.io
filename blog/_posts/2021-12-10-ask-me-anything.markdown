@@ -10,9 +10,9 @@ date: 2021-12-10T18:13:36+00:00
 read_time: 8
 ---
 
-In the [Software Testing Weekly's 99th issue](https://softwaretestingweekly.com/issues/99) I asked you to submit questions about running the newsletter, testing or anything else you'd like to know,
+In the [Software Testing Weekly's 99th issue](https://softwaretestingweekly.com/issues/99), I asked you to submit questions about running the newsletter, testing or anything else you'd like to know about.
 
-I was happy to see you've sent a dozen of questions. So here they are, answered!
+I was happy to see that you've sent a dozen of questions. So here they are, answered!
 
 #### 1. Diogo Nunes: What made you create this awesome newsletter? Do you remember how you first came up with the idea?
 

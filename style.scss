@@ -18,7 +18,7 @@ body {
   font: $smaller $font;
   line-height: 1.6875rem;
   letter-spacing: -.0125rem;
-  background: $white;
+  background: $lightestGrey;
   color: $darkGrey;
 
   -webkit-font-smoothing: antialiased;
@@ -493,9 +493,10 @@ figcaption {
   width: 280px;
 
   border-radius: $borderRadius;
-  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.12) 1px 2px 8px;
   &:hover, &:active {
-    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.12) 3px 6px 24px;
   }
 
   &-link {
@@ -559,18 +560,10 @@ figcaption {
   margin: 20px;
 
   border-radius: $borderRadius;
-  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: $white;
+  box-shadow: rgba(0, 0, 0, 0.12) 1px 2px 8px;
   &:hover, &:active {
-    box-shadow: 3px 6px 24px rgba(0, 0, 0, 0.12);
-  }
-
-  @include mobile {
-    margin: 0 auto;
-
-    box-shadow: none;
-    &:hover, &:active {
-      box-shadow: none;
-    }
+    box-shadow: rgba(0, 0, 0, 0.12) 3px 6px 24px;
   }
 }
 

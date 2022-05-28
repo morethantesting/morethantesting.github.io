@@ -1,5 +1,19 @@
 // header (the sticky one)
 
+// https://stackoverflow.com/questions/63907743/parent-element-backdrop-filter-does-not-apply-for-its-child
+// BUG Brave: https://stackoverflow.com/questions/65532303/cant-remove-blurry-edge-on-scroll-when-using-backdrop-filter-blur
+#wrapper-header:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-backdrop-filter: blur($blur);
+  backdrop-filter: blur($blur);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 #wrapper-header {
   position: fixed;
   top: 0;
@@ -12,11 +26,10 @@
   // are not overlaying the menu
   z-index: 1;
 
-  background-color: $white;
-  box-shadow: rgba(0, 0, 0, 0.025) 0px 4px 12px 0px;
+  background-color: rgba(246, 247, 249, 0.8);
+  border-bottom: solid 0.5px #e1e1e1;
 
   @include mobile {
-    box-shadow: rgba(0, 0, 0, 0.0375) 0px 4px 12px 0px;
     height: 60px;
   }
 }

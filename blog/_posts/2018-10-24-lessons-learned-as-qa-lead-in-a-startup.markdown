@@ -112,7 +112,7 @@ Regarding the bullet-points, here are the only ones you need:
 
 This lesson is about not getting ill. And I'm not kidding!
 
-There's a short story behind it. A collie of mine had become a team leader 6 months before I did. It was his first leadership position and no wonder he was stressed about it.
+There's a short story behind it. A colleague of mine had become a team leader 6 months before I did. It was his first leadership position and no wonder he was stressed about it.
 
 After a few weeks, he told me this: _"Listen, I haven't been ill for ages but 2 weeks in this role and I caught a proper cold. I don't know what happened, but all of a sudden I couldn't get up from bed for the whole week. Can you imagine?"._
 
