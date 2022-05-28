@@ -19,7 +19,7 @@ redirect_from:
   - "/blog/joining-a-startup-as-the-first-qa/"
 ---
 
-I want to tell you a story of **joining a startup as a QA Lead**.
+I want to share with you my story of **joining a startup as a QA Lead**.
 
 I'm a software tester and I've recently joined {% include link.html href="https://fiit.tv" content="Fiit" %} --- the third VC backed startup in my career. For the first time, however, I am the only QA in the company.
 
@@ -67,29 +67,29 @@ Alright, the first day has passed.
 
 The next day I wanted to start acting right away. But this time I held my horses.
 
-I reminded myself what Einstein's method of solving problems. When he had an hour to solve a problem, he would spend 55 minutes thinking about that problem, and only 5 minutes about the solution. He was a smart guy so I decided to adopt his way of thinking.
+I reminded myself of Einstein's method for solving problems. It goes like this: If you have an hour to solve a problem, spend the first 55 minutes thinking about that problem, and the remaining 5 minutes on the solution. He was a smart guy so I decided to adopt his way of thinking.
 
 So I stopped myself from acting --- I observed how things worked instead.
 I stopped myself from talking, too --- I asked around and listened to the answers.
 
-And I'm glad I did because thanks to this I was able to quickly capture two very important things:
+And I'm glad I did. Because thanks to this I was able to quickly capture two very important things:
 
-  1. The current status of the QA process focused on the biggest bottlenecks.
+  1. The current state of quality and testing processes.
   2. The biggest business risks from the tech perspective.
 
-This was the baseline. This was where I started. Thanks to this, I was able to prepare a short-term test plan.
+That was the baseline. That's where I started. Thanks to this, I was able to prepare a short-term plan.
 
 However, the first week wasn't only about that. The equally important thing, especially in the context of leadership role, was building relationships with the team.
 
-To learn what I did, read about [the first week as a QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provide 5 detailed steps that can help you get started.
+To learn what I've done, read about [the first week as a QA Lead in a startup]({{ site.baseurl }}/blog/first-week-as-qa-lead-in-a-startup/) where I provide 5 detailed steps that can help you get started.
 
 ## **Focusing on execution in the first month**
 
-Once the first week passed, I felt that I was finally ready to go at full speed.
+Once the first week passed, I felt that I was finally ready to accelerate.
 
 The easy part was to act on the short-term plan defined before. This was the main, but not the only, thing to do.
 
-What were the other things? At some point, I got to the place where I realised that by doing things on my own I could only get so far. It didn't scale.
+What were the other things? At some point, I realised that by doing things on my own I could only get so far. It didn't scale.
 
 The solution was to engage the whole team into thinking about quality and testing. To make that work, I had to make sure everyone was aligned with that vision and, most importantly, with my role.
 

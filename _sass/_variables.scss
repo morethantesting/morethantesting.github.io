@@ -30,7 +30,8 @@ $ternary: $lightBlue;
 $font: Inter, "Helvetica Neue", Arial, sans-serif;
 
 // design
-$borderRadius: 9px;
+$borderRadius: 13px;
+$blur: 16px;
 
 // mobile
 @mixin mobile {
