@@ -30,7 +30,7 @@ Software Testing Weekly is a newsletter focused on selecting the best 15–20 ne
 
 So if you want to be the first one to read the best, hand-picked news delivered in a nice, personal way --- this is the right choice for you.
 
-<span class="smallest light-grey">Disclosure: I run this newsletter.</span>
+<i>Disclosure: I run this newsletter.</i>
 
 ## {% include link.html href="http://blog.testingcurator.com" content="Testing Bits" %}
 Published every: **Sunday**  

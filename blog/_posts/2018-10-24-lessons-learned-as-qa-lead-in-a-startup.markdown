@@ -4,7 +4,7 @@ custom_css: blog/blog.css
 
 title: "Lessons learned as a QA Lead in a startup"
 description: "Read more to get to know the lessons I learned from becoming a QA Lead in a startup, including examples and stories from my experience."
-excerpt: "In the final part of the series, I reflect on the first 30 days as a QA Lead in a startup and talk about lessons that I've learned during that time. For each lesson I tell my own story, including the conclusions and the 'dos and don'ts'."
+excerpt: "In the final part of the series, I reflect on the first 30 days as a QA Lead in a startup and talk about lessons that I've learned during that time."
 date: 2018-10-24T12:40:28+00:00
 
 image: /blog/assets/lessons-learned-as-qa-lead-in-a-startup.jpg
