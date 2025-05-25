@@ -30,6 +30,15 @@ body {
   &.course {
     text-align: center;
   }
+
+  &::before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    background: none;
+  }
 }
 
 #wrapper-page {
@@ -170,6 +179,110 @@ figcaption {
 .date {
   font-size: $smallest;
   color: $lightGrey;
+}
+
+// Adds background bubbles
+// .bubble-bg {
+//   position: fixed;
+//   z-index: -1;
+//   top: 0; left: 0; width: 100vw; height: 100vh;
+//   pointer-events: none;
+//   overflow: hidden;
+
+//   .bubble {
+//     position: absolute;
+//     border-radius: 50%;
+//     filter: blur(40px);
+//     opacity: 0.5;
+//     mix-blend-mode: lighten;
+//     // Bigger, varied bubbles:
+//     &.bubble1 { width: 480px; height: 480px; background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); top: 10%; left: 5%; }
+//     &.bubble2 { width: 350px; height: 350px; background: radial-gradient(circle at 70% 70%, #fbc2eb, #a6c1ee 70%); bottom: 5%; right: 10%; }
+//     &.bubble3 { width: 600px; height: 600px; background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); top: 35%; left: 45%; }
+//     &.bubble4 { width: 350px; height: 350px; background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); bottom: 35%; right: 45%; }
+//   }
+// }
+
+.bubble-bg {
+  position: fixed;
+  z-index: -1;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px); // more blur
+    opacity: 0.45;      // more subtle
+    mix-blend-mode: soft-light; // softer blend
+
+    // Animations and backgrounds as before...
+    &.bubble1 {
+      width: 480px; height: 480px; top: 15%; left: 10%;
+      background: radial-gradient(circle at 30% 30%, #ffb6fcbb, #a1c4fd44 70%);
+      animation:
+        bubble1-move 22s ease-in-out infinite alternate,
+        bubble-scale 14s ease-in-out infinite alternate,
+        bubble1-color 18s ease-in-out infinite alternate;
+    }
+    &.bubble2 {
+      width: 600px; height: 600px; top: 30%; right: 15%;
+      background: radial-gradient(circle at 50% 50%, #fad0c4bb, #ffd1ff44 70%);
+      animation:
+        bubble2-move 28s ease-in-out infinite alternate,
+        bubble-scale 16s ease-in-out infinite alternate,
+        bubble2-color 22s ease-in-out infinite alternate;
+    }
+    &.bubble3 {
+      width: 400px; height: 300px; bottom: 10%; left: 30%;
+      background: radial-gradient(circle at 60% 40%, #b7fffabb, #fbc2eb44 70%);
+      animation:
+        bubble3-move 24s ease-in-out infinite alternate,
+        bubble-scale 13s ease-in-out infinite alternate,
+        bubble3-color 19s ease-in-out infinite alternate;
+    }
+  }
+}
+
+// Movement keyframes for each bubble
+@keyframes bubble1-move {
+  0%   { transform: translate(0, 0) scale(1); }
+  30%  { transform: translate(40px, -30px) scale(1.08); }
+  60%  { transform: translate(-30px, 50px) scale(1.12); }
+  100% { transform: translate(20px, 0) scale(1); }
+}
+@keyframes bubble2-move {
+  0%   { transform: translate(0, 0) scale(1); }
+  25%  { transform: translate(60px, 20px) scale(1.07); }
+  50%  { transform: translate(-40px, -40px) scale(1.15); }
+  100% { transform: translate(30px, 10px) scale(1); }
+}
+@keyframes bubble3-move {
+  0%   { transform: translate(0, 0) scale(1); }
+  35%  { transform: translate(20px, 30px) scale(1.09); }
+  65%  { transform: translate(-25px, -20px) scale(1.13); }
+  100% { transform: translate(10px, 0) scale(1); }
+}
+
+// Keep your scale and color keyframes as before
+@keyframes bubble-scale {
+  0%   { /* scale handled in move keyframes now */ }
+  50%  { /* scale handled in move keyframes now */ }
+  100% { /* scale handled in move keyframes now */ }
+}
+
+@keyframes bubble1-color {
+  0%, 100% { background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); }
+  50%      { background: radial-gradient(circle at 30% 30%, #a1c4fd, #ffb6fc 70%); }
+}
+@keyframes bubble2-color {
+  0%, 100% { background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); }
+  50%      { background: radial-gradient(circle at 50% 50%, #ffd1ff, #fad0c4 70%); }
+}
+@keyframes bubble3-color {
+  0%, 100% { background: radial-gradient(circle at 60% 40%, #b7fffa, #fbc2eb 70%); }
+  50%      { background: radial-gradient(circle at 60% 40%, #fbc2eb, #b7fffa 70%); }
 }
 
 /*********************/
