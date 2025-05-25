@@ -182,27 +182,6 @@ figcaption {
 }
 
 // Adds background bubbles
-// .bubble-bg {
-//   position: fixed;
-//   z-index: -1;
-//   top: 0; left: 0; width: 100vw; height: 100vh;
-//   pointer-events: none;
-//   overflow: hidden;
-
-//   .bubble {
-//     position: absolute;
-//     border-radius: 50%;
-//     filter: blur(40px);
-//     opacity: 0.5;
-//     mix-blend-mode: lighten;
-//     // Bigger, varied bubbles:
-//     &.bubble1 { width: 480px; height: 480px; background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); top: 10%; left: 5%; }
-//     &.bubble2 { width: 350px; height: 350px; background: radial-gradient(circle at 70% 70%, #fbc2eb, #a6c1ee 70%); bottom: 5%; right: 10%; }
-//     &.bubble3 { width: 600px; height: 600px; background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); top: 35%; left: 45%; }
-//     &.bubble4 { width: 350px; height: 350px; background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); bottom: 35%; right: 45%; }
-//   }
-// }
-
 .bubble-bg {
   position: fixed;
   z-index: -1;
@@ -242,6 +221,32 @@ figcaption {
         bubble-scale 13s ease-in-out infinite alternate,
         bubble3-color 19s ease-in-out infinite alternate;
     }
+
+    @media (max-width: 900px) {
+      &.bubble1 {
+        width: 320px; height: 320px; top: 10%; left: 5%;
+      }
+      &.bubble2 {
+        width: 400px; height: 400px; top: 25%; right: 5%;
+      }
+      &.bubble3 {
+        width: 220px; height: 180px; bottom: 5%; left: 20%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      opacity: 0.75;      // more subtle
+
+      &.bubble1 {
+        width: 180px; height: 180px; top: 5%; left: 2%;
+      }
+      &.bubble2 {
+        width: 250px; height: 250px; top: 15%; right: 2%;
+      }
+      &.bubble3 {
+        width: 150px; height: 1100px; bottom: 2%; left: 10%;
+      }
+    }
   }
 }
 
@@ -273,16 +278,22 @@ figcaption {
 }
 
 @keyframes bubble1-color {
-  0%, 100% { background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); }
-  50%      { background: radial-gradient(circle at 30% 30%, #a1c4fd, #ffb6fc 70%); }
+  0%   { background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); }
+  50%  { background: radial-gradient(circle at 30% 30%, #a1c4fd, #ffb6fc 70%); }
+  75%  { background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); }
+  100% { background: radial-gradient(circle at 30% 30%, #ffb6fc, #a1c4fd 70%); }
 }
 @keyframes bubble2-color {
-  0%, 100% { background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); }
-  50%      { background: radial-gradient(circle at 50% 50%, #ffd1ff, #fad0c4 70%); }
+  0%   { background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); }
+  50%  { background: radial-gradient(circle at 50% 50%, #ffd1ff, #fad0c4 70%); }
+  75%  { background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); }
+  100% { background: radial-gradient(circle at 50% 50%, #fad0c4, #ffd1ff 70%); }
 }
 @keyframes bubble3-color {
-  0%, 100% { background: radial-gradient(circle at 60% 40%, #b7fffa, #fbc2eb 70%); }
-  50%      { background: radial-gradient(circle at 60% 40%, #fbc2eb, #b7fffa 70%); }
+  0%   { background: radial-gradient(circle at 60% 40%, #b7fffa, #fbc2eb 70%); }
+  50%  { background: radial-gradient(circle at 60% 40%, #fbc2eb, #b7fffa 70%); }
+  75%  { background: radial-gradient(circle at 60% 40%, #b7fffa, #fbc2eb 70%); }
+  100% { background: radial-gradient(circle at 60% 40%, #b7fffa, #fbc2eb 70%); }
 }
 
 /*********************/
