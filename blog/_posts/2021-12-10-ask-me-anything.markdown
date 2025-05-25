@@ -94,7 +94,7 @@ Now that I've reached that goal, I'm thinking about how I can leverage what I've
 
 There are a few ways of answering that.
 
-First of all, to find what type of content testers like most, I'd recommend checking out [the 52nd issue](https://softwaretestingweekly.com/issues/52) with the most popular links of 2020. Also, the weekly [Tweets](https://twitter.com/QANewsletter) with the three most popular links might be helpful.
+First of all, to find what type of content testers like most, I'd recommend checking out [the 52nd issue](https://softwaretestingweekly.com/issues/52) with the most popular links of 2020. Also, the weekly [Tweets](https://x.com/QANewsletter) with the three most popular links might be helpful.
 
 Regarding the trends that I personally see in software testing:
 1. Shift-left testing (getting developers and teams more involved in testing and at earlier stages),
@@ -172,6 +172,6 @@ PS. Thanks for the [coffee](https://www.buymeacoffee.com/softwaretestingweekly)!
 
 ***
 
-Thanks for all the questions, I really had fun answering them! Feel free to follow up on [LinkedIn](https://www.linkedin.com/in/dawid-dylowicz/) or [Twitter](https://twitter.com/ddylowicz).
+Thanks for all the questions, I really had fun answering them! Feel free to follow up on [LinkedIn](https://www.linkedin.com/in/dawid-dylowicz/) or [X](https://x.com/ddylowicz).
 
 Until next time!
