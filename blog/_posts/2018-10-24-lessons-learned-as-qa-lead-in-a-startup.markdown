@@ -142,6 +142,6 @@ With this article, the series of [joining a startup as a QA Lead]({{ site.baseur
 
 If you enjoyed reading it so far, please spread the word and share it with your friends or on social media. I appreciate every share.
 
-Additionally, if you want to be notified when a new article comes out, subscribe to the newsletter below and follow the blog on [Twitter](https://twitter.com/MoreThanTesting).
+Additionally, if you want to be notified when a new article comes out, subscribe to the newsletter below and follow the blog on [X](https://x.com/MoreThanTesting).
 
 Until next time!
