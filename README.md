@@ -1,3 +1,3 @@
 # morethantesting.com
 
-Copyright (c) 2019–2025 More Than Testing Ltd. All rights reserved.
+Copyright (c) 2018–2026 More Than Testing Ltd. All rights reserved.
